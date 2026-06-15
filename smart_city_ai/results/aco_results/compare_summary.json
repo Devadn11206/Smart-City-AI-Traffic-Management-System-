@@ -1,0 +1,17 @@
+{
+  "rl_only": {
+    "log": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\aco_results\\rl_only.log",
+    "metrics": null,
+    "duration": 5
+  },
+  "rl_pinn": {
+    "log": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\aco_results\\rl_pinn.log",
+    "metrics": null,
+    "duration": 10000
+  },
+  "rl_pinn_aco": {
+    "log": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\aco_results\\rl_pinn_aco.log",
+    "metrics": null,
+    "duration": 10000
+  }
+}

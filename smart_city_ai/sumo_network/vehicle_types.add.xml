@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<additional>
+    <vType id="car" vClass="passenger" color="yellow" maxSpeed="33.33" guiShape="passenger"/>
+    <vType id="suv" vClass="passenger" color="white" maxSpeed="33.33" guiShape="passenger/van"/>
+    <vType id="hatchback" vClass="passenger" color="cyan" maxSpeed="33.33" guiShape="passenger/hatchback"/>
+    <vType id="sedan" vClass="passenger" color="orange" maxSpeed="33.33" guiShape="passenger/sedan"/>
+    <vType id="taxi_cab" vClass="taxi" color="255,204,0" maxSpeed="33.33" guiShape="passenger/sedan"/>
+    <vType id="ev" vClass="passenger" color="green" maxSpeed="33.33" guiShape="passenger/sedan" emissionClass="Energy/unknown"/>
+    <vType id="hybrid" vClass="passenger" color="150,255,150" maxSpeed="33.33" guiShape="passenger/sedan"/>
+    <vType id="bike" vClass="motorcycle" color="gray" maxSpeed="25.0" guiShape="motorcycle"/>
+    <vType id="city_bus" vClass="bus" color="blue" maxSpeed="22.22" guiShape="bus"/>
+    <vType id="mini_bus" vClass="bus" color="0,100,255" maxSpeed="25.0" guiShape="passenger/van"/>
+    <vType id="school_bus" vClass="bus" color="255,204,0" maxSpeed="22.22" guiShape="bus"/>
+    <vType id="truck" vClass="truck" color="red" maxSpeed="22.22" guiShape="truck"/>
+    <vType id="cargo_truck" vClass="truck" color="180,0,0" maxSpeed="20.0" guiShape="truck"/>
+    <vType id="container_truck" vClass="trailer" color="139,0,0" maxSpeed="20.0" guiShape="truck/semitrailer"/>
+    <vType id="delivery_van" vClass="delivery" color="180,180,180" maxSpeed="25.0" guiShape="passenger/van"/>
+    <vType id="logistics_vehicle" vClass="truck" color="128,0,128" maxSpeed="22.0" guiShape="truck"/>
+    <vType id="ambulance" vClass="emergency" color="white" maxSpeed="40.0" guiShape="emergency"/>
+    <vType id="police" vClass="emergency" color="blue" maxSpeed="45.0" guiShape="police"/>
+    <vType id="fire_truck" vClass="emergency" color="red" maxSpeed="35.0" guiShape="firebrigade"/>
+    <vTypeDistribution id="all_vtypes" vTypes="car suv hatchback sedan taxi_cab ev hybrid bike city_bus mini_bus school_bus truck cargo_truck container_truck delivery_van logistics_vehicle ambulance police fire_truck"/>
+</additional>

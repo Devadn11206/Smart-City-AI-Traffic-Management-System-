@@ -1,0 +1,86 @@
+{
+    "dqn": {
+        "wait": 16.409348441926344,
+        "queue": 2.956090651558074,
+        "avg_speed": 11.283415556895724,
+        "throughput": 355.0,
+        "switches": 70,
+        "reward_ema": 5.826352129449258,
+        "emergency_delay": 5625.0,
+        "actions": {
+            "0": 317,
+            "1": 61,
+            "2": 48,
+            "3": 280
+        },
+        "reward": -62507.84168487615,
+        "components": {
+            "throughput": 5325.0,
+            "queue_delta": -0.11360900000000002,
+            "wait_delta": -0.05305200000000099,
+            "gridlock": 0.0,
+            "starvation": -1141.47,
+            "stale_penalty": -507.0,
+            "worst_ev_wait": -78895.0,
+            "fairness": -5643.916668,
+            "ev_clearance": 8200.0,
+            "ev_complete": 7000.0
+        }
+    },
+    "ddqn": {
+        "wait": 272.00713266761767,
+        "queue": 53.0114122681883,
+        "avg_speed": 6.772306451978006,
+        "throughput": 328.0,
+        "switches": 98,
+        "reward_ema": -7022.885910286716,
+        "emergency_delay": 9770347.0,
+        "actions": {
+            "0": 39,
+            "1": 0,
+            "2": 645,
+            "3": 17
+        },
+        "reward": -1271392.2468941717,
+        "components": {
+            "throughput": 4920.0,
+            "queue_delta": -10.681792,
+            "wait_delta": -1443.234858,
+            "gridlock": 0.0,
+            "starvation": -269744.33999999997,
+            "stale_penalty": 0.0,
+            "worst_ev_wait": -3162230.5,
+            "fairness": -609030.333325,
+            "ev_clearance": 6800.0,
+            "ev_complete": 8000.0
+        }
+    },
+    "ppo": {
+        "wait": 224.38968481375358,
+        "queue": 30.70487106017192,
+        "avg_speed": 8.890962040059325,
+        "throughput": 325.0,
+        "switches": 110,
+        "reward_ema": -5422.193382618755,
+        "emergency_delay": 727138.0,
+        "actions": {
+            "0": 624,
+            "1": 3,
+            "2": 71,
+            "3": 0
+        },
+        "reward": -1087742.4441275895,
+        "components": {
+            "throughput": 4875.0,
+            "queue_delta": -4.6590690000000015,
+            "wait_delta": -163.871222,
+            "gridlock": 0.0,
+            "starvation": -78893.34,
+            "stale_penalty": 0.0,
+            "worst_ev_wait": -2557178.5,
+            "fairness": -200882.51783,
+            "ev_clearance": 7000.0,
+            "ev_complete": 4000.0
+        }
+    }
+}

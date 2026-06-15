@@ -1,0 +1,86 @@
+{
+    "dqn": {
+        "wait": 18.863701578192252,
+        "queue": 3.2525107604017216,
+        "avg_speed": 11.073400705194187,
+        "throughput": 335.0,
+        "switches": 118,
+        "reward_ema": 15.530360376384488,
+        "emergency_delay": 13697.0,
+        "actions": {
+            "0": 298,
+            "1": 65,
+            "2": 267,
+            "3": 67
+        },
+        "reward": 3159.124693650416,
+        "components": {
+            "throughput": 10050.0,
+            "queue": -566.75,
+            "wait": -1666.98,
+            "gridlock": 0.0,
+            "starvation": -1403.13,
+            "stale_penalty": 0.0,
+            "worst_ev_wait": -19742.0,
+            "fairness": -14070.083336,
+            "ev_clearance": 8600.0,
+            "ev_complete": 22000.0
+        }
+    },
+    "ddqn": {
+        "wait": 23.24822695035461,
+        "queue": 3.330496453900709,
+        "avg_speed": 11.07995869342311,
+        "throughput": 338.0,
+        "switches": 75,
+        "reward_ema": 39.09003883691432,
+        "emergency_delay": 6122.0,
+        "actions": {
+            "0": 321,
+            "1": 0,
+            "2": 0,
+            "3": 384
+        },
+        "reward": 32068.216895140322,
+        "components": {
+            "throughput": 10140.0,
+            "queue": -587.0,
+            "wait": -2084.2799999999997,
+            "gridlock": 0.0,
+            "starvation": -1752.21,
+            "stale_penalty": -55.0,
+            "worst_ev_wait": -10194.0,
+            "fairness": -5293.75,
+            "ev_clearance": 8000.0,
+            "ev_complete": 34000.0
+        }
+    },
+    "ppo": {
+        "wait": 177.18233618233617,
+        "queue": 17.72222222222222,
+        "avg_speed": 8.88814263103419,
+        "throughput": 315.0,
+        "switches": 94,
+        "reward_ema": 6.518174084836783,
+        "emergency_delay": 1269270.0,
+        "actions": {
+            "0": 32,
+            "1": 0,
+            "2": 608,
+            "3": 62
+        },
+        "reward": -515815.1944605073,
+        "components": {
+            "throughput": 9450.0,
+            "queue": -3110.25,
+            "wait": -139290.34,
+            "gridlock": 0.0,
+            "starvation": -43651.08,
+            "stale_penalty": -33.0,
+            "worst_ev_wait": -479928.0,
+            "fairness": -270643.75,
+            "ev_clearance": 8400.0,
+            "ev_complete": 34000.0
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "step": 30,
+  "mode": "debug_single",
+  "timestamp": 1780653474.6744146,
+  "emergency_vehicle_count": 5,
+  "active_corridor_tls": 3,
+  "emergency_phase_count": 8,
+  "pinn_prediction_count": 82,
+  "pinn_prediction_mean": 0.1751941442489624,
+  "pinn_prediction_max": 1.0,
+  "wait": 0.0,
+  "queue": 0.03333333333333333,
+  "avg_speed": 13.703184145605594,
+  "throughput": 0.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}

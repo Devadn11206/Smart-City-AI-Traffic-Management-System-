@@ -1,0 +1,10 @@
+{
+  "vehicles_evaluated": 39,
+  "reroute_attempts": 37,
+  "successful_reroutes": 37,
+  "failed_reroutes": 0,
+  "skip_counts_by_reason": {
+    "no_candidate_path": 23,
+    "invalid_route": 2
+  }
+}

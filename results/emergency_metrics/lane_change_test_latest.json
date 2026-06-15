@@ -1,0 +1,22 @@
+{
+  "step": 69,
+  "timestamp": 1780248337.6380603,
+  "mode": "full_emergency",
+  "emergency_vehicle_count": 21,
+  "active_corridor_tls": 11,
+  "blocked_edges": 0,
+  "emergency_phase_count": 22,
+  "wait": 0.0,
+  "queue": 0.028985507246376812,
+  "avg_speed": 12.34525548054603,
+  "throughput": 1.0,
+  "switches": 0,
+  "reward_ema": 0.0,
+  "eta_seconds": 176.09333333333333,
+  "delay_probability": 1.0,
+  "route_risk": 0.5,
+  "congestion_impact": 0.0,
+  "corridor_efficiency": 0.6,
+  "last_cleared_slowed": 12,
+  "last_cleared_rerouted": 14
+}

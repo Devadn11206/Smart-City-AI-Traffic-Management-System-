@@ -1,0 +1,254 @@
+{
+  "title": "RL Benchmark Improvement Report",
+  "date": "C:\\Users\\ddnan\\intenrship_IIIT",
+  "baseline": {
+    "description": "Original benchmark results",
+    "fixed_time_wait": 4.96,
+    "dqn_wait": 2.84,
+    "ddqn_wait": 4.96,
+    "ppo_wait": 5.6
+  },
+  "improved": {
+    "ddqn": {
+      "avg_speed": {
+        "ci_95": [
+          12.082497565482475,
+          12.793020854098144
+        ],
+        "max": 12.711324057005754,
+        "mean": 12.43775920979031,
+        "min": 11.996695987283506,
+        "std": 0.2861632516104709
+      },
+      "queue": {
+        "ci_95": [
+          0.8768308258406217,
+          1.3965025074927118
+        ],
+        "max": 1.45,
+        "mean": 1.1366666666666667,
+        "min": 0.9333333333333333,
+        "std": 0.20929776767934138
+      },
+      "switches": {
+        "ci_95": [
+          0.92002164740339,
+          2.2799783525966104
+        ],
+        "max": 2.0,
+        "mean": 1.6,
+        "min": 1.0,
+        "std": 0.5477225575051661
+      },
+      "throughput": {
+        "ci_95": [
+          28.311507948321033,
+          38.48849205167896
+        ],
+        "max": 40.0,
+        "mean": 33.4,
+        "min": 29.0,
+        "std": 4.09878030638384
+      },
+      "wait": {
+        "ci_95": [
+          5.289077402354105,
+          7.097589264312561
+        ],
+        "max": 7.316666666666666,
+        "mean": 6.193333333333333,
+        "min": 5.508333333333334,
+        "std": 0.7283781450745361
+      }
+    },
+    "dqn": {
+      "avg_speed": {
+        "ci_95": [
+          12.390494003842118,
+          12.795735078100147
+        ],
+        "max": 12.747272520077784,
+        "mean": 12.593114540971133,
+        "min": 12.331943574358602,
+        "std": 0.16321084101512862
+      },
+      "queue": {
+        "ci_95": [
+          0.6366180435787616,
+          0.9840716115936523
+        ],
+        "max": 1.0258620689655173,
+        "mean": 0.810344827586207,
+        "min": 0.6551724137931034,
+        "std": 0.13993692310989597
+      },
+      "switches": {
+        "ci_95": [
+          20.0,
+          20.0
+        ],
+        "max": 20.0,
+        "mean": 20.0,
+        "min": 20.0,
+        "std": 0.0
+      },
+      "throughput": {
+        "ci_95": [
+          28.4914928754603,
+          41.90850712453971
+        ],
+        "max": 41.0,
+        "mean": 35.2,
+        "min": 27.0,
+        "std": 5.403702434442518
+      },
+      "wait": {
+        "ci_95": [
+          2.755482112832563,
+          5.251414438891574
+        ],
+        "max": 5.4655172413793105,
+        "mean": 4.003448275862069,
+        "min": 3.0172413793103448,
+        "std": 1.005236734205173
+      }
+    },
+    "fixed_time": {
+      "avg_speed": {
+        "ci_95": [
+          12.073777053313547,
+          12.493976963237563
+        ],
+        "max": 12.427697068455604,
+        "mean": 12.283877008275555,
+        "min": 12.006490167251052,
+        "std": 0.16923551201898207
+      },
+      "queue": {
+        "ci_95": [
+          0.9314523463329497,
+          1.2652143203337172
+        ],
+        "max": 1.3166666666666667,
+        "mean": 1.0983333333333334,
+        "min": 0.95,
+        "std": 0.13442263367619475
+      },
+      "switches": {
+        "ci_95": [
+          0.0,
+          0.0
+        ],
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "std": 0.0
+      },
+      "throughput": {
+        "ci_95": [
+          29.927498759873252,
+          47.27250124012675
+        ],
+        "max": 48.0,
+        "mean": 38.6,
+        "min": 30.0,
+        "std": 6.985699678629192
+      },
+      "wait": {
+        "ci_95": [
+          4.178072706324433,
+          5.951927293675568
+        ],
+        "max": 6.225,
+        "mean": 5.065,
+        "min": 4.258333333333334,
+        "std": 0.7144199278668905
+      }
+    },
+    "ppo": {
+      "avg_speed": {
+        "ci_95": [
+          11.980228416762921,
+          12.22558324149812
+        ],
+        "max": 12.245563012769718,
+        "mean": 12.10290582913052,
+        "min": 11.974465679505617,
+        "std": 0.09881665466776798
+      },
+      "queue": {
+        "ci_95": [
+          1.0992181391500584,
+          1.3628508263671828
+        ],
+        "max": 1.396551724137931,
+        "mean": 1.2310344827586206,
+        "min": 1.1379310344827587,
+        "std": 0.10617806370829076
+      },
+      "switches": {
+        "ci_95": [
+          20.0,
+          20.0
+        ],
+        "max": 20.0,
+        "mean": 20.0,
+        "min": 20.0,
+        "std": 0.0
+      },
+      "throughput": {
+        "ci_95": [
+          32.44015153182373,
+          41.959848468176276
+        ],
+        "max": 43.0,
+        "mean": 37.2,
+        "min": 34.0,
+        "std": 3.8340579025361627
+      },
+      "wait": {
+        "ci_95": [
+          5.289468760501968,
+          7.1001864119118245
+        ],
+        "max": 7.491379310344827,
+        "mean": 6.194827586206896,
+        "min": 5.793103448275862,
+        "std": 0.7292665267671485
+      }
+    }
+  },
+  "improvements": {
+    "dqn": {
+      "baseline_wait": 4.96,
+      "improved_wait": 4.003448275862069,
+      "improvement_percent": 19.2853170189099
+    },
+    "ddqn": {
+      "baseline_wait": 4.96,
+      "improved_wait": 6.193333333333333,
+      "improvement_percent": -24.865591397849464
+    },
+    "ppo": {
+      "baseline_wait": 4.96,
+      "improved_wait": 6.194827586206896,
+      "improvement_percent": -24.89571746384872
+    }
+  },
+  "analysis": {
+    "ddqn_fix": "Increased learning rate from 5e-5 to 2e-4, slower epsilon decay (0.998 vs 0.995), and higher epsilon minimum (0.05 vs 0.02). More frequent target network updates (500 vs 2000 steps).",
+    "ppo_tuning": "Increased entropy coefficient from 0.01 to 0.05, increased clipping range from 0.2 to 0.3, increased training epochs from 4 to 5.",
+    "dqn_optimization": "Maintained best configuration but retrained with multiple seeds for statistical significance.",
+    "reward_function": "Used balanced reward weights: queue 30%, wait 25%, throughput 25%, speed 10%, stability 10%."
+  },
+  "recommendations": {
+    "best_algorithm": "DQN",
+    "reason": "Lowest wait time with stable training and good throughput",
+    "next_steps": [
+      "Deploy DQN as production model",
+      "Monitor real-world performance",
+      "Periodically retrain with recent traffic data",
+      "Consider ensemble methods combining best of all three"
+    ]
+  }
+}

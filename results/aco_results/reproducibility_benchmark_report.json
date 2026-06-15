@@ -1,0 +1,382 @@
+{
+  "per_seed": {
+    "fixed_time": {
+      "101": {
+        "step": 600,
+        "mode": "fixed_time_seed101",
+        "timestamp": 1780155852.471178,
+        "emergency_vehicle_count": 122,
+        "active_corridor_tls": 4,
+        "emergency_phase_count": 11,
+        "pinn_prediction_count": 0,
+        "pinn_prediction_mean": 0.0,
+        "pinn_prediction_max": 0.0,
+        "wait": 2.9066666666666667,
+        "queue": 2.26,
+        "avg_speed": 11.4044845666623,
+        "throughput": 108.0,
+        "switches": 0,
+        "reward_ema": 0.0
+      },
+      "202": {
+        "step": 600,
+        "mode": "fixed_time_seed202",
+        "timestamp": 1780155809.7520695,
+        "emergency_vehicle_count": 94,
+        "active_corridor_tls": 3,
+        "emergency_phase_count": 11,
+        "pinn_prediction_count": 0,
+        "pinn_prediction_mean": 0.0,
+        "pinn_prediction_max": 0.0,
+        "wait": 4.58,
+        "queue": 4.6066666666666665,
+        "avg_speed": 11.07298084037696,
+        "throughput": 189.0,
+        "switches": 0,
+        "reward_ema": 0.0
+      },
+      "303": null,
+      "404": null,
+      "505": null
+    },
+    "hybrid_dqn": {
+      "101": {
+        "wait": 0.0,
+        "queue": 0.08333333333333333,
+        "avg_speed": 13.61986772045689,
+        "throughput": 0.0,
+        "switches": 3,
+        "reward_ema": 0.03308836474729943,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_dqn_model_best.pth"
+      },
+      "202": {
+        "wait": 3.0172413793103448,
+        "queue": 0.6551724137931034,
+        "avg_speed": 12.690452193731263,
+        "throughput": 27.0,
+        "switches": 20,
+        "reward_ema": -0.13587221454373632,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_dqn_model_best.pth"
+      },
+      "303": {
+        "wait": 4.456896551724138,
+        "queue": 0.8275862068965517,
+        "avg_speed": 12.648225130876021,
+        "throughput": 34.0,
+        "switches": 20,
+        "reward_ema": -0.1509771160079215,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_dqn_model_best.pth"
+      },
+      "404": {
+        "wait": 3.9224137931034484,
+        "queue": 0.8189655172413793,
+        "avg_speed": 12.547679285811997,
+        "throughput": 39.0,
+        "switches": 20,
+        "reward_ema": -0.08711703881033771,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_dqn_model_best.pth"
+      },
+      "505": {
+        "wait": 5.4655172413793105,
+        "queue": 1.0258620689655173,
+        "avg_speed": 12.331943574358602,
+        "throughput": 41.0,
+        "switches": 20,
+        "reward_ema": -0.20087911593141028,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_dqn_model_best.pth"
+      }
+    },
+    "hybrid_ddqn": {
+      "101": {
+        "wait": 1.0,
+        "queue": 0.3333333333333333,
+        "avg_speed": 13.355213555794483,
+        "throughput": 0.0,
+        "switches": 1,
+        "reward_ema": 0.04101004525203764,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ddqn_model_best.pth"
+      },
+      "202": {
+        "wait": 5.583333333333333,
+        "queue": 0.9833333333333333,
+        "avg_speed": 12.615692683820681,
+        "throughput": 34.0,
+        "switches": 2,
+        "reward_ema": -0.0005103659850830035,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ddqn_model_best.pth"
+      },
+      "303": {
+        "wait": 6.233333333333333,
+        "queue": 1.0833333333333333,
+        "avg_speed": 12.5475815830252,
+        "throughput": 40.0,
+        "switches": 2,
+        "reward_ema": -0.0026749325909431894,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ddqn_model_best.pth"
+      },
+      "404": {
+        "wait": 7.316666666666666,
+        "queue": 1.45,
+        "avg_speed": 11.996695987283506,
+        "throughput": 32.0,
+        "switches": 1,
+        "reward_ema": 0.041704650541878316,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ddqn_model_best.pth"
+      },
+      "505": {
+        "wait": 5.508333333333334,
+        "queue": 0.9333333333333333,
+        "avg_speed": 12.711324057005754,
+        "throughput": 32.0,
+        "switches": 2,
+        "reward_ema": 0.010734145053606137,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ddqn_model_best.pth"
+      }
+    },
+    "hybrid_ppo": {
+      "101": {
+        "wait": 0.0,
+        "queue": 0.09090909090909091,
+        "avg_speed": 13.509854236640903,
+        "throughput": 0.0,
+        "switches": 5,
+        "reward_ema": -0.060646597381570494,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ppo_model_best.pth"
+      },
+      "202": {
+        "wait": 7.491379310344827,
+        "queue": 1.396551724137931,
+        "avg_speed": 11.974465679505617,
+        "throughput": 39.0,
+        "switches": 20,
+        "reward_ema": -0.12731307619540494,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ppo_model_best.pth"
+      },
+      "303": {
+        "wait": 5.793103448275862,
+        "queue": 1.146551724137931,
+        "avg_speed": 12.130266706290199,
+        "throughput": 34.0,
+        "switches": 20,
+        "reward_ema": -0.17987150854316836,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ppo_model_best.pth"
+      },
+      "404": {
+        "wait": 5.801724137931035,
+        "queue": 1.206896551724138,
+        "avg_speed": 12.064825229150392,
+        "throughput": 36.0,
+        "switches": 20,
+        "reward_ema": -0.15176367682645855,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ppo_model_best.pth"
+      },
+      "505": {
+        "wait": 5.896551724137931,
+        "queue": 1.1379310344827587,
+        "avg_speed": 12.245563012769718,
+        "throughput": 43.0,
+        "switches": 20,
+        "reward_ema": -0.13296581003247313,
+        "checkpoint_status": "loaded",
+        "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ppo_model_best.pth"
+      }
+    }
+  },
+  "aggregates": {
+    "fixed_time": {
+      "wait": {
+        "mean": 3.743333333333333,
+        "std": 1.1832253471854894,
+        "95ci": [
+          -6.8873533333333326,
+          14.374019999999998
+        ]
+      },
+      "queue": {
+        "mean": 3.433333333333333,
+        "std": 1.6593439131844316,
+        "95ci": [
+          -11.47504,
+          18.341706666666667
+        ]
+      },
+      "throughput": {
+        "mean": 148.5,
+        "std": 57.27564927611035,
+        "95ci": [
+          -366.09299999999996,
+          663.093
+        ]
+      },
+      "avg_speed": {
+        "mean": 11.23873270351963,
+        "std": 0.2344085328449724,
+        "95ci": [
+          9.132689530428872,
+          13.34477587661039
+        ]
+      }
+    },
+    "hybrid_dqn": {
+      "wait": {
+        "mean": 3.372413793103448,
+        "std": 2.083207090903582,
+        "95ci": [
+          0.7861852246793086,
+          5.958642361527588
+        ]
+      },
+      "queue": {
+        "mean": 0.6821839080459771,
+        "std": 0.35962388236656007,
+        "95ci": [
+          0.23572346610278727,
+          1.128644349989167
+        ]
+      },
+      "throughput": {
+        "mean": 28.2,
+        "std": 16.66433316997713,
+        "95ci": [
+          7.511814602532201,
+          48.888185397467794
+        ]
+      },
+      "avg_speed": {
+        "mean": 12.767633581046955,
+        "std": 0.4961663145600464,
+        "95ci": [
+          12.15166049656195,
+          13.383606665531959
+        ]
+      }
+    },
+    "hybrid_ddqn": {
+      "wait": {
+        "mean": 5.128333333333333,
+        "std": 2.41890413663341,
+        "95ci": [
+          2.125348651802122,
+          8.131318014864544
+        ]
+      },
+      "queue": {
+        "mean": 0.9566666666666667,
+        "std": 0.4028716365736803,
+        "95ci": [
+          0.4565156540936862,
+          1.4568176792396472
+        ]
+      },
+      "throughput": {
+        "mean": 27.6,
+        "std": 15.773395322504284,
+        "95ci": [
+          8.017882704875863,
+          47.182117295124144
+        ]
+      },
+      "avg_speed": {
+        "mean": 12.645301573385925,
+        "std": 0.4846259073479331,
+        "95ci": [
+          12.043655499860868,
+          13.246947646910982
+        ]
+      }
+    },
+    "hybrid_ppo": {
+      "wait": {
+        "mean": 4.996551724137931,
+        "std": 2.8845489717651347,
+        "95ci": [
+          1.4154853047827238,
+          8.577618143493138
+        ]
+      },
+      "queue": {
+        "mean": 0.9957680250783699,
+        "std": 0.5164587505518804,
+        "95ci": [
+          0.35460259273982886,
+          1.636933457416911
+        ]
+      },
+      "throughput": {
+        "mean": 30.4,
+        "std": 17.329166165744965,
+        "95ci": [
+          8.886447746594705,
+          51.91355225340529
+        ]
+      },
+      "avg_speed": {
+        "mean": 12.384994972871366,
+        "std": 0.6365294749827212,
+        "95ci": [
+          11.59476594569851,
+          13.175224000044222
+        ]
+      }
+    }
+  },
+  "reliability": {
+    "checkpoint_loads": {
+      "fixed_time": [
+        null,
+        null
+      ],
+      "hybrid_dqn": [
+        "loaded",
+        "loaded",
+        "loaded",
+        "loaded",
+        "loaded"
+      ],
+      "hybrid_ddqn": [
+        "loaded",
+        "loaded",
+        "loaded",
+        "loaded",
+        "loaded"
+      ],
+      "hybrid_ppo": [
+        "loaded",
+        "loaded",
+        "loaded",
+        "loaded",
+        "loaded"
+      ]
+    },
+    "crashes": 3,
+    "exceptions": 0,
+    "monitoring_files": []
+  },
+  "methods": [
+    "fixed_time",
+    "hybrid_dqn",
+    "hybrid_ddqn",
+    "hybrid_ppo"
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "experiment_type": "PINN Ablation Study",
+    "timestamp": "2026-06-03T00:03:34.145156",
+    "configuration": {
+      "duration_seconds": 100,
+      "num_steps": 1000,
+      "step_length": 0.1,
+      "random_seed": 42,
+      "traffic_demand_multiplier": 1.0
+    }
+  },
+  "experiment_a": {
+    "experiment": "Baseline (No PINN)",
+    "pinn_enabled": false,
+    "simulation_duration_sec": 100,
+    "runtime_sec": 2235.865952730179,
+    "step": 100,
+    "timestamp": 1780424029.3486037,
+    "mode": "full_emergency",
+    "emergency_vehicle_count": 31,
+    "active_corridor_tls": 11,
+    "blocked_edges": 0,
+    "emergency_phase_count": 36,
+    "pinn_prediction_count": 82,
+    "pinn_prediction_mean": 0.0,
+    "pinn_prediction_max": 0.0,
+    "wait": 0.17,
+    "queue": 0.14,
+    "avg_speed": 13.445572743771462,
+    "throughput": 7.0,
+    "switches": 0,
+    "reward_ema": 0.0,
+    "eta_seconds": 136.72173913043477,
+    "delay_probability": 0.16626496899507928,
+    "route_risk": 0.08313248449753964,
+    "congestion_impact": 0.0,
+    "corridor_efficiency": 0.9334940124019683,
+    "last_cleared_slowed": 0,
+    "last_cleared_rerouted": 166
+  },
+  "experiment_b": {
+    "experiment": "With PINN",
+    "pinn_enabled": true,
+    "simulation_duration_sec": 100,
+    "runtime_sec": 1182.9426493644714,
+    "step": 100,
+    "timestamp": 1780425211.3596585,
+    "mode": "full_emergency",
+    "emergency_vehicle_count": 27,
+    "active_corridor_tls": 10,
+    "blocked_edges": 0,
+    "emergency_phase_count": 27,
+    "pinn_prediction_count": 82,
+    "pinn_prediction_mean": 0.1751394122838974,
+    "pinn_prediction_max": 1.0,
+    "wait": 0.57,
+    "queue": 0.43,
+    "avg_speed": 12.87090843810127,
+    "throughput": 3.0,
+    "switches": 0,
+    "reward_ema": 0.0,
+    "eta_seconds": 45.980029812962115,
+    "delay_probability": 0.2448434961189792,
+    "route_risk": 0.20350405635187852,
+    "congestion_impact": 0.10135288536548615,
+    "corridor_efficiency": 0.8371967549184972,
+    "last_cleared_slowed": 0,
+    "last_cleared_rerouted": 117
+  },
+  "comparison": {
+    "experiment_a": "Baseline (No PINN)",
+    "experiment_b": "With PINN",
+    "timestamp": "2026-06-03T00:03:34.144204",
+    "comparison": {
+      "avg_speed": {
+        "baseline": 13.445572743771462,
+        "with_pinn": 12.87090843810127,
+        "absolute_difference": -0.5746643056701917,
+        "percentage_change": -4.274003916541225,
+        "improved": false,
+        "direction": "higher_is_better"
+      }
+    },
+    "overall_assessment": {
+      "metrics_improved": 0,
+      "total_metrics": 1,
+      "improvement_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "timestamp": "2026-06-03T05:56:51.689629",
+    "comparison_type": "PINN Ablation Study (Extended Metrics)",
+    "metrics_improved": 1,
+    "total_metrics": 6,
+    "improvement_rate": 16.666666666666664
+  },
+  "detailed_metrics": {
+    "avg_speed": {
+      "metric_name": "Average Speed (m/s)",
+      "baseline": 13.445572743771462,
+      "with_pinn": 12.87090843810127,
+      "absolute_difference": -0.5746643056701917,
+      "percentage_change": -4.274003916541225,
+      "improved": false,
+      "direction": "higher_is_better"
+    },
+    "emergency_eta": {
+      "metric_name": "Emergency ETA (seconds)",
+      "baseline": 410.4773913043478,
+      "with_pinn": 176.09333333333333,
+      "absolute_difference": -234.38405797101447,
+      "percentage_change": -57.10035751938182,
+      "improved": true,
+      "direction": "lower_is_better"
+    },
+    "waiting_time": {
+      "metric_name": "Waiting Time (seconds)",
+      "baseline": 0.17,
+      "with_pinn": 0.57,
+      "absolute_difference": 0.3999999999999999,
+      "percentage_change": 235.29411764705875,
+      "improved": false,
+      "direction": "lower_is_better"
+    },
+    "queue_length": {
+      "metric_name": "Queue Length (vehicles)",
+      "baseline": 0.14,
+      "with_pinn": 0.43,
+      "absolute_difference": 0.29,
+      "percentage_change": 207.1428571428571,
+      "improved": false,
+      "direction": "lower_is_better"
+    },
+    "throughput": {
+      "metric_name": "Throughput (vehicles/sec)",
+      "baseline": 7.0,
+      "with_pinn": 3.0,
+      "absolute_difference": -4.0,
+      "percentage_change": -57.14285714285714,
+      "improved": false,
+      "direction": "higher_is_better"
+    },
+    "corridor_efficiency": {
+      "metric_name": "Corridor Efficiency",
+      "baseline": 0.6,
+      "with_pinn": 0.6,
+      "absolute_difference": 0.0,
+      "percentage_change": 0.0,
+      "improved": false,
+      "direction": "higher_is_better"
+    }
+  },
+  "summary": {
+    "baseline_superior": 5,
+    "pinn_superior": 1,
+    "overall_assessment": "PINN provides limited benefits"
+  }
+}

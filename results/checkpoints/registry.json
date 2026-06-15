@@ -1,0 +1,44 @@
+{
+  "dqn": {
+    "path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\dqn.pth",
+    "algorithm": "dqn",
+    "expected_state_dim": 9,
+    "expected_action_dim": 4,
+    "strict_load_ok": true,
+    "compatible": true,
+    "reason": "ok",
+    "saved_state_dim": 9,
+    "saved_action_dim": 4,
+    "saved_architecture": "QNetwork(9 -> 64 -> 64 -> 4)",
+    "metadata": {},
+    "active_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\dqn.pth"
+  },
+  "ddqn": {
+    "path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ddqn.pth",
+    "algorithm": "ddqn",
+    "expected_state_dim": 9,
+    "expected_action_dim": 4,
+    "strict_load_ok": true,
+    "compatible": true,
+    "reason": "ok",
+    "saved_state_dim": 9,
+    "saved_action_dim": 4,
+    "saved_architecture": "QNetwork(9 -> 64 -> 64 -> 4)",
+    "metadata": {},
+    "active_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ddqn.pth"
+  },
+  "ppo": {
+    "path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ppo.pth",
+    "algorithm": "ppo",
+    "expected_state_dim": 9,
+    "expected_action_dim": 4,
+    "strict_load_ok": true,
+    "compatible": true,
+    "reason": "ok",
+    "saved_state_dim": 9,
+    "saved_action_dim": 4,
+    "saved_architecture": "ActorCritic(actor: 9 -> 64 -> 64 -> 4, critic: 9 -> 64 -> 64 -> 1)",
+    "metadata": {},
+    "active_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ppo.pth"
+  }
+}

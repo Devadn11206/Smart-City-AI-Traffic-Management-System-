@@ -1,0 +1,17 @@
+{
+  "step": 250,
+  "mode": "runtime_emergency_diag",
+  "timestamp": 1780678407.1982372,
+  "emergency_vehicle_count": 49,
+  "active_corridor_tls": 3,
+  "emergency_phase_count": 11,
+  "pinn_prediction_count": 0,
+  "pinn_prediction_mean": 0.0,
+  "pinn_prediction_max": 0.0,
+  "wait": 1.936,
+  "queue": 1.06,
+  "avg_speed": 12.677379003742557,
+  "throughput": 21.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}

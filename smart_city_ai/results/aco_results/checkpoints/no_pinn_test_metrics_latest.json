@@ -1,0 +1,24 @@
+{
+  "step": 250,
+  "mode": "no_pinn_test",
+  "timestamp": 1780889798.7590864,
+  "emergency_vehicle_count": 40,
+  "active_corridor_tls": 4,
+  "emergency_phase_count": 11,
+  "pinn_prediction_count": 0,
+  "pinn_prediction_mean": 0.0,
+  "pinn_prediction_max": 0.0,
+  "wait": 0.824,
+  "queue": 0.6,
+  "avg_speed": 12.914566345544637,
+  "throughput": 24.0,
+  "switches": 0,
+  "reward_ema": 0.0,
+  "emergency_delay": 0.0,
+  "actions": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0
+  }
+}

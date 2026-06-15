@@ -1,0 +1,25 @@
+{
+  "method": "Hybrid PPO",
+  "seed": 202,
+  "reward_mean": -13.023173921097882,
+  "wait_mean": 5.793103448275862,
+  "queue_mean": 1.1379310344827587,
+  "reward_std": 0.0,
+  "wait_std": 0.0,
+  "queue_std": 0.0,
+  "speed_mean": 12.275572549498007,
+  "throughput_mean": 39.0,
+  "switches_mean": 20.0,
+  "load_ok": true,
+  "full_load": true,
+  "partial_load": false,
+  "compatibility": {
+    "load_ok": true,
+    "full_load": true,
+    "partial_load": false,
+    "matched_keys": 12,
+    "mismatched_keys": 0,
+    "missing_keys": 0,
+    "unexpected_keys": 0
+  }
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<edges>
+    <edge id="hw1_to_hw2" from="hw1" to="hw2" numLanes="4" speed="33.33" type="highway"/>
+    <edge id="hw2_to_hw1" from="hw2" to="hw1" numLanes="4" speed="33.33" type="highway"/>
+    <edge id="hw2_to_hw3" from="hw2" to="hw3" numLanes="4" speed="33.33" type="highway"/>
+    <edge id="hw3_to_hw2" from="hw3" to="hw2" numLanes="4" speed="33.33" type="highway"/>
+    <edge id="hw3_to_hw4" from="hw3" to="hw4" numLanes="4" speed="33.33" type="highway"/>
+    <edge id="hw4_to_hw3" from="hw4" to="hw3" numLanes="4" speed="33.33" type="highway"/>
+    <edge id="hw4_to_hw5" from="hw4" to="hw5" numLanes="4" speed="33.33" type="highway"/>
+    <edge id="hw5_to_hw4" from="hw5" to="hw4" numLanes="4" speed="33.33" type="highway"/>
+    <edge id="rr1_to_rr2" from="rr1" to="rr2" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr2_to_rr1" from="rr2" to="rr1" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr2_to_rr3" from="rr2" to="rr3" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr3_to_rr2" from="rr3" to="rr2" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr3_to_rr4" from="rr3" to="rr4" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr4_to_rr3" from="rr4" to="rr3" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr4_to_rr5" from="rr4" to="rr5" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr5_to_rr4" from="rr5" to="rr4" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr5_to_rr6" from="rr5" to="rr6" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr6_to_rr5" from="rr6" to="rr5" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr6_to_rr1" from="rr6" to="rr1" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr1_to_rr6" from="rr1" to="rr6" numLanes="2" speed="22.22" type="ring"/>
+    <edge id="rr1_to_hw1" from="rr1" to="hw1" numLanes="2" speed="22.22"/>
+    <edge id="hw1_to_rr1" from="hw1" to="rr1" numLanes="2" speed="22.22"/>
+    <edge id="rr2_to_hw3" from="rr2" to="hw3" numLanes="2" speed="22.22"/>
+    <edge id="hw3_to_rr2" from="hw3" to="rr2" numLanes="2" speed="22.22"/>
+    <edge id="rr3_to_hw5" from="rr3" to="hw5" numLanes="2" speed="22.22"/>
+    <edge id="hw5_to_rr3" from="hw5" to="rr3" numLanes="2" speed="22.22"/>
+    <edge id="rr6_to_hw1" from="rr6" to="hw1" numLanes="2" speed="22.22"/>
+    <edge id="hw1_to_rr6" from="hw1" to="rr6" numLanes="2" speed="22.22"/>
+    <edge id="rr5_to_hw3" from="rr5" to="hw3" numLanes="2" speed="22.22"/>
+    <edge id="hw3_to_rr5" from="hw3" to="rr5" numLanes="2" speed="22.22"/>
+    <edge id="rr4_to_hw5" from="rr4" to="hw5" numLanes="2" speed="22.22"/>
+    <edge id="hw5_to_rr4" from="hw5" to="rr4" numLanes="2" speed="22.22"/>
+    <edge id="cz1_to_cz2" from="cz1" to="cz2" numLanes="3" speed="13.89"/>
+    <edge id="cz2_to_cz1" from="cz2" to="cz1" numLanes="3" speed="13.89"/>
+    <edge id="cz3_to_cz4" from="cz3" to="cz4" numLanes="3" speed="13.89"/>
+    <edge id="cz4_to_cz3" from="cz4" to="cz3" numLanes="3" speed="13.89"/>
+    <edge id="cz1_to_cz3" from="cz1" to="cz3" numLanes="3" speed="13.89"/>
+    <edge id="cz3_to_cz1" from="cz3" to="cz1" numLanes="3" speed="13.89"/>
+    <edge id="cz2_to_cz4" from="cz2" to="cz4" numLanes="3" speed="13.89"/>
+    <edge id="cz4_to_cz2" from="cz4" to="cz2" numLanes="3" speed="13.89"/>
+    <edge id="cz1_to_hw2" from="cz1" to="hw2" numLanes="3" speed="13.89"/>
+    <edge id="hw2_to_cz1" from="hw2" to="cz1" numLanes="3" speed="13.89"/>
+    <edge id="cz2_to_hw3" from="cz2" to="hw3" numLanes="3" speed="13.89"/>
+    <edge id="hw3_to_cz2" from="hw3" to="cz2" numLanes="3" speed="13.89"/>
+    <edge id="cz3_to_rr2" from="cz3" to="rr2" numLanes="3" speed="13.89"/>
+    <edge id="rr2_to_cz3" from="rr2" to="cz3" numLanes="3" speed="13.89"/>
+    <edge id="rz1_to_rz2" from="rz1" to="rz2" numLanes="1" speed="8.33"/>
+    <edge id="rz2_to_rz1" from="rz2" to="rz1" numLanes="1" speed="8.33"/>
+    <edge id="rz1_to_rz3" from="rz1" to="rz3" numLanes="2" speed="8.33"/>
+    <edge id="rz3_to_rz1" from="rz3" to="rz1" numLanes="2" speed="8.33"/>
+    <edge id="rz2_to_rz3" from="rz2" to="rz3" numLanes="1" speed="8.33"/>
+    <edge id="rz3_to_rz2" from="rz3" to="rz2" numLanes="1" speed="8.33"/>
+    <edge id="rz1_to_hw2" from="rz1" to="hw2" numLanes="2" speed="8.33"/>
+    <edge id="hw2_to_rz1" from="hw2" to="rz1" numLanes="2" speed="8.33"/>
+    <edge id="rz3_to_rr5" from="rz3" to="rr5" numLanes="2" speed="8.33"/>
+    <edge id="rr5_to_rz3" from="rr5" to="rz3" numLanes="2" speed="8.33"/>
+    <edge id="rb1_to_rb2" from="rb1" to="rb2" numLanes="2" speed="11.11"/>
+    <edge id="rb2_to_rb3" from="rb2" to="rb3" numLanes="2" speed="11.11"/>
+    <edge id="rb3_to_rb4" from="rb3" to="rb4" numLanes="2" speed="11.11"/>
+    <edge id="rb4_to_rb1" from="rb4" to="rb1" numLanes="2" speed="11.11"/>
+    <edge id="hw4_to_rb1" from="hw4" to="rb1" numLanes="2" speed="11.11"/>
+    <edge id="rb1_to_hw4" from="rb1" to="hw4" numLanes="2" speed="11.11"/>
+    <edge id="rr4_to_rb3" from="rr4" to="rb3" numLanes="2" speed="11.11"/>
+    <edge id="rb3_to_rr4" from="rb3" to="rr4" numLanes="2" speed="11.11"/>
+    <edge id="rr5_to_rb4" from="rr5" to="rb4" numLanes="2" speed="11.11"/>
+    <edge id="rb4_to_rr5" from="rb4" to="rr5" numLanes="2" speed="11.11"/>
+    <edge id="hw5_to_rb2" from="hw5" to="rb2" numLanes="2" speed="11.11"/>
+    <edge id="rb2_to_hw5" from="rb2" to="hw5" numLanes="2" speed="11.11"/>
+    <edge id="tj1_to_hw2" from="tj1" to="hw2" numLanes="2" speed="13.89"/>
+    <edge id="hw2_to_tj1" from="hw2" to="tj1" numLanes="2" speed="13.89"/>
+    <edge id="tj1_to_cz1" from="tj1" to="cz1" numLanes="2" speed="13.89"/>
+    <edge id="cz1_to_tj1" from="cz1" to="tj1" numLanes="2" speed="13.89"/>
+    <edge id="tj1_to_rr1" from="tj1" to="rr1" numLanes="2" speed="13.89"/>
+    <edge id="rr1_to_tj1" from="rr1" to="tj1" numLanes="2" speed="13.89"/>
+    <edge id="tj2_to_hw4" from="tj2" to="hw4" numLanes="2" speed="13.89"/>
+    <edge id="hw4_to_tj2" from="hw4" to="tj2" numLanes="2" speed="13.89"/>
+    <edge id="tj2_to_cz2" from="tj2" to="cz2" numLanes="2" speed="13.89"/>
+    <edge id="cz2_to_tj2" from="cz2" to="tj2" numLanes="2" speed="13.89"/>
+    <edge id="tj2_to_rr3" from="tj2" to="rr3" numLanes="2" speed="13.89"/>
+    <edge id="rr3_to_tj2" from="rr3" to="tj2" numLanes="2" speed="13.89"/>
+    <edge id="cz4_to_rr3_curve" from="cz4" to="rr3" numLanes="2" speed="13.89" shape="200,600 500,700 800,800"/>
+    <edge id="rr3_to_cz4_curve" from="rr3" to="cz4" numLanes="2" speed="13.89" shape="800,800 500,700 200,600"/>
+</edges>

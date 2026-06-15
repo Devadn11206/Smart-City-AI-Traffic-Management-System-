@@ -1,0 +1,7 @@
+{"timestamp": 1780155648.894116, "rss": 227602432, "vms": 576118784, "cpu_percent": 0.0, "cpu_times": {"user": 3.9375, "system": 3.21875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780155658.8945546, "rss": 228532224, "vms": 576196608, "cpu_percent": 24.8, "cpu_times": {"user": 5.21875, "system": 4.421875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780155668.9060845, "rss": 267227136, "vms": 646098944, "cpu_percent": 20.6, "cpu_times": {"user": 6.421875, "system": 5.28125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780155678.9068952, "rss": 290549760, "vms": 665886720, "cpu_percent": 35.8, "cpu_times": {"user": 8.15625, "system": 7.125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780155688.9103007, "rss": 290598912, "vms": 665886720, "cpu_percent": 31.2, "cpu_times": {"user": 9.671875, "system": 8.734375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780155698.911235, "rss": 291475456, "vms": 665780224, "cpu_percent": 27.3, "cpu_times": {"user": 11.125, "system": 10.015625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780155708.9121819, "rss": 291508224, "vms": 665780224, "cpu_percent": 26.7, "cpu_times": {"user": 12.546875, "system": 11.265625, "children_user": 0.0, "children_system": 0.0}}

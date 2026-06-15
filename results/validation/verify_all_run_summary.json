@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Smoke Test - Agents",
+    "returncode": 0,
+    "stdout": "Testing DQN...\nDQN act: 1\nTesting DDQN...\nDDQN act: 0\nTesting PPO...\nPPO act: (2, -1.2819256782531738)\nAgents smoke test done\n",
+    "stderr": ""
+  },
+  {
+    "name": "Smoke Test - PINN",
+    "returncode": 0,
+    "stdout": "PINN model path: c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\pinn_models\\trained_pinn.pth\nLoaded PINN weights from checkpoint\nrho: [0.0005459230742417276, 3.679387373267673e-05, 1.1328400972843156e-07, 3.064603237845631e-09, 0.00028219984960742295]\nv: [12.147250175476074, 10.572072982788086, 12.53105640411377, 13.707476615905762, 11.855927467346191]\nPINN smoke test done\n",
+    "stderr": ""
+  },
+  {
+    "name": "Smoke Test - ACO",
+    "returncode": 0,
+    "stdout": "ACO path: ['A', 'B', 'D'] cost: 2.0\nPheromone CSV written\n",
+    "stderr": ""
+  },
+  {
+    "name": "Smoke Test - SUMO Integration",
+    "returncode": 0,
+    "stdout": "SMOKE TEST: CONFIG c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\config.sumocfg\n***Starting server on port 46055 ***\nLoading net-file from 'c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\network.net.xml' ... done (93ms).\nLoading additional-files from 'c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\vehicle_types.add.xml' ... done (5ms).\nLoading route-files incrementally from 'c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\routes.rou.xml'\nLoading route-files incrementally from 'c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\random_trips.trips.xml'\nLoading done.\nSimulation version 1.26.0 started with time: 0.00.\nReset state shape: (7,)\nstep 0 -> reward 0.0284 done=False\nstep 1 -> reward -0.1531 done=False\nstep 2 -> reward -0.1589 done=False\nstep 3 -> reward -0.1641 done=False\nstep 4 -> reward 0.0174 done=False\nstep 5 -> reward -0.1661 done=False\nstep 6 -> reward 0.0155 done=False\nstep 7 -> reward -0.1678 done=False\nstep 8 -> reward 0.0140 done=False\nstep 9 -> reward -0.1936 done=False\nEpisode metrics: {'wait': 0.0, 'queue': 0.1, 'avg_speed': 13.763727272727275, 'throughput': 0.0, 'switches': 1, 'reward_ema': -0.07455749065587275}\nSimulation ended at time: 11.00.\nReason: TraCI requested termination.\nPerformance:\n Duration: 0.46s\n TraCI-Duration: 0.35s\n Real time factor: 23.913\n UPS: 260.869565\nVehicles:\n Inserted: 19 (Loaded: 120)\n Running: 19\n Waiting: 2\nStatistics (avg of 0):\n RouteLength: 0.00\n Speed: 0.00\n Duration: 0.00\n WaitingTime: 0.00\n TimeLoss: 0.00\n DepartDelay: 0.00\nDijkstraRouter answered 6 queries and explored 54.50 edges on average.\nDijkstraRouter spent 0.00s answering queries (0.00ms on average).\nSMOKE TEST: DONE\n",
+    "stderr": ""
+  },
+  {
+    "name": "Predictive Green Wave Demo",
+    "returncode": -1,
+    "stdout": "***Starting server on port 46307 ***\nLoading net-file from 'c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\network.net.xml' ... done (84ms).\nLoading additional-files from 'c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\vehicle_types.add.xml' ... done (3ms).\nLoading route-files incrementally from 'c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\routes.rou.xml'\nLoading route-files incrementally from 'c:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\random_trips.trips.xml'\nLoading done.\nSimulation version 1.26.0 started with time: 0.00.\nDijkstraRouter answered 259 queries and explored 21.55 edges on average.\nDijkstraRouter spent 0.03s answering queries (0.10ms on average).\nDijkstraRouter answered 31 queries and explored 39.90 edges on average.\nDijkstraRouter spent 0.00s answering queries (0.10ms on average).\n",
+    "stderr": "cy_system.green_corridor_manager: Activated predictive green corridor for flow_rr_ccw.4 future_tls=['rr2'] hold_steps=20 priority=2\nError: Requested command not implemented (0xac): GUI is not running, command not implemented in command line sumo\n2026-06-01 17:26:00,561 [INFO] integration.hybrid_emergency_controller: Emergency flow_rr_ccw.4 corridor active at step 44 on TLS ['rr2']; hold_steps=20; predicted=True\nError: Answered with error to command 0xc4: Route replacement failed for vehicle 'rand_veh12' (current edge 'tj1_to_rr1' not found in new route).\nError: Answered with error to command 0xc4: Route replacement failed for vehicle 'rand_veh12' (current edge 'tj1_to_rr1' not found in new route).\n2026-06-01 17:26:02,301 [WARNING] emergency_system.emergency_router: Failed to apply route to rand_veh12: Route replacement failed for vehicle 'rand_veh12' (current edge 'tj1_to_rr1' not found in new route).\nError: Answered with error to command 0xc4: Route replacement failed for vehicle 'rand_veh14' (current edge 'rz1_to_rz2' not found in new route).\nError: Answered with error to command 0xc4: Route replacement failed for vehicle 'rand_veh14' (current edge 'rz1_to_rz2' not found in new route).\n2026-06-01 17:26:02,309 [WARNING] emergency_system.emergency_router: Failed to apply route to rand_veh14: Route replacement failed for vehicle 'rand_veh14' (current edge 'rz1_to_rz2' not found in new route).\nError: Answered with error to command 0xc4: Route replacement failed for vehicle 'rand_veh17' (current edge 'hw5_to_hw4' not found in new route).\nError: Answered with error to command 0xc4: Route replacement failed for vehicle 'rand_veh17' (current edge 'hw5_to_hw4' not found in new route).\n2026-06-01 17:26:02,424 [WARNING] emergency_system.emergency_router: Failed to apply route to rand_veh17: Route replacement failed for vehicle 'rand_veh17' (current edge 'hw5_to_hw4' not found in new route).\nError: tcpip::Socket::recvAndCheck @ recv: Socket reset by peer\nQuitting (on error).\n",
+    "timeout": 900
+  }
+]

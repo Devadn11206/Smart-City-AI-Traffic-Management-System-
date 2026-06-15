@@ -1,0 +1,15 @@
+{
+  "average_congested_edge_utilization": 1.35,
+  "average_queue_length": 0.05,
+  "average_travel_time": 0.0,
+  "average_waiting_time": 0.0,
+  "completed_vehicles": 0,
+  "duration": 20,
+  "enable_aco": true,
+  "enable_pinn": true,
+  "mode": "emergency_greenwave_phase1_fix",
+  "reroutes": 0,
+  "route_changes": 0,
+  "seed": 42,
+  "throughput": 0.0
+}

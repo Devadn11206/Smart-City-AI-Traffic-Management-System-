@@ -1,0 +1,68 @@
+{
+    "dqn": {
+        "wait": 6.9972067039106145,
+        "queue": 1.3756983240223464,
+        "avg_speed": 11.97405848086229,
+        "throughput": 319.0,
+        "switches": 20,
+        "reward_ema": -9.86718735096116,
+        "emergency_delay": 1890.0,
+        "reward": -9866.171927485733,
+        "components": {
+            "throughput": 4785.0,
+            "queue_delta": -0.2272490000000005,
+            "wait_delta": -0.1894450000000007,
+            "gridlock": 0.0,
+            "starvation": -276.48,
+            "stale_penalty": -10730.0,
+            "worst_ev_wait": -17035.5,
+            "fairness": -2135.416666,
+            "ev_clearance": 8500.0,
+            "ev_complete": 7000.0
+        }
+    },
+    "ddqn": {
+        "wait": 6.838888888888889,
+        "queue": 1.5361111111111112,
+        "avg_speed": 11.94608493683893,
+        "throughput": 382.0,
+        "switches": 0,
+        "reward_ema": -7.863564615763485,
+        "emergency_delay": 2194.0,
+        "reward": -12099.565345234412,
+        "components": {
+            "throughput": 5730.0,
+            "queue_delta": -0.45451600000000103,
+            "wait_delta": -0.8258080000000014,
+            "gridlock": 0.0,
+            "starvation": -309.6,
+            "stale_penalty": -12330.0,
+            "worst_ev_wait": -22787.0,
+            "fairness": -1822.9166679999998,
+            "ev_clearance": 8400.0,
+            "ev_complete": 11000.0
+        }
+    },
+    "ppo": {
+        "wait": 6.838888888888889,
+        "queue": 1.5361111111111112,
+        "avg_speed": 11.94608493683893,
+        "throughput": 382.0,
+        "switches": 0,
+        "reward_ema": -7.863564615763485,
+        "emergency_delay": 2194.0,
+        "reward": -12099.565345234412,
+        "components": {
+            "throughput": 7470.0,
+            "queue_delta": -0.9090460000000011,
+            "wait_delta": -1.507639000000002,
+            "gridlock": 0.0,
+            "starvation": -407.94,
+            "stale_penalty": -16584.0,
+            "worst_ev_wait": -26306.5,
+            "fairness": -2408.7500010000003,
+            "ev_clearance": 11000.0,
+            "ev_complete": 23500.0
+        }
+    }
+}

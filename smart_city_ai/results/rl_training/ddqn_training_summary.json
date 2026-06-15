@@ -1,0 +1,47 @@
+{
+  "best_metrics": {
+    "avg_speed": 13.081847048972788,
+    "queue": 0.64,
+    "reward_ema": -0.04707386337178109,
+    "switches": 0,
+    "throughput": 684.0,
+    "wait": 2.8985
+  },
+  "best_reward": -76.0441393097133,
+  "config": {
+    "agent_type": "ddqn",
+    "batch_size": 256,
+    "checkpoint_dir": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\checkpoints",
+    "config_file": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\sumo_network\\config.sumocfg",
+    "entropy_coef": 0.02,
+    "episodes": 100,
+    "eps_clip": 0.2,
+    "epsilon": 1.0,
+    "epsilon_decay": 0.995,
+    "epsilon_min": 0.02,
+    "gae_lambda": 0.95,
+    "gamma": 0.99,
+    "k_epochs": 4,
+    "lr": 0.0001,
+    "lr_actor": 0.0001,
+    "lr_critic": 0.0001,
+    "num_seconds": 10000,
+    "pinn_path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\pinn_models\\trained_pinn.pth",
+    "replay_size": 200000,
+    "results_dir": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\rl_training",
+    "save_interval": 10,
+    "seed": 101,
+    "target_update": 1000,
+    "use_hybrid": true
+  },
+  "episodes_completed": 100,
+  "final_metrics": {
+    "avg_speed": 13.081847048972788,
+    "queue": 0.64,
+    "reward_ema": -0.04707386337178109,
+    "switches": 0,
+    "throughput": 684.0,
+    "wait": 2.8985
+  },
+  "final_reward": -76.0441393097133
+}

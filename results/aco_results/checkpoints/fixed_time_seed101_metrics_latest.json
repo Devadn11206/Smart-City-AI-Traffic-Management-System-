@@ -1,0 +1,17 @@
+{
+  "step": 600,
+  "mode": "fixed_time_seed101",
+  "timestamp": 1780155852.471178,
+  "emergency_vehicle_count": 122,
+  "active_corridor_tls": 4,
+  "emergency_phase_count": 11,
+  "pinn_prediction_count": 0,
+  "pinn_prediction_mean": 0.0,
+  "pinn_prediction_max": 0.0,
+  "wait": 2.9066666666666667,
+  "queue": 2.26,
+  "avg_speed": 11.4044845666623,
+  "throughput": 108.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}

@@ -1,0 +1,17 @@
+{
+  "step": 30,
+  "mode": "aco_probe",
+  "timestamp": 1780221044.3007367,
+  "emergency_vehicle_count": 10,
+  "active_corridor_tls": 1,
+  "emergency_phase_count": 9,
+  "pinn_prediction_count": 0,
+  "pinn_prediction_mean": 0.0,
+  "pinn_prediction_max": 0.0,
+  "wait": 0.0,
+  "queue": 0.0,
+  "avg_speed": 13.685893608016771,
+  "throughput": 0.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}

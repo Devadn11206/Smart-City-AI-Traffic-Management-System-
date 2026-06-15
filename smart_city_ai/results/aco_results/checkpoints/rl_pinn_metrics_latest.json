@@ -1,0 +1,14 @@
+{
+  "step": 1788,
+  "mode": "rl_pinn",
+  "timestamp": 1780125194.2212338,
+  "emergency_vehicle_count": 0,
+  "active_corridor_tls": 3,
+  "emergency_phase_count": 11,
+  "wait": 54.185123042505595,
+  "queue": 12.761185682326621,
+  "avg_speed": 10.206591727780449,
+  "throughput": 424.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}

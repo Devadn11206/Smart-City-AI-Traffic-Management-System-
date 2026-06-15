@@ -1,0 +1,4 @@
+Fixed Time -> Reward: -520.37, Wait: 126.02 ± 0.28, Queue: 24.59 ± 0.05, Throughput: 184.67
+DQN -> Reward: -38.29, Wait: 14.55 ± 2.47, Queue: 2.52 ± 0.36, Throughput: 169.67
+DDQN -> Reward: -423.04, Wait: 139.94 ± 78.27, Queue: 19.28 ± 4.93, Throughput: 169.00
+PPO -> Reward: -405.09, Wait: 97.70 ± 19.50, Queue: 18.16 ± 4.40, Throughput: 166.00

@@ -1,0 +1,11 @@
+{"timestamp": 1780653370.5309098, "rss": 212074496, "vms": 594661376, "cpu_percent": 0.0, "cpu_times": {"user": 1.484375, "system": 0.953125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653380.5315173, "rss": 288641024, "vms": 664571904, "cpu_percent": 68.7, "cpu_times": {"user": 4.84375, "system": 4.46875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653390.5323198, "rss": 292339712, "vms": 668094464, "cpu_percent": 70.5, "cpu_times": {"user": 8.328125, "system": 8.03125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653400.533026, "rss": 293085184, "vms": 668823552, "cpu_percent": 70.8, "cpu_times": {"user": 11.921875, "system": 11.515625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653410.534742, "rss": 293085184, "vms": 668823552, "cpu_percent": 67.2, "cpu_times": {"user": 15.1875, "system": 14.96875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653420.534986, "rss": 293085184, "vms": 668823552, "cpu_percent": 67.5, "cpu_times": {"user": 18.5, "system": 18.40625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653430.5356956, "rss": 293019648, "vms": 668708864, "cpu_percent": 70.8, "cpu_times": {"user": 22.0625, "system": 21.921875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653440.536726, "rss": 293019648, "vms": 668708864, "cpu_percent": 70.3, "cpu_times": {"user": 25.5625, "system": 25.453125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653450.5375822, "rss": 293019648, "vms": 668708864, "cpu_percent": 67.3, "cpu_times": {"user": 29.0625, "system": 28.6875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653460.538254, "rss": 293023744, "vms": 668708864, "cpu_percent": 70.8, "cpu_times": {"user": 32.734375, "system": 32.09375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780653470.538488, "rss": 293576704, "vms": 669605888, "cpu_percent": 69.1, "cpu_times": {"user": 36.796875, "system": 34.9375, "children_user": 0.0, "children_system": 0.0}}

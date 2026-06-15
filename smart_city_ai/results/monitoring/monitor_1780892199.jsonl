@@ -1,0 +1,3 @@
+{"timestamp": 1780892199.4069872, "rss": 523526144, "vms": 1154199552, "cpu_percent": 0.0, "cpu_times": {"user": 2.609375, "system": 1.125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780892209.4165065, "rss": 1047842816, "vms": 1894137856, "cpu_percent": 60.0, "cpu_times": {"user": 5.65625, "system": 4.078125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780892219.4194481, "rss": 1052557312, "vms": 1899081728, "cpu_percent": 70.3, "cpu_times": {"user": 9.28125, "system": 7.484375, "children_user": 0.0, "children_system": 0.0}}

@@ -1,0 +1,90 @@
+{
+  "classification": "Integrated and affecting SUMO (visual verification incomplete)",
+  "summary": "Most features are integrated and have runtime evidence (logs/metrics). Screenshot capture attempted but no screenshots were found; re-run required to capture GUI images.",
+  "features": {
+    "RL_Traffic_Signal_Control": {
+      "integrated_with_sumo": "yes (code + agents present)",
+      "affects_vehicle_behavior": "conditional (if RL run is launched)",
+      "visible_in_sumo_gui": "no (not observed in the last probe run)",
+      "evidence": [
+        "smart_city_ai/dashboards/app.py (RL launch controls)",
+        "smart_city_ai/integration/rl_pinn_aco_integration.py (scripts)"
+      ]
+    },
+    "PINN_Congestion_Prediction": {
+      "integrated_with_sumo": "yes",
+      "affects_vehicle_behavior": "yes (used by routing/ETA and predictive corridors)",
+      "visible_in_sumo_gui": "no (visual overlay available via dashboard; not captured in screenshots)",
+      "evidence": [
+        "run command used --pinn pinn_models/trained_pinn.pth",
+        "smart_city_ai/aco_routing/congestion_costs.py",
+        "smart_city_ai/emergency_system/emergency_eta_predictor.py"
+      ]
+    },
+    "ACO_dynamic_routing": {
+      "integrated_with_sumo": "yes",
+      "affects_vehicle_behavior": "yes (traci.vehicle.setRoute used for reroutes)",
+      "visible_in_sumo_gui": "no (no screenshots captured)",
+      "evidence": [
+        "logs: many 'Rerouted emergency vehicle' entries in probe output",
+        "results/emergency_metrics/emergency_lane_clearing_report.json (vehicles_moved_aside list)",
+        "smart_city_ai/aco_routing/emergency_router.py"
+      ]
+    },
+    "Emergency_Corridor (Green_Corridor)": {
+      "integrated_with_sumo": "yes",
+      "affects_vehicle_behavior": "yes (traci.trafficlight.setPhase called)",
+      "visible_in_sumo_gui": "no (activation logged but no screenshot)",
+      "evidence": [
+        "log lines: 'Activated predictive green corridor ... predicted=True'",
+        "smart_city_ai/emergency_system/green_corridor_manager.py"
+      ]
+    },
+    "Predictive_Green_Wave": {
+      "integrated_with_sumo": "yes",
+      "affects_vehicle_behavior": "yes (future TLS phases set based on predictions)",
+      "visible_in_sumo_gui": "no (no screenshot)",
+      "evidence": [
+        "logs: predictive activations (see probe log)",
+        "green_corridor_manager activation messages"
+      ]
+    },
+    "Traffic_Clearing (lane-change + reroute)": {
+      "integrated_with_sumo": "yes",
+      "affects_vehicle_behavior": "yes (lane-change attempts and reroutes recorded)",
+      "visible_in_sumo_gui": "no (screenshot directory missing)",
+      "evidence": [
+        "results/emergency_metrics/emergency_lane_clearing_report.json",
+        "probe logs: many 'Cleared around route ... slowed=X rerouted=Y' lines"
+      ]
+    },
+    "Multi_Emergency_Coordination": {
+      "integrated_with_sumo": "yes",
+      "affects_vehicle_behavior": "yes (multiple corridors and reroutes concurrently active)",
+      "visible_in_sumo_gui": "no (no screenshots)",
+      "evidence": [
+        "probe logs show many concurrent 'Activated predictive green corridor' entries",
+        "probe run metadata: 'emergency_vehicle_count'"
+      ]
+    },
+    "SUMO_TraCI_integration": {
+      "integrated_with_sumo": "yes",
+      "affects_vehicle_behavior": "yes",
+      "visible_in_sumo_gui": "partial (no saved screenshots)",
+      "evidence": [
+        "traci calls in code (trafficlight.setPhase, vehicle.changeLane, vehicle.setRoute)",
+        "runtime logs and metrics in results/emergency_metrics"
+      ]
+    }
+  },
+  "evidence_summary": {
+    "logs": "See probe output (session transcript) and the many 'Activated predictive green corridor' and 'Cleared around route' entries.",
+    "metrics_files": [
+      "results/emergency_metrics/screenshot_probe_latest.json",
+      "results/emergency_metrics/emergency_lane_clearing_report.json"
+    ],
+    "screenshots_dir": "results/emergency_metrics/screenshots",
+    "screenshots_found": false,
+    "notes": "Screenshot capture was attempted but the screenshots directory does not exist. To obtain GUI evidence, re-run a short focused probe with SUMO-GUI, ensure the GUI view id 'View #0' exists, and persist screenshots to results/emergency_metrics/screenshots/. I can run that for you if you want."
+  }
+}

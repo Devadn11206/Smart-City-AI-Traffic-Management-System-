@@ -1,0 +1,7 @@
+{
+  "aco_enabled": true,
+  "current_predictions": {},
+  "mode": "no_pinn_test",
+  "pinn_enabled": false,
+  "step": 250
+}

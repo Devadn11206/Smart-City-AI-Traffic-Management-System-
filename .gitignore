@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.DS_Store
+
+# Logs and outputs
+*.log
+eval_output.log
+traci_debug.log
+logs/
+hybrid_logs/
+results/logs/
+results/hybrid_logs/
+
+# IDE and Editor files
+.vscode/
+.idea/
+
+# Temporary and specific files
+*.tmp
+tmp_*
+temp_*
+*.csv
+
+# Exceptions for required csv
+!results/final_rl_comparison.csv
+!results/pheromone_test.csv
+
+# Ignore large output JSONs and checkpoints if needed
+# results/checkpoints/
+# results/checkpoints_collapsed/
+
+# Ignore bytecoder folder
+.bytecoder/

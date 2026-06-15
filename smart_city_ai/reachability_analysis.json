@@ -1,0 +1,689 @@
+{
+  "reachable_from_core": [
+    "emergency_system/hospital_router.py",
+    "emergency_system/green_corridor_manager.py",
+    "emergency_system/emergency_priority.py",
+    "utils/checkpoint_registry.py",
+    "scripts/evaluate_milestones.py",
+    "emergency_system/traffic_clearing.py",
+    "training/train_dqn.py",
+    "emergency_system/clearing_monitor.py",
+    "pinn_models/train_pinn.py",
+    "rl_agents/ddqn_agent.py",
+    "scripts/metrics_collector.py",
+    "pinn_models/pinn_model.py",
+    "emergency_system/emergency_eta_predictor.py",
+    "emergency_system/accident_manager.py",
+    "training/train_ddqn.py",
+    "emergency_system/multi_emergency_manager.py",
+    "environment/sumo_environment.py",
+    "dashboards/traci_controller.py",
+    "integration/rl_pinn_aco_integration.py",
+    "integration/hybrid_env.py",
+    "aco_routing/congestion_costs.py",
+    "rl_agents/ppo_agent.py",
+    "utils/reliability.py",
+    "emergency_system/aggressive_emergency_handler.py",
+    "training/train_ppo.py",
+    "integration/run_emergency_system.py",
+    "scripts/demo_predictive_corridor.py",
+    "aco_routing/pheromone_manager.py",
+    "dashboards/app.py",
+    "aco_routing/route_optimizer.py",
+    "emergency_system/emergency_router.py",
+    "rl_agents/dqn_agent.py",
+    "integration/train_hybrid.py",
+    "aco_routing/aco_router.py",
+    "scripts/generate_routes.py",
+    "integration/hybrid_emergency_controller.py",
+    "emergency_system/traffic_signal_prioritizer.py",
+    "integration/hybrid_smart_city_controller.py",
+    "integration/full_hybrid_system.py",
+    "utils/monitoring.py",
+    "emergency_system/emergency_detector.py",
+    "scripts/run_simulation.py"
+  ],
+  "unreachable": [
+    {
+      "file": "analyze_imports.py",
+      "imported_by": []
+    },
+    {
+      "file": "test_metrics.py",
+      "imported_by": []
+    },
+    {
+      "file": "__init__.py",
+      "imported_by": []
+    },
+    {
+      "file": "aco_routing/emergency_router.py",
+      "imported_by": [
+        "emergency_system/__init__.py"
+      ]
+    },
+    {
+      "file": "emergency_system/__init__.py",
+      "imported_by": []
+    },
+    {
+      "file": "environment/__init__.py",
+      "imported_by": []
+    },
+    {
+      "file": "evaluation/compare_algorithms.py",
+      "imported_by": []
+    },
+    {
+      "file": "evaluation/compare_all_algorithms.py",
+      "imported_by": [
+        "evaluation/evaluate_aco.py"
+      ]
+    },
+    {
+      "file": "evaluation/evaluate_aco.py",
+      "imported_by": []
+    },
+    {
+      "file": "evaluation/metrics_analysis.py",
+      "imported_by": []
+    },
+    {
+      "file": "evaluation/run_split_comparisons.py",
+      "imported_by": []
+    },
+    {
+      "file": "evaluation/validate_predictive_corridor.py",
+      "imported_by": []
+    },
+    {
+      "file": "integration/debug_emergency_flow.py",
+      "imported_by": []
+    },
+    {
+      "file": "integration/evaluate_hybrid.py",
+      "imported_by": []
+    },
+    {
+      "file": "integration/rl_telemetry_client.py",
+      "imported_by": []
+    },
+    {
+      "file": "integration/rl_telemetry_server.py",
+      "imported_by": []
+    },
+    {
+      "file": "integration/__init__.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/collect_traci_latency.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/compare_pinn.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/demo_validation.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/generate_emergency_aco_coordination_report.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/generate_emergency_stop_root_cause_report.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/generate_network.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/read_metrics.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/run_convergence_training.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/run_emergency_optimization_validation.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/run_stop_audit.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/run_stop_audit_after.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/run_stop_audit_short.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/run_validation.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/scratch_eval.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/start_demo.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/trace_ev_arrival.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/traffic_generator.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/train_all.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/train_all_agents.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/train_validation.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/train_validation_report.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/vehicle_generator.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/visualize_agent.py",
+      "imported_by": []
+    },
+    {
+      "file": "scripts/visualize_multi_agents.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/analyze_reward_and_signal_stability.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/checkpoint_compatibility_report.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/check_checkpoints.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/complete_repro_runs.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/controlled_behavior_experiments.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/ddqn_sweep.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/dqn_signal_stability_eval.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/enhanced_training.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/final_evaluation.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/full_project_validation.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/hybrid_runner.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/inspect_ddqn.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/migrate_checkpoints.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/monitor_training.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/performance_profile.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/per_vehicle_evaluation.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/plot_per_vehicle.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/plot_training_curves.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/production_readiness_report.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/regenerate_benchmark_report.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/resume_remaining_hybrid_runs.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/rl_comprehensive_benchmark.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/rl_diagnostic.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/rl_improvement_pipeline.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/run_full_repro_benchmark.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/sanity_imports.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/smoke_test_aco.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/smoke_test_agents.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/smoke_test_integration.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/smoke_test_pinn.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/stress_test_suite.py",
+      "imported_by": []
+    },
+    {
+      "file": "tools/verify_checkpoints.py",
+      "imported_by": []
+    },
+    {
+      "file": "traffic_data/traffic_dataset_generator.py",
+      "imported_by": []
+    },
+    {
+      "file": "utils/improved_reward.py",
+      "imported_by": []
+    },
+    {
+      "file": "utils/project_paths.py",
+      "imported_by": [
+        "evaluation/compare_all_algorithms.py",
+        "evaluation/evaluate_aco.py",
+        "tools/performance_profile.py",
+        "tools/stress_test_suite.py"
+      ]
+    },
+    {
+      "file": "utils/telemetry.py",
+      "imported_by": [
+        "tools/hybrid_runner.py",
+        "tools/production_readiness_report.py"
+      ]
+    },
+    {
+      "file": "visualizations/congestion_heatmap.py",
+      "imported_by": []
+    },
+    {
+      "file": "visualizations/emergency_comparison_plots.py",
+      "imported_by": []
+    },
+    {
+      "file": "visualizations/emergency_corridor_analysis.py",
+      "imported_by": []
+    },
+    {
+      "file": "visualizations/plot_hybrid_comparison.py",
+      "imported_by": []
+    },
+    {
+      "file": "visualizations/plot_pinn_predictions.py",
+      "imported_by": []
+    },
+    {
+      "file": "visualizations/route_efficiency.py",
+      "imported_by": []
+    },
+    {
+      "file": "visualizations/pheromone_maps/plot_pheromones.py",
+      "imported_by": []
+    }
+  ],
+  "in_degree": {
+    "integration/hybrid_env.py": [
+      "test_metrics.py",
+      "evaluation/compare_algorithms.py",
+      "integration/evaluate_hybrid.py",
+      "integration/train_hybrid.py",
+      "tools/dqn_signal_stability_eval.py",
+      "tools/enhanced_training.py",
+      "tools/final_evaluation.py",
+      "tools/hybrid_runner.py",
+      "tools/performance_profile.py",
+      "tools/per_vehicle_evaluation.py",
+      "tools/rl_comprehensive_benchmark.py",
+      "tools/rl_diagnostic.py",
+      "tools/stress_test_suite.py"
+    ],
+    "aco_routing/congestion_costs.py": [
+      "aco_routing/emergency_router.py",
+      "aco_routing/route_optimizer.py",
+      "emergency_system/emergency_eta_predictor.py",
+      "emergency_system/emergency_router.py",
+      "integration/hybrid_emergency_controller.py",
+      "integration/rl_pinn_aco_integration.py"
+    ],
+    "pinn_models/pinn_model.py": [
+      "dashboards/app.py",
+      "integration/hybrid_env.py",
+      "integration/rl_pinn_aco_integration.py",
+      "pinn_models/train_pinn.py",
+      "tools/smoke_test_pinn.py",
+      "visualizations/congestion_heatmap.py",
+      "visualizations/plot_pinn_predictions.py"
+    ],
+    "dashboards/traci_controller.py": [
+      "dashboards/app.py",
+      "scripts/collect_traci_latency.py"
+    ],
+    "utils/reliability.py": [
+      "dashboards/app.py",
+      "integration/hybrid_env.py",
+      "integration/rl_pinn_aco_integration.py",
+      "integration/train_hybrid.py",
+      "rl_agents/ddqn_agent.py",
+      "rl_agents/dqn_agent.py",
+      "rl_agents/ppo_agent.py",
+      "tools/enhanced_training.py",
+      "tools/migrate_checkpoints.py",
+      "tools/rl_comprehensive_benchmark.py",
+      "tools/smoke_test_pinn.py",
+      "tools/verify_checkpoints.py",
+      "training/train_ddqn.py",
+      "utils/checkpoint_registry.py"
+    ],
+    "emergency_system/traffic_signal_prioritizer.py": [
+      "emergency_system/aggressive_emergency_handler.py"
+    ],
+    "emergency_system/emergency_priority.py": [
+      "emergency_system/emergency_detector.py",
+      "emergency_system/multi_emergency_manager.py",
+      "emergency_system/__init__.py",
+      "integration/debug_emergency_flow.py",
+      "integration/hybrid_emergency_controller.py"
+    ],
+    "emergency_system/emergency_eta_predictor.py": [
+      "emergency_system/hospital_router.py",
+      "emergency_system/__init__.py",
+      "integration/hybrid_emergency_controller.py"
+    ],
+    "emergency_system/emergency_detector.py": [
+      "emergency_system/multi_emergency_manager.py",
+      "emergency_system/__init__.py",
+      "integration/debug_emergency_flow.py",
+      "integration/hybrid_emergency_controller.py"
+    ],
+    "emergency_system/clearing_monitor.py": [
+      "emergency_system/traffic_clearing.py",
+      "integration/hybrid_emergency_controller.py",
+      "scripts/run_emergency_optimization_validation.py"
+    ],
+    "emergency_system/hospital_router.py": [
+      "emergency_system/__init__.py",
+      "integration/hybrid_emergency_controller.py"
+    ],
+    "emergency_system/multi_emergency_manager.py": [
+      "emergency_system/__init__.py",
+      "integration/hybrid_emergency_controller.py",
+      "integration/rl_pinn_aco_integration.py"
+    ],
+    "emergency_system/green_corridor_manager.py": [
+      "emergency_system/__init__.py",
+      "evaluation/validate_predictive_corridor.py",
+      "integration/debug_emergency_flow.py",
+      "integration/hybrid_emergency_controller.py"
+    ],
+    "emergency_system/emergency_router.py": [
+      "emergency_system/__init__.py",
+      "integration/hybrid_emergency_controller.py",
+      "integration/rl_pinn_aco_integration.py"
+    ],
+    "aco_routing/emergency_router.py": [
+      "emergency_system/__init__.py"
+    ],
+    "emergency_system/traffic_clearing.py": [
+      "emergency_system/__init__.py",
+      "integration/hybrid_emergency_controller.py",
+      "integration/rl_pinn_aco_integration.py"
+    ],
+    "emergency_system/accident_manager.py": [
+      "emergency_system/__init__.py",
+      "integration/hybrid_emergency_controller.py"
+    ],
+    "environment/sumo_environment.py": [
+      "evaluation/compare_algorithms.py",
+      "integration/debug_emergency_flow.py",
+      "integration/hybrid_emergency_controller.py",
+      "integration/hybrid_env.py",
+      "integration/rl_pinn_aco_integration.py",
+      "scripts/demo_validation.py",
+      "scripts/evaluate_milestones.py",
+      "scripts/scratch_eval.py",
+      "scripts/trace_ev_arrival.py",
+      "scripts/train_all_agents.py",
+      "scripts/train_validation.py",
+      "scripts/train_validation_report.py",
+      "scripts/visualize_agent.py",
+      "tools/enhanced_training.py",
+      "tools/smoke_test_integration.py",
+      "training/train_ddqn.py",
+      "training/train_dqn.py",
+      "training/train_ppo.py"
+    ],
+    "rl_agents/dqn_agent.py": [
+      "evaluation/compare_algorithms.py",
+      "integration/evaluate_hybrid.py",
+      "integration/full_hybrid_system.py",
+      "integration/hybrid_smart_city_controller.py",
+      "integration/train_hybrid.py",
+      "scripts/evaluate_milestones.py",
+      "scripts/scratch_eval.py",
+      "scripts/train_all_agents.py",
+      "scripts/train_validation.py",
+      "scripts/train_validation_report.py",
+      "scripts/visualize_agent.py",
+      "scripts/visualize_multi_agents.py",
+      "tools/checkpoint_compatibility_report.py",
+      "tools/dqn_signal_stability_eval.py",
+      "tools/enhanced_training.py",
+      "tools/final_evaluation.py",
+      "tools/hybrid_runner.py",
+      "tools/performance_profile.py",
+      "tools/per_vehicle_evaluation.py",
+      "tools/rl_comprehensive_benchmark.py",
+      "tools/rl_diagnostic.py",
+      "tools/smoke_test_agents.py",
+      "tools/stress_test_suite.py",
+      "training/train_dqn.py"
+    ],
+    "utils/checkpoint_registry.py": [
+      "evaluation/compare_algorithms.py",
+      "integration/full_hybrid_system.py",
+      "integration/train_hybrid.py",
+      "rl_agents/ddqn_agent.py",
+      "rl_agents/dqn_agent.py",
+      "rl_agents/ppo_agent.py",
+      "tools/final_evaluation.py",
+      "tools/hybrid_runner.py",
+      "tools/performance_profile.py",
+      "tools/rl_comprehensive_benchmark.py",
+      "tools/rl_diagnostic.py",
+      "tools/stress_test_suite.py"
+    ],
+    "rl_agents/ppo_agent.py": [
+      "evaluation/compare_algorithms.py",
+      "integration/evaluate_hybrid.py",
+      "integration/full_hybrid_system.py",
+      "integration/hybrid_smart_city_controller.py",
+      "integration/train_hybrid.py",
+      "scripts/demo_validation.py",
+      "scripts/evaluate_milestones.py",
+      "scripts/scratch_eval.py",
+      "scripts/train_all_agents.py",
+      "scripts/train_validation.py",
+      "scripts/train_validation_report.py",
+      "scripts/visualize_agent.py",
+      "scripts/visualize_multi_agents.py",
+      "tools/checkpoint_compatibility_report.py",
+      "tools/enhanced_training.py",
+      "tools/final_evaluation.py",
+      "tools/hybrid_runner.py",
+      "tools/performance_profile.py",
+      "tools/per_vehicle_evaluation.py",
+      "tools/rl_comprehensive_benchmark.py",
+      "tools/rl_diagnostic.py",
+      "tools/smoke_test_agents.py",
+      "tools/stress_test_suite.py",
+      "training/train_ppo.py"
+    ],
+    "rl_agents/ddqn_agent.py": [
+      "evaluation/compare_algorithms.py",
+      "integration/evaluate_hybrid.py",
+      "integration/full_hybrid_system.py",
+      "integration/hybrid_smart_city_controller.py",
+      "integration/train_hybrid.py",
+      "scripts/evaluate_milestones.py",
+      "scripts/train_all_agents.py",
+      "scripts/train_validation.py",
+      "scripts/train_validation_report.py",
+      "scripts/visualize_agent.py",
+      "scripts/visualize_multi_agents.py",
+      "tools/checkpoint_compatibility_report.py",
+      "tools/enhanced_training.py",
+      "tools/final_evaluation.py",
+      "tools/hybrid_runner.py",
+      "tools/performance_profile.py",
+      "tools/per_vehicle_evaluation.py",
+      "tools/rl_comprehensive_benchmark.py",
+      "tools/rl_diagnostic.py",
+      "tools/smoke_test_agents.py",
+      "tools/stress_test_suite.py",
+      "training/train_ddqn.py"
+    ],
+    "utils/project_paths.py": [
+      "evaluation/compare_all_algorithms.py",
+      "evaluation/evaluate_aco.py",
+      "tools/performance_profile.py",
+      "tools/stress_test_suite.py"
+    ],
+    "evaluation/compare_all_algorithms.py": [
+      "evaluation/evaluate_aco.py"
+    ],
+    "integration/hybrid_emergency_controller.py": [
+      "evaluation/validate_predictive_corridor.py",
+      "integration/run_emergency_system.py",
+      "scripts/demo_predictive_corridor.py",
+      "scripts/run_emergency_optimization_validation.py",
+      "scripts/run_stop_audit.py",
+      "scripts/run_stop_audit_after.py",
+      "scripts/run_stop_audit_short.py"
+    ],
+    "integration/rl_pinn_aco_integration.py": [
+      "integration/full_hybrid_system.py",
+      "integration/hybrid_emergency_controller.py"
+    ],
+    "integration/hybrid_smart_city_controller.py": [
+      "integration/full_hybrid_system.py",
+      "integration/hybrid_emergency_controller.py",
+      "integration/rl_pinn_aco_integration.py"
+    ],
+    "aco_routing/route_optimizer.py": [
+      "integration/hybrid_emergency_controller.py",
+      "integration/rl_pinn_aco_integration.py"
+    ],
+    "emergency_system/aggressive_emergency_handler.py": [
+      "integration/hybrid_emergency_controller.py"
+    ],
+    "aco_routing/aco_router.py": [
+      "integration/hybrid_emergency_controller.py",
+      "integration/rl_pinn_aco_integration.py",
+      "tools/smoke_test_aco.py"
+    ],
+    "aco_routing/pheromone_manager.py": [
+      "integration/hybrid_emergency_controller.py",
+      "integration/rl_pinn_aco_integration.py",
+      "tools/smoke_test_aco.py"
+    ],
+    "utils/monitoring.py": [
+      "integration/rl_pinn_aco_integration.py",
+      "integration/run_emergency_system.py",
+      "tools/hybrid_runner.py"
+    ],
+    "scripts/generate_routes.py": [
+      "scripts/demo_validation.py",
+      "scripts/evaluate_milestones.py",
+      "scripts/trace_ev_arrival.py",
+      "scripts/train_all_agents.py",
+      "scripts/train_validation.py",
+      "scripts/train_validation_report.py",
+      "tools/enhanced_training.py",
+      "training/train_ddqn.py",
+      "training/train_dqn.py",
+      "training/train_ppo.py"
+    ],
+    "scripts/metrics_collector.py": [
+      "scripts/run_simulation.py"
+    ],
+    "training/train_ddqn.py": [
+      "tools/ddqn_sweep.py"
+    ],
+    "utils/telemetry.py": [
+      "tools/hybrid_runner.py",
+      "tools/production_readiness_report.py"
+    ]
+  }
+}

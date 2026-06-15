@@ -1,0 +1,32 @@
+{
+    "dqn": {
+        "wait": 8.19832402234637,
+        "queue": 1.5698324022346368,
+        "avg_speed": 11.862437689407503,
+        "throughput": 336.0,
+        "switches": 20,
+        "reward_ema": -26068.862802979213,
+        "emergency_delay": 1150483.0,
+        "reward": -1416.0005435192045
+    },
+    "ddqn": {
+        "wait": 6.838888888888889,
+        "queue": 1.5361111111111112,
+        "avg_speed": 11.94608493683893,
+        "throughput": 382.0,
+        "switches": 0,
+        "reward_ema": -25516.722893795228,
+        "emergency_delay": 1106263.0,
+        "reward": -1424.0
+    },
+    "ppo": {
+        "wait": 6.838888888888889,
+        "queue": 1.5361111111111112,
+        "avg_speed": 11.94608493683893,
+        "throughput": 382.0,
+        "switches": 0,
+        "reward_ema": -25516.722893795228,
+        "emergency_delay": 1106263.0,
+        "reward": -1424.0
+    }
+}

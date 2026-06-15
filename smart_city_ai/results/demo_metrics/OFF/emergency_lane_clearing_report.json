@@ -1,0 +1,8 @@
+{
+  "lane_change_attempts": 0,
+  "lane_change_successes": 0,
+  "unique_lane_change_attempted": 0,
+  "unique_lane_change_successes": 0,
+  "vehicles_moved_aside": [],
+  "events": []
+}

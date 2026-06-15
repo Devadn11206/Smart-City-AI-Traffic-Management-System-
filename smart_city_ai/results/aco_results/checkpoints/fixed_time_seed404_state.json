@@ -1,0 +1,7 @@
+{
+  "aco_enabled": true,
+  "current_predictions": {},
+  "mode": "fixed_time_seed404",
+  "pinn_enabled": true,
+  "step": 500
+}

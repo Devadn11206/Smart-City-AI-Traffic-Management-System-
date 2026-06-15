@@ -1,0 +1,14 @@
+{
+  "step": 90,
+  "mode": "rl_pinn_aco_benchmark",
+  "timestamp": 1779902029.7976372,
+  "emergency_vehicle_count": 20,
+  "active_corridor_tls": 1,
+  "emergency_phase_count": 10,
+  "wait": 0.03333333333333333,
+  "queue": 0.06666666666666667,
+  "avg_speed": 13.567712665700656,
+  "throughput": 4.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}

@@ -1,0 +1,504 @@
+{
+  "lane_change_attempts": 40,
+  "lane_change_successes": 16,
+  "unique_lane_change_attempted": 9,
+  "unique_lane_change_successes": 4,
+  "vehicles_moved_aside": [
+    "flow_hw_wb.0",
+    "flow_hw_wb.2",
+    "flow_rr_ccw.1",
+    "flow_hw_wb.1"
+  ],
+  "events": [
+    {
+      "step": 1,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 1,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 2,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 2,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 3,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 3,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 4,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 4,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 5,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 5,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 6,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 6,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 7,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 7,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 8,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_1",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 8,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 9,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 9,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 10,
+      "vehicle_id": "flow_hw_wb.0",
+      "current_edge": "hw5_to_hw4",
+      "current_lane": "hw5_to_hw4_0",
+      "future_route": [
+        "hw5_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_hw4",
+        "hw4_to_hw3",
+        "hw3_to_cz2",
+        "cz2_to_hw3",
+        "hw3_to_hw2",
+        "hw2_to_hw1"
+      ],
+      "corridor_length_m": 451.83,
+      "corridor_edges": [
+        "hw5_to_hw4"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    },
+    {
+      "step": 10,
+      "vehicle_id": "flow_rr_ccw.0",
+      "current_edge": "rr1_to_rr6",
+      "current_lane": "rr1_to_rr6_0",
+      "future_route": [
+        "rr1_to_rr6",
+        "rr6_to_hw1",
+        "hw1_to_hw2",
+        "hw2_to_hw1",
+        "hw1_to_rr1",
+        "rr1_to_rr2",
+        "rr2_to_rr1"
+      ],
+      "corridor_length_m": 1573.81,
+      "corridor_edges": [
+        "rr1_to_rr6"
+      ],
+      "vehicles_moved_aside": [],
+      "lane_changes_forced": 0,
+      "vehicles_rerouted": 0,
+      "vehicles_slowed": 0,
+      "vehicles_remaining_in_corridor": []
+    }
+  ]
+}

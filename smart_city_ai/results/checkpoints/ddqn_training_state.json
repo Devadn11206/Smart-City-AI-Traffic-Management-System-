@@ -1,0 +1,8 @@
+{
+  "best_reward": 301776.2135955605,
+  "checkpoint": "results\\checkpoints\\ddqn_final.pth",
+  "episode": 199,
+  "epsilon": 0.3669578217261671,
+  "final": true,
+  "reward_history_len": 200
+}

@@ -1,0 +1,264 @@
+{
+  "canonical_root": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints",
+  "active_dir": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active",
+  "archive_dir": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive",
+  "registry": {
+    "dqn": {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_dqn_model_best.pth",
+      "algorithm": "dqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": true,
+      "compatible": true,
+      "reason": "ok",
+      "saved_state_dim": 9,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(9 -> 64 -> 64 -> 4)",
+      "metadata": {},
+      "source_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_dqn_model_best.pth",
+      "active_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\dqn.pth"
+    },
+    "ddqn": {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ddqn_model_best.pth",
+      "algorithm": "ddqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": true,
+      "compatible": true,
+      "reason": "ok",
+      "saved_state_dim": 9,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(9 -> 64 -> 64 -> 4)",
+      "metadata": {},
+      "source_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ddqn_model_best.pth",
+      "active_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ddqn.pth"
+    },
+    "ppo": {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ppo_model_best.pth",
+      "algorithm": "ppo",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": true,
+      "compatible": true,
+      "reason": "ok",
+      "saved_state_dim": 9,
+      "saved_action_dim": 4,
+      "saved_architecture": "ActorCritic(actor: 9 -> 64 -> 64 -> 4, critic: 9 -> 64 -> 64 -> 1)",
+      "metadata": {},
+      "source_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ppo_model_best.pth",
+      "active_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ppo.pth"
+    }
+  },
+  "archived_incompatible": [
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_dqn_model_best.pth",
+      "algorithm": "dqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(7 -> 64 -> 64 -> 4)",
+      "metadata": {
+        "agent": "dqn",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_dqn_model_best.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_dqn_model_final.pth",
+      "algorithm": "dqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(7 -> 64 -> 64 -> 4)",
+      "metadata": {
+        "agent": "dqn",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_dqn_model_final.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_dqn_model.pth",
+      "algorithm": "dqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(7 -> 64 -> 64 -> 4)",
+      "metadata": {
+        "agent": "dqn",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_dqn_model.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_ddqn_model_best.pth",
+      "algorithm": "ddqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(7 -> 64 -> 64 -> 4)",
+      "metadata": {
+        "agent": "ddqn",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_ddqn_model_best.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_ddqn_model_final.pth",
+      "algorithm": "ddqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(7 -> 64 -> 64 -> 4)",
+      "metadata": {
+        "agent": "ddqn",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_ddqn_model_final.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_ddqn_model.pth",
+      "algorithm": "ddqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(7 -> 64 -> 64 -> 4)",
+      "metadata": {
+        "agent": "ddqn",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_ddqn_model.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\hybrid_results\\hybrid_ddqn_model_best.pth",
+      "algorithm": "ddqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(7 -> 64 -> 64 -> 4)",
+      "metadata": {
+        "agent": "ddqn",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_ddqn_model_best.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\hybrid_results\\hybrid_ddqn_model_final.pth",
+      "algorithm": "ddqn",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "QNetwork(7 -> 64 -> 64 -> 4)",
+      "metadata": {
+        "agent": "ddqn",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_ddqn_model_final.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_ppo_model_best.pth",
+      "algorithm": "ppo",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "ActorCritic(actor: 7 -> 64 -> 64 -> 4, critic: 7 -> 64 -> 64 -> 1)",
+      "metadata": {
+        "agent": "ppo",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_ppo_model_best.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_ppo_model_final.pth",
+      "algorithm": "ppo",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "ActorCritic(actor: 7 -> 64 -> 64 -> 4, critic: 7 -> 64 -> 64 -> 1)",
+      "metadata": {
+        "agent": "ppo",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_ppo_model_final.pth"
+    },
+    {
+      "path": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\results\\hybrid_results\\hybrid_ppo_model.pth",
+      "algorithm": "ppo",
+      "expected_state_dim": 9,
+      "expected_action_dim": 4,
+      "strict_load_ok": false,
+      "compatible": false,
+      "reason": "dimension mismatch",
+      "saved_state_dim": 7,
+      "saved_action_dim": 4,
+      "saved_architecture": "ActorCritic(actor: 7 -> 64 -> 64 -> 4, critic: 7 -> 64 -> 64 -> 1)",
+      "metadata": {
+        "agent": "ppo",
+        "state_dim": 7,
+        "action_dim": 4,
+        "version": "migrated-1.0"
+      },
+      "archived_to": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\archive\\20260531_124753\\hybrid_ppo_model.pth"
+    }
+  ],
+  "generated_at": "2026-05-31T07:17:53Z"
+}

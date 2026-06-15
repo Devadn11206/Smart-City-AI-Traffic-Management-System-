@@ -1,0 +1,25 @@
+{
+  "method": "Hybrid DQN",
+  "seed": 101,
+  "reward_mean": -6.273334123825717,
+  "wait_mean": 2.8448275862068964,
+  "queue_mean": 0.6637931034482759,
+  "reward_std": 0.0,
+  "wait_std": 0.0,
+  "queue_std": 0.0,
+  "speed_mean": 12.768093125255369,
+  "throughput_mean": 35.0,
+  "switches_mean": 20.0,
+  "load_ok": true,
+  "full_load": true,
+  "partial_load": false,
+  "compatibility": {
+    "load_ok": true,
+    "full_load": true,
+    "partial_load": false,
+    "matched_keys": 6,
+    "mismatched_keys": 0,
+    "missing_keys": 0,
+    "unexpected_keys": 0
+  }
+}

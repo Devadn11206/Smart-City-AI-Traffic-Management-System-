@@ -1,0 +1,11 @@
+{
+  "lane_change_attempts": 4,
+  "lane_change_successes": 2,
+  "lane_change_success_rate": 0.5,
+  "vehicles_moved_aside": [
+    "flow_hw_wb.0",
+    "flow_hw_wb.1"
+  ],
+  "validation_status": "PASS",
+  "notes": "Emergency lane clearing now results in successful SUMO lane changes."
+}

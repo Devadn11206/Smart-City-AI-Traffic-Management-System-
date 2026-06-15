@@ -1,0 +1,7 @@
+{
+  "aco_enabled": true,
+  "current_predictions": {},
+  "mode": "hybrid_ddqn_seed202",
+  "pinn_enabled": true,
+  "step": 500
+}

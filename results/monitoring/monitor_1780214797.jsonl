@@ -1,0 +1,11 @@
+{"timestamp": 1780214797.3236716, "rss": 208547840, "vms": 592183296, "cpu_percent": 0.0, "cpu_times": {"user": 1.734375, "system": 0.96875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214807.3242276, "rss": 281726976, "vms": 662679552, "cpu_percent": 70.2, "cpu_times": {"user": 5.609375, "system": 4.109375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214817.3250673, "rss": 281731072, "vms": 662679552, "cpu_percent": 67.5, "cpu_times": {"user": 9.0, "system": 7.46875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214827.3256056, "rss": 284352512, "vms": 662687744, "cpu_percent": 73.9, "cpu_times": {"user": 12.515625, "system": 11.34375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214837.326426, "rss": 284352512, "vms": 662687744, "cpu_percent": 72.0, "cpu_times": {"user": 15.828125, "system": 15.234375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214847.3271925, "rss": 284352512, "vms": 662687744, "cpu_percent": 75.3, "cpu_times": {"user": 19.546875, "system": 19.046875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214857.3279285, "rss": 284278784, "vms": 662564864, "cpu_percent": 72.2, "cpu_times": {"user": 23.234375, "system": 22.578125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214867.328269, "rss": 284282880, "vms": 662564864, "cpu_percent": 72.3, "cpu_times": {"user": 26.609375, "system": 26.4375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214877.3285737, "rss": 284282880, "vms": 662564864, "cpu_percent": 71.6, "cpu_times": {"user": 30.0625, "system": 30.140625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214887.3290348, "rss": 284282880, "vms": 662564864, "cpu_percent": 70.2, "cpu_times": {"user": 33.421875, "system": 33.796875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780214897.3293602, "rss": 284282880, "vms": 662564864, "cpu_percent": 73.4, "cpu_times": {"user": 37.21875, "system": 37.34375, "children_user": 0.0, "children_system": 0.0}}

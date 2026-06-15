@@ -1,0 +1,44 @@
+{
+  "dqn": {
+    "agent": "dqn",
+    "checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\dqn.pth",
+    "pinn_checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\pinn_models\\trained_pinn.pth",
+    "load_seconds": 0.002437600000121165,
+    "mean_action_seconds": 0.0003851400002531591,
+    "mean_env_step_seconds": 0.02226695999961521,
+    "max_env_step_seconds": 0.035567400000218186,
+    "steps_executed": 10,
+    "reward": 0.0,
+    "wait": 0.0,
+    "queue": 0.2,
+    "throughput": 0.0
+  },
+  "ddqn": {
+    "agent": "ddqn",
+    "checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ddqn.pth",
+    "pinn_checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\pinn_models\\trained_pinn.pth",
+    "load_seconds": 0.0041495000004942995,
+    "mean_action_seconds": 0.00045438999968610004,
+    "mean_env_step_seconds": 0.020415699999830395,
+    "max_env_step_seconds": 0.029344399999899906,
+    "steps_executed": 10,
+    "reward": 0.0,
+    "wait": 0.6,
+    "queue": 0.3,
+    "throughput": 0.0
+  },
+  "ppo": {
+    "agent": "ppo",
+    "checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ppo.pth",
+    "pinn_checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\pinn_models\\trained_pinn.pth",
+    "load_seconds": 0.006500800000139861,
+    "mean_action_seconds": 0.0011372999997547595,
+    "mean_env_step_seconds": 0.019300250000014785,
+    "max_env_step_seconds": 0.027655299998514238,
+    "steps_executed": 10,
+    "reward": 0.0,
+    "wait": 0.0,
+    "queue": 0.1,
+    "throughput": 0.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "wait": 1.0,
+  "queue": 0.3333333333333333,
+  "avg_speed": 13.355213555794483,
+  "throughput": 0.0,
+  "switches": 1,
+  "reward_ema": 0.04101004525203764,
+  "checkpoint_status": "loaded",
+  "checkpoint_path": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoint_backups\\20260530_203534\\hybrid_ddqn_model_best.pth"
+}

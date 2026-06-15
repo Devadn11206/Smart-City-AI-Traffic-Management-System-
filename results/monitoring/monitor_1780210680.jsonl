@@ -1,0 +1,2 @@
+{"timestamp": 1780210680.4241855, "rss": 208601088, "vms": 559546368, "cpu_percent": 0.0, "cpu_times": {"user": 1.9375, "system": 0.953125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780210685.4248261, "rss": 281292800, "vms": 660750336, "cpu_percent": 57.5, "cpu_times": {"user": 3.671875, "system": 2.09375, "children_user": 0.0, "children_system": 0.0}}

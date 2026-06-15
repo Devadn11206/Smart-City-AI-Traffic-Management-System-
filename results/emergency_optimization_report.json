@@ -1,0 +1,15 @@
+{
+  "aco_reroutes": 0,
+  "average_emergency_delay": 0.0,
+  "corridor_activation_count": 0,
+  "corridor_success_rate": 0.0,
+  "emergency_completed": 0,
+  "emergency_detected": 0,
+  "emergency_eta_improvement": 0.0,
+  "emergency_stop_count": 0,
+  "emergency_stop_rate": 0.0,
+  "green_wave_success_rate": 0.0,
+  "lane_change_success_rate": 0.0,
+  "protected_corridor_logs": [],
+  "traffic_clearing_actions": 0
+}

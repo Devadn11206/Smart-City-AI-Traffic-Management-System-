@@ -1,0 +1,1137 @@
+{
+  "analyze_imports.py": [
+    "json",
+    "ast",
+    "os"
+  ],
+  "test_metrics.py": [
+    "sys",
+    "pathlib",
+    "integration.hybrid_env"
+  ],
+  "__init__.py": [],
+  "aco_routing/aco_router.py": [
+    "collections",
+    "random",
+    "math"
+  ],
+  "aco_routing/congestion_costs.py": [
+    "traci",
+    "numpy"
+  ],
+  "aco_routing/emergency_router.py": [
+    "traci",
+    "logging",
+    "aco_routing.congestion_costs"
+  ],
+  "aco_routing/pheromone_manager.py": [
+    "csv",
+    "random",
+    "math"
+  ],
+  "aco_routing/route_optimizer.py": [
+    "aco_routing.congestion_costs",
+    "collections",
+    "time",
+    "csv",
+    "json",
+    "os",
+    "heapq",
+    "traci",
+    "logging"
+  ],
+  "dashboards/app.py": [
+    "sys",
+    "datetime",
+    "traci_controller",
+    "math",
+    "torch",
+    "__future__",
+    "pathlib",
+    "streamlit",
+    "numpy",
+    "utils.reliability",
+    "plotly.express",
+    "socket",
+    "time",
+    "pandas",
+    "logging",
+    "plotly.graph_objects",
+    "json",
+    "os",
+    "subprocess",
+    "pinn_models.pinn_model"
+  ],
+  "dashboards/traci_controller.py": [
+    "pathlib",
+    "__future__",
+    "statistics",
+    "collections",
+    "typing",
+    "time",
+    "threading",
+    "traci",
+    "logging",
+    "subprocess"
+  ],
+  "emergency_system/accident_manager.py": [
+    "dataclasses",
+    "__future__",
+    "typing"
+  ],
+  "emergency_system/aggressive_emergency_handler.py": [
+    "traffic_signal_prioritizer",
+    "typing",
+    "time",
+    "traci",
+    "logging",
+    "__future__"
+  ],
+  "emergency_system/clearing_monitor.py": [
+    "json",
+    "pathlib",
+    "threading"
+  ],
+  "emergency_system/emergency_detector.py": [
+    "dataclasses",
+    "emergency_priority",
+    "typing",
+    "traci",
+    "__future__"
+  ],
+  "emergency_system/emergency_eta_predictor.py": [
+    "dataclasses",
+    "__future__",
+    "typing",
+    "aco_routing.congestion_costs"
+  ],
+  "emergency_system/emergency_priority.py": [
+    "dataclasses",
+    "__future__"
+  ],
+  "emergency_system/emergency_router.py": [
+    "aco_routing.congestion_costs",
+    "collections",
+    "typing",
+    "traci",
+    "logging",
+    "__future__"
+  ],
+  "emergency_system/green_corridor_manager.py": [
+    "dataclasses",
+    "typing",
+    "os",
+    "traci",
+    "logging",
+    "__future__"
+  ],
+  "emergency_system/hospital_router.py": [
+    "emergency_eta_predictor",
+    "dataclasses",
+    "__future__",
+    "typing"
+  ],
+  "emergency_system/multi_emergency_manager.py": [
+    "emergency_detector",
+    "dataclasses",
+    "emergency_priority",
+    "typing",
+    "__future__"
+  ],
+  "emergency_system/traffic_clearing.py": [
+    "clearing_monitor",
+    "typing",
+    "time",
+    "json",
+    "os",
+    "traci",
+    "logging",
+    "__future__"
+  ],
+  "emergency_system/traffic_signal_prioritizer.py": [
+    "typing",
+    "time",
+    "traci",
+    "logging",
+    "__future__"
+  ],
+  "emergency_system/__init__.py": [
+    "hospital_router",
+    "emergency_detector",
+    "emergency_priority",
+    "emergency_router",
+    "traffic_clearing",
+    "accident_manager",
+    "multi_emergency_manager",
+    "emergency_eta_predictor",
+    "green_corridor_manager"
+  ],
+  "environment/sumo_environment.py": [
+    "traci.main",
+    "sys",
+    "numpy",
+    "collections",
+    "time",
+    "sumolib",
+    "os",
+    "traci",
+    "logging"
+  ],
+  "environment/__init__.py": [],
+  "evaluation/compare_algorithms.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "matplotlib.pyplot",
+    "environment.sumo_environment",
+    "sys",
+    "utils.checkpoint_registry",
+    "statistics",
+    "numpy",
+    "integration.hybrid_env",
+    "rl_agents.ppo_agent",
+    "os",
+    "torch",
+    "rl_agents.ddqn_agent"
+  ],
+  "evaluation/compare_all_algorithms.py": [
+    "pathlib",
+    "sys",
+    "json",
+    "ast",
+    "utils.project_paths",
+    "os",
+    "smart_city_ai.utils.project_paths",
+    "subprocess",
+    "argparse"
+  ],
+  "evaluation/evaluate_aco.py": [
+    "sys",
+    "utils.project_paths",
+    "argparse",
+    "evaluation.compare_all_algorithms"
+  ],
+  "evaluation/metrics_analysis.py": [
+    "numpy",
+    "matplotlib.pyplot"
+  ],
+  "evaluation/run_split_comparisons.py": [
+    "sys",
+    "pathlib",
+    "subprocess",
+    "argparse"
+  ],
+  "evaluation/validate_predictive_corridor.py": [
+    "pathlib",
+    "dataclasses",
+    "sys",
+    "emergency_system.green_corridor_manager",
+    "typing",
+    "integration.hybrid_emergency_controller",
+    "csv",
+    "json",
+    "time",
+    "os",
+    "traci",
+    "logging",
+    "__future__"
+  ],
+  "integration/debug_emergency_flow.py": [
+    "pathlib",
+    "environment.sumo_environment",
+    "emergency_system.emergency_detector",
+    "sys",
+    "emergency_system.green_corridor_manager",
+    "collections",
+    "utils.network_utils",
+    "json",
+    "os",
+    "emergency_system.emergency_priority",
+    "traci",
+    "logging"
+  ],
+  "integration/evaluate_hybrid.py": [
+    "rl_agents.dqn_agent",
+    "sys",
+    "statistics",
+    "integration.hybrid_env",
+    "rl_agents.ppo_agent",
+    "os",
+    "pandas",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "integration/full_hybrid_system.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "integration.rl_pinn_aco_integration",
+    "sys",
+    "utils.checkpoint_registry",
+    "collections",
+    "typing",
+    "json",
+    "time",
+    "rl_agents.ppo_agent",
+    "os",
+    "integration.hybrid_smart_city_controller",
+    "torch",
+    "__future__",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "integration/hybrid_emergency_controller.py": [
+    "integration.rl_pinn_aco_integration",
+    "emergency_system.aggressive_emergency_handler",
+    "emergency_system.emergency_detector",
+    "emergency_system.emergency_eta_predictor",
+    "emergency_system.multi_emergency_manager",
+    "sys",
+    "traci.main",
+    "emergency_system.hospital_router",
+    "__future__",
+    "pathlib",
+    "aco_routing.pheromone_manager",
+    "typing",
+    "csv",
+    "emergency_system.traffic_clearing",
+    "dataclasses",
+    "environment.sumo_environment",
+    "aco_routing.aco_router",
+    "emergency_system.green_corridor_manager",
+    "time",
+    "emergency_system.clearing_monitor",
+    "integration.hybrid_smart_city_controller",
+    "emergency_system.emergency_priority",
+    "traci",
+    "logging",
+    "aco_routing.congestion_costs",
+    "emergency_system.emergency_router",
+    "aco_routing.route_optimizer",
+    "json",
+    "os",
+    "emergency_system.accident_manager"
+  ],
+  "integration/hybrid_env.py": [
+    "environment.sumo_environment",
+    "logging",
+    "sys",
+    "numpy",
+    "utils.reliability",
+    "os",
+    "torch",
+    "traci",
+    "pinn_models.pinn_model"
+  ],
+  "integration/hybrid_smart_city_controller.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "numpy",
+    "collections",
+    "time",
+    "rl_agents.ppo_agent",
+    "os",
+    "traci",
+    "logging",
+    "rl_agents.ddqn_agent"
+  ],
+  "integration/rl_pinn_aco_integration.py": [
+    "emergency_system.multi_emergency_manager",
+    "sys",
+    "torch",
+    "utils.monitoring",
+    "aco_routing.pheromone_manager",
+    "numpy",
+    "csv",
+    "utils.reliability",
+    "emergency_system.traffic_clearing",
+    "environment.sumo_environment",
+    "aco_routing.aco_router",
+    "time",
+    "integration.hybrid_smart_city_controller",
+    "traci",
+    "logging",
+    "argparse",
+    "aco_routing.congestion_costs",
+    "emergency_system.emergency_router",
+    "aco_routing.route_optimizer",
+    "json",
+    "sumolib",
+    "os",
+    "pinn_models.pinn_model"
+  ],
+  "integration/rl_telemetry_client.py": [
+    "json",
+    "urllib.request",
+    "urllib.error"
+  ],
+  "integration/rl_telemetry_server.py": [
+    "pathlib",
+    "logging",
+    "json",
+    "time",
+    "csv",
+    "threading",
+    "http.server",
+    "argparse"
+  ],
+  "integration/run_emergency_system.py": [
+    "pathlib",
+    "sys",
+    "integration.hybrid_emergency_controller",
+    "os",
+    "logging",
+    "utils.monitoring",
+    "argparse"
+  ],
+  "integration/train_hybrid.py": [
+    "rl_agents.dqn_agent",
+    "sys",
+    "utils.checkpoint_registry",
+    "numpy",
+    "integration.hybrid_env",
+    "random",
+    "time",
+    "utils.reliability",
+    "rl_agents.ppo_agent",
+    "os",
+    "torch",
+    "logging",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "integration/__init__.py": [],
+  "pinn_models/pinn_model.py": [
+    "torch",
+    "torch.nn"
+  ],
+  "pinn_models/train_pinn.py": [
+    "torch.optim",
+    "pinn_model",
+    "numpy",
+    "torch.utils.data",
+    "os",
+    "pandas",
+    "torch",
+    "argparse"
+  ],
+  "rl_agents/ddqn_agent.py": [
+    "torch.nn",
+    "torch.optim",
+    "utils.checkpoint_registry",
+    "numpy",
+    "collections",
+    "random",
+    "utils.reliability",
+    "os",
+    "torch"
+  ],
+  "rl_agents/dqn_agent.py": [
+    "torch.nn",
+    "torch.optim",
+    "utils.checkpoint_registry",
+    "numpy",
+    "collections",
+    "random",
+    "utils.reliability",
+    "os",
+    "torch"
+  ],
+  "rl_agents/ppo_agent.py": [
+    "torch.nn",
+    "torch.optim",
+    "utils.checkpoint_registry",
+    "numpy",
+    "utils.reliability",
+    "os",
+    "torch"
+  ],
+  "scripts/collect_traci_latency.py": [
+    "pathlib",
+    "sys",
+    "csv",
+    "time",
+    "dashboards.traci_controller",
+    "argparse"
+  ],
+  "scripts/compare_pinn.py": [
+    "pathlib",
+    "sys",
+    "json",
+    "os",
+    "subprocess"
+  ],
+  "scripts/demo_predictive_corridor.py": [
+    "pathlib",
+    "sys",
+    "integration.hybrid_emergency_controller",
+    "json",
+    "time",
+    "os",
+    "logging",
+    "__future__",
+    "argparse"
+  ],
+  "scripts/demo_validation.py": [
+    "pathlib",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "json",
+    "rl_agents.ppo_agent",
+    "os",
+    "traci"
+  ],
+  "scripts/evaluate_milestones.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "json",
+    "rl_agents.ppo_agent",
+    "os",
+    "pandas",
+    "rl_agents.ddqn_agent"
+  ],
+  "scripts/generate_emergency_aco_coordination_report.py": [
+    "csv",
+    "pathlib",
+    "json",
+    "collections"
+  ],
+  "scripts/generate_emergency_stop_root_cause_report.py": [
+    "csv",
+    "pathlib",
+    "json",
+    "collections"
+  ],
+  "scripts/generate_network.py": [
+    "xml.dom",
+    "xml.etree.ElementTree",
+    "subprocess",
+    "os"
+  ],
+  "scripts/generate_routes.py": [
+    "random",
+    "xml.etree.ElementTree",
+    "os",
+    "xml.dom"
+  ],
+  "scripts/metrics_collector.py": [
+    "sys",
+    "traci",
+    "csv",
+    "os"
+  ],
+  "scripts/read_metrics.py": [
+    "json",
+    "sys"
+  ],
+  "scripts/run_convergence_training.py": [
+    "sys",
+    "pathlib",
+    "subprocess",
+    "os"
+  ],
+  "scripts/run_emergency_optimization_validation.py": [
+    "pathlib",
+    "sys",
+    "integration.hybrid_emergency_controller",
+    "json",
+    "emergency_system.clearing_monitor",
+    "csv",
+    "os"
+  ],
+  "scripts/run_simulation.py": [
+    "pathlib",
+    "metrics_collector",
+    "sys",
+    "os",
+    "traci"
+  ],
+  "scripts/run_stop_audit.py": [
+    "pathlib",
+    "sys",
+    "integration.hybrid_emergency_controller",
+    "os",
+    "logging"
+  ],
+  "scripts/run_stop_audit_after.py": [
+    "pathlib",
+    "sys",
+    "integration.hybrid_emergency_controller",
+    "os",
+    "logging"
+  ],
+  "scripts/run_stop_audit_short.py": [
+    "pathlib",
+    "sys",
+    "integration.hybrid_emergency_controller",
+    "os",
+    "logging"
+  ],
+  "scripts/run_validation.py": [
+    "sys",
+    "subprocess",
+    "os"
+  ],
+  "scripts/scratch_eval.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "environment.sumo_environment",
+    "sys",
+    "rl_agents.ppo_agent",
+    "os"
+  ],
+  "scripts/start_demo.py": [
+    "sys",
+    "subprocess",
+    "os"
+  ],
+  "scripts/trace_ev_arrival.py": [
+    "pathlib",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "os",
+    "traci"
+  ],
+  "scripts/traffic_generator.py": [
+    "sys",
+    "subprocess",
+    "os"
+  ],
+  "scripts/train_all.py": [
+    "sys",
+    "subprocess",
+    "os"
+  ],
+  "scripts/train_all_agents.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "csv",
+    "json",
+    "time",
+    "rl_agents.ppo_agent",
+    "os",
+    "traceback",
+    "subprocess",
+    "rl_agents.ddqn_agent"
+  ],
+  "scripts/train_validation.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "csv",
+    "json",
+    "time",
+    "rl_agents.ppo_agent",
+    "os",
+    "traceback",
+    "subprocess",
+    "rl_agents.ddqn_agent"
+  ],
+  "scripts/train_validation_report.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "csv",
+    "json",
+    "time",
+    "pandas",
+    "rl_agents.ppo_agent",
+    "os",
+    "traceback",
+    "subprocess",
+    "rl_agents.ddqn_agent"
+  ],
+  "scripts/vehicle_generator.py": [
+    "xml.dom",
+    "xml.etree.ElementTree"
+  ],
+  "scripts/visualize_agent.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "environment.sumo_environment",
+    "sys",
+    "rl_agents.ppo_agent",
+    "os",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "scripts/visualize_multi_agents.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "numpy",
+    "time",
+    "sumolib",
+    "rl_agents.ppo_agent",
+    "os",
+    "traci",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/analyze_reward_and_signal_stability.py": [
+    "pathlib",
+    "matplotlib.pyplot",
+    "pandas",
+    "__future__",
+    "argparse"
+  ],
+  "tools/checkpoint_compatibility_report.py": [
+    "rl_agents.dqn_agent",
+    "dataclasses",
+    "sys",
+    "json",
+    "rl_agents.ppo_agent",
+    "os",
+    "torch",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/check_checkpoints.py": [
+    "json",
+    "torch",
+    "os"
+  ],
+  "tools/complete_repro_runs.py": [
+    "subprocess",
+    "os"
+  ],
+  "tools/controlled_behavior_experiments.py": [
+    "pathlib",
+    "sys",
+    "collections",
+    "typing",
+    "csv",
+    "json",
+    "subprocess",
+    "os",
+    "pandas",
+    "__future__",
+    "argparse"
+  ],
+  "tools/ddqn_sweep.py": [
+    "itertools",
+    "pathlib",
+    "sys",
+    "time",
+    "csv",
+    "training.train_ddqn",
+    "argparse"
+  ],
+  "tools/dqn_signal_stability_eval.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "statistics",
+    "integration.hybrid_env",
+    "csv",
+    "os",
+    "pandas",
+    "traci",
+    "__future__",
+    "argparse"
+  ],
+  "tools/enhanced_training.py": [
+    "sys",
+    "torch",
+    "pathlib",
+    "numpy",
+    "utils.reliability",
+    "rl_agents.dqn_agent",
+    "dataclasses",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "statistics",
+    "integration.hybrid_env",
+    "random",
+    "time",
+    "logging",
+    "argparse",
+    "rl_agents.ddqn_agent",
+    "json",
+    "rl_agents.ppo_agent",
+    "os"
+  ],
+  "tools/final_evaluation.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "utils.checkpoint_registry",
+    "statistics",
+    "numpy",
+    "integration.hybrid_env",
+    "rl_agents.ppo_agent",
+    "os",
+    "pandas",
+    "torch",
+    "logging",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/full_project_validation.py": [
+    "pathlib",
+    "__future__",
+    "sys",
+    "json",
+    "time",
+    "subprocess",
+    "argparse"
+  ],
+  "tools/hybrid_runner.py": [
+    "rl_agents.dqn_agent",
+    "sys",
+    "utils.checkpoint_registry",
+    "integration.hybrid_env",
+    "json",
+    "time",
+    "rl_agents.ppo_agent",
+    "os",
+    "torch",
+    "utils.monitoring",
+    "utils.telemetry",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/inspect_ddqn.py": [
+    "pathlib",
+    "sys",
+    "os",
+    "pandas",
+    "torch"
+  ],
+  "tools/migrate_checkpoints.py": [
+    "pathlib",
+    "shutil",
+    "sys",
+    "time",
+    "utils.reliability",
+    "os",
+    "torch"
+  ],
+  "tools/monitor_training.py": [
+    "pathlib",
+    "sys",
+    "numpy",
+    "os",
+    "pandas"
+  ],
+  "tools/performance_profile.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "utils.checkpoint_registry",
+    "integration.hybrid_env",
+    "json",
+    "time",
+    "rl_agents.ppo_agent",
+    "utils.project_paths",
+    "os",
+    "__future__",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/per_vehicle_evaluation.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "numpy",
+    "integration.hybrid_env",
+    "rl_agents.ppo_agent",
+    "os",
+    "pandas",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/plot_per_vehicle.py": [
+    "pathlib",
+    "matplotlib.pyplot",
+    "os",
+    "pandas",
+    "seaborn"
+  ],
+  "tools/plot_training_curves.py": [
+    "pathlib",
+    "matplotlib.pyplot",
+    "sys",
+    "numpy",
+    "os",
+    "pandas",
+    "seaborn"
+  ],
+  "tools/production_readiness_report.py": [
+    "pathlib",
+    "sys",
+    "utils.telemetry",
+    "json",
+    "os",
+    "__future__"
+  ],
+  "tools/regenerate_benchmark_report.py": [
+    "json",
+    "statistics",
+    "os",
+    "math"
+  ],
+  "tools/resume_remaining_hybrid_runs.py": [
+    "sys",
+    "subprocess",
+    "os"
+  ],
+  "tools/rl_comprehensive_benchmark.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "utils.checkpoint_registry",
+    "statistics",
+    "numpy",
+    "collections",
+    "integration.hybrid_env",
+    "csv",
+    "json",
+    "utils.reliability",
+    "rl_agents.ppo_agent",
+    "os",
+    "torch",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/rl_diagnostic.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "utils.checkpoint_registry",
+    "numpy",
+    "collections",
+    "integration.hybrid_env",
+    "json",
+    "rl_agents.ppo_agent",
+    "os",
+    "torch",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/rl_improvement_pipeline.py": [
+    "pathlib",
+    "sys",
+    "time",
+    "json",
+    "os",
+    "traceback",
+    "subprocess",
+    "argparse"
+  ],
+  "tools/run_full_repro_benchmark.py": [
+    "statistics",
+    "json",
+    "time",
+    "os",
+    "math",
+    "subprocess"
+  ],
+  "tools/sanity_imports.py": [
+    "sys",
+    "importlib"
+  ],
+  "tools/smoke_test_aco.py": [
+    "sys",
+    "aco_routing.pheromone_manager",
+    "aco_routing.aco_router",
+    "os"
+  ],
+  "tools/smoke_test_agents.py": [
+    "rl_agents.dqn_agent",
+    "sys",
+    "rl_agents.ppo_agent",
+    "os",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/smoke_test_integration.py": [
+    "pathlib",
+    "environment.sumo_environment",
+    "sys",
+    "random",
+    "time",
+    "os"
+  ],
+  "tools/smoke_test_pinn.py": [
+    "sys",
+    "utils.reliability",
+    "os",
+    "torch",
+    "pinn_models.pinn_model"
+  ],
+  "tools/stress_test_suite.py": [
+    "pathlib",
+    "rl_agents.dqn_agent",
+    "sys",
+    "utils.checkpoint_registry",
+    "integration.hybrid_env",
+    "json",
+    "rl_agents.ppo_agent",
+    "utils.project_paths",
+    "os",
+    "__future__",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "tools/verify_checkpoints.py": [
+    "sys",
+    "utils.reliability",
+    "pathlib",
+    "torch"
+  ],
+  "traffic_data/traffic_dataset_generator.py": [
+    "sys",
+    "numpy",
+    "sumolib",
+    "os",
+    "pandas",
+    "traci",
+    "argparse"
+  ],
+  "training/train_ddqn.py": [
+    "pathlib",
+    "matplotlib.pyplot",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "numpy",
+    "random",
+    "json",
+    "utils.reliability",
+    "os",
+    "torch",
+    "logging",
+    "argparse",
+    "rl_agents.ddqn_agent"
+  ],
+  "training/train_dqn.py": [
+    "rl_agents.dqn_agent",
+    "matplotlib.pyplot",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "numpy",
+    "random",
+    "os"
+  ],
+  "training/train_ppo.py": [
+    "matplotlib.pyplot",
+    "environment.sumo_environment",
+    "scripts.generate_routes",
+    "sys",
+    "numpy",
+    "random",
+    "rl_agents.ppo_agent",
+    "os",
+    "logging"
+  ],
+  "utils/checkpoint_registry.py": [
+    "pathlib",
+    "dataclasses",
+    "shutil",
+    "__future__",
+    "reliability",
+    "typing",
+    "json",
+    "time",
+    "os",
+    "torch",
+    "subprocess"
+  ],
+  "utils/improved_reward.py": [
+    "numpy"
+  ],
+  "utils/monitoring.py": [
+    "pathlib",
+    "time",
+    "json",
+    "threading",
+    "psutil"
+  ],
+  "utils/project_paths.py": [
+    "sys",
+    "pathlib",
+    "__future__",
+    "typing"
+  ],
+  "utils/reliability.py": [
+    "pathlib",
+    "typing",
+    "json",
+    "torch",
+    "__future__"
+  ],
+  "utils/telemetry.py": [
+    "pathlib",
+    "dataclasses",
+    "typing",
+    "csv",
+    "time",
+    "json",
+    "sqlite3",
+    "__future__"
+  ],
+  "visualizations/congestion_heatmap.py": [
+    "pathlib",
+    "matplotlib.pyplot",
+    "sys",
+    "numpy",
+    "seaborn",
+    "os",
+    "pandas",
+    "torch",
+    "pinn_models.pinn_model"
+  ],
+  "visualizations/emergency_comparison_plots.py": [
+    "seaborn",
+    "matplotlib.pyplot",
+    "os",
+    "pandas"
+  ],
+  "visualizations/emergency_corridor_analysis.py": [
+    "pathlib",
+    "matplotlib.pyplot",
+    "pandas",
+    "seaborn",
+    "argparse"
+  ],
+  "visualizations/plot_hybrid_comparison.py": [
+    "seaborn",
+    "matplotlib.pyplot",
+    "os",
+    "pandas"
+  ],
+  "visualizations/plot_pinn_predictions.py": [
+    "matplotlib.pyplot",
+    "sys",
+    "numpy",
+    "seaborn",
+    "os",
+    "pandas",
+    "torch",
+    "pinn_models.pinn_model"
+  ],
+  "visualizations/route_efficiency.py": [
+    "pathlib",
+    "matplotlib.pyplot",
+    "json",
+    "pandas",
+    "seaborn",
+    "argparse"
+  ],
+  "visualizations/pheromone_maps/plot_pheromones.py": [
+    "csv",
+    "sys",
+    "matplotlib.pyplot",
+    "os"
+  ]
+}

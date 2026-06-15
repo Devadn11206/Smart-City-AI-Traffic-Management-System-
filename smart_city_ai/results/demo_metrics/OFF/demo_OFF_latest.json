@@ -1,0 +1,20 @@
+{
+  "step": 1,
+  "timestamp": 1780468922.7120693,
+  "mode": "full_emergency",
+  "emergency_vehicle_count": 2,
+  "active_corridor_tls": 0,
+  "blocked_edges": 0,
+  "emergency_phase_count": 0,
+  "pinn_prediction_count": 0,
+  "pinn_prediction_mean": 0.0,
+  "pinn_prediction_max": 0.0,
+  "wait": 0.0,
+  "queue": 0.0,
+  "avg_speed": 13.890000000000002,
+  "throughput": 0.0,
+  "switches": 0,
+  "reward_ema": 0.0,
+  "last_cleared_slowed": 0,
+  "last_cleared_rerouted": 0
+}

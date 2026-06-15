@@ -1,0 +1,60 @@
+{
+  "rl_decision": {
+    "average_seconds": 0.5388742100010859,
+    "max_seconds": 4.351748800007044,
+    "total_seconds": 5.388742100010859,
+    "percent_of_total_runtime": 79.5494475074006,
+    "samples": 10
+  },
+  "pinn_inference": {
+    "average_seconds": 3.4199998481199146e-06,
+    "max_seconds": 5.299996701069176e-06,
+    "total_seconds": 3.4199998481199145e-05,
+    "percent_of_total_runtime": 0.0005048656872868065,
+    "samples": 10
+  },
+  "aco_routing": {
+    "average_seconds": 0.046155500000168104,
+    "max_seconds": 0.047277899997425266,
+    "total_seconds": 0.09231100000033621,
+    "percent_of_total_runtime": 1.362709313713047,
+    "samples": 2
+  },
+  "emergency_corridor": {
+    "average_seconds": 0.03707734000126948,
+    "max_seconds": 0.06091170001309365,
+    "total_seconds": 0.7415468000253895,
+    "percent_of_total_runtime": 10.94682899053227,
+    "samples": 20
+  },
+  "traffic_clearing": {
+    "average_seconds": 0.0022503449996293056,
+    "max_seconds": 0.006594799997401424,
+    "total_seconds": 0.045006899992586114,
+    "percent_of_total_runtime": 0.6643988452191547,
+    "samples": 20
+  },
+  "telemetry_logging": {
+    "average_seconds": 0.0,
+    "max_seconds": 0.0,
+    "total_seconds": 0.0,
+    "percent_of_total_runtime": 0.0,
+    "samples": 0
+  },
+  "sumo_traci": {
+    "average_seconds": 0.0019341799968970008,
+    "max_seconds": 0.008396000004722737,
+    "total_seconds": 0.019341799968970008,
+    "percent_of_total_runtime": 0.2855266540455001,
+    "samples": 10
+  },
+  "run_loop": {
+    "average_seconds": 0.6632142400019803,
+    "max_seconds": 4.556672599996091,
+    "total_seconds": 6.632142400019802,
+    "percent_of_total_runtime": 97.9047157797583,
+    "samples": 10
+  },
+  "total_runtime_seconds": 6.774078599992208,
+  "total_measured_seconds": 12.919125200016424
+}

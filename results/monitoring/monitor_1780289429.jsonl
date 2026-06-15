@@ -1,0 +1,5 @@
+{"timestamp": 1780289429.272455, "rss": 508899328, "vms": 1141141504, "cpu_percent": 0.0, "cpu_times": {"user": 2.3125, "system": 2.578125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780289439.2814238, "rss": 1051738112, "vms": 1931829248, "cpu_percent": 68.3, "cpu_times": {"user": 6.546875, "system": 5.171875, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780289449.2896936, "rss": 1051795456, "vms": 1891909632, "cpu_percent": 77.5, "cpu_times": {"user": 11.984375, "system": 7.5, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780289459.3004346, "rss": 1052205056, "vms": 1893294080, "cpu_percent": 74.3, "cpu_times": {"user": 16.59375, "system": 10.328125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780289469.3100097, "rss": 1051869184, "vms": 1893363712, "cpu_percent": 75.2, "cpu_times": {"user": 21.0, "system": 13.4375, "children_user": 0.0, "children_system": 0.0}}

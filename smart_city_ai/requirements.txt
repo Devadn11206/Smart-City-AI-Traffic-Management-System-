@@ -1,0 +1,12 @@
+torch
+numpy
+pandas
+matplotlib
+streamlit
+traci
+sumolib
+stable-baselines3
+scipy
+scikit-learn
+seaborn
+networkx

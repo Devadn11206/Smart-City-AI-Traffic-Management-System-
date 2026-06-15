@@ -1,0 +1,7 @@
+{
+  "aco_enabled": true,
+  "current_predictions": {},
+  "mode": "audit_long_seed42",
+  "pinn_enabled": true,
+  "step": 2000
+}

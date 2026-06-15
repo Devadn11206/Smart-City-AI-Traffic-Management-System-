@@ -1,0 +1,11 @@
+{"timestamp": 1780638523.0278027, "rss": 209326080, "vms": 558653440, "cpu_percent": 0.0, "cpu_times": {"user": 1.6875, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638533.0283206, "rss": 210264064, "vms": 558727168, "cpu_percent": 0.2, "cpu_times": {"user": 1.703125, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638543.0292268, "rss": 210264064, "vms": 558727168, "cpu_percent": 0.0, "cpu_times": {"user": 1.703125, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638553.030063, "rss": 210268160, "vms": 558727168, "cpu_percent": 0.3, "cpu_times": {"user": 1.734375, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638563.0361974, "rss": 210268160, "vms": 558727168, "cpu_percent": 0.3, "cpu_times": {"user": 1.765625, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638573.0369477, "rss": 210268160, "vms": 558727168, "cpu_percent": 0.0, "cpu_times": {"user": 1.765625, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638583.0381293, "rss": 210202624, "vms": 558612480, "cpu_percent": 0.0, "cpu_times": {"user": 1.765625, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638593.0391214, "rss": 210202624, "vms": 558612480, "cpu_percent": 0.0, "cpu_times": {"user": 1.765625, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638603.0404649, "rss": 210206720, "vms": 558612480, "cpu_percent": 0.5, "cpu_times": {"user": 1.765625, "system": 0.890625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638613.0413215, "rss": 210206720, "vms": 558612480, "cpu_percent": 0.2, "cpu_times": {"user": 1.765625, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780638623.04186, "rss": 210206720, "vms": 558612480, "cpu_percent": 0.0, "cpu_times": {"user": 1.765625, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}

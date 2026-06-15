@@ -1,0 +1,17 @@
+{
+  "step": 2000,
+  "mode": "audit_long_seed42",
+  "timestamp": 1780151316.4872339,
+  "emergency_vehicle_count": 187,
+  "active_corridor_tls": 3,
+  "emergency_phase_count": 11,
+  "pinn_prediction_count": 0,
+  "pinn_prediction_mean": 0.0,
+  "pinn_prediction_max": 0.0,
+  "wait": 15.3275,
+  "queue": 15.2105,
+  "avg_speed": 8.12184571003596,
+  "throughput": 813.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}

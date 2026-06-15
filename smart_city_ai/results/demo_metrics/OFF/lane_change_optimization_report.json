@@ -1,0 +1,11 @@
+{
+  "lane_change_attempts": 0,
+  "lane_change_successes": 0,
+  "lane_change_success_rate": 0.0,
+  "unique_lane_change_attempted": 0,
+  "unique_lane_change_successes": 0,
+  "vehicles_moved_aside": 0,
+  "emergency_reroutes": 0,
+  "clear_calls": 0,
+  "events": []
+}

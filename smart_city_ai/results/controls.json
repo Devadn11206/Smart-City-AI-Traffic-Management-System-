@@ -1,0 +1,11 @@
+{
+  "rl_enabled": false,
+  "rl_algo": "DQN",
+  "pinn_enabled": true,
+  "pinn_horizons": "0,30,60,90,120",
+  "pinn_bins": 46,
+  "aco_enabled": false,
+  "pheromone": 1.0,
+  "heuristic": 1.0,
+  "emergency_enabled": true
+}

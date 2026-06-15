@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "dqn": {
+      "agent": "dqn",
+      "checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\dqn.pth",
+      "pinn_checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\pinn_models\\trained_pinn.pth",
+      "episodes": 1,
+      "duration": 120,
+      "failures": 0,
+      "results": [
+        {
+          "episode": 0,
+          "seed": 9000,
+          "steps": 24,
+          "reward": 0.0,
+          "wait": 0.7916666666666666,
+          "queue": 0.25,
+          "throughput": 1.0
+        }
+      ]
+    },
+    "ddqn": {
+      "agent": "ddqn",
+      "checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ddqn.pth",
+      "pinn_checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\pinn_models\\trained_pinn.pth",
+      "episodes": 1,
+      "duration": 120,
+      "failures": 0,
+      "results": [
+        {
+          "episode": 0,
+          "seed": 9000,
+          "steps": 24,
+          "reward": 0.0,
+          "wait": 2.2083333333333335,
+          "queue": 0.5833333333333334,
+          "throughput": 0.0
+        }
+      ]
+    },
+    "ppo": {
+      "agent": "ppo",
+      "checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\results\\checkpoints\\active\\ppo.pth",
+      "pinn_checkpoint": "C:\\Users\\ddnan\\intenrship_IIIT\\smart_city_ai\\pinn_models\\trained_pinn.pth",
+      "episodes": 1,
+      "duration": 120,
+      "failures": 0,
+      "results": [
+        {
+          "episode": 0,
+          "seed": 9000,
+          "steps": 23,
+          "reward": 0.0,
+          "wait": 3.5652173913043477,
+          "queue": 0.782608695652174,
+          "throughput": 0.0
+        }
+      ]
+    }
+  }
+}

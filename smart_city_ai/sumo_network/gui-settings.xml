@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings>
+    <scheme name="real world">
+        <opengl alphablend="true"/>
+        <edges>
+            <colorScheme name="by vclass">
+                <entry color="204,204,204" name="passenger"/>
+                <entry color="153,153,153" name="truck"/>
+                <entry color="red" name="emergency"/>
+            </colorScheme>
+            <width value="1"/>
+        </edges>
+        <vehicles>
+            <colorScheme name="given vehicle/type/route color">
+            </colorScheme>
+        </vehicles>
+    </scheme>
+    <delay value="20"/>
+</viewsettings>

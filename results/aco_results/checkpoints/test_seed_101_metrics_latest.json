@@ -1,0 +1,17 @@
+{
+  "step": 40,
+  "mode": "test_seed_101",
+  "timestamp": 1780226025.3592224,
+  "emergency_vehicle_count": 14,
+  "active_corridor_tls": 1,
+  "emergency_phase_count": 10,
+  "pinn_prediction_count": 0,
+  "pinn_prediction_mean": 0.0,
+  "pinn_prediction_max": 0.0,
+  "wait": 0.1,
+  "queue": 0.075,
+  "avg_speed": 13.661620980305846,
+  "throughput": 0.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}

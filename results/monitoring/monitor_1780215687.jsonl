@@ -1,0 +1,13 @@
+{"timestamp": 1780215687.8664446, "rss": 209387520, "vms": 558952448, "cpu_percent": 0.0, "cpu_times": {"user": 2.109375, "system": 0.8125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215697.8670342, "rss": 210251776, "vms": 559026176, "cpu_percent": 0.5, "cpu_times": {"user": 2.140625, "system": 0.828125, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215707.867529, "rss": 210251776, "vms": 559026176, "cpu_percent": 0.2, "cpu_times": {"user": 2.140625, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215717.8688512, "rss": 210251776, "vms": 559026176, "cpu_percent": 0.3, "cpu_times": {"user": 2.171875, "system": 0.84375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215727.8744054, "rss": 210255872, "vms": 559026176, "cpu_percent": 0.2, "cpu_times": {"user": 2.171875, "system": 0.859375, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215737.8750474, "rss": 210259968, "vms": 559026176, "cpu_percent": 0.5, "cpu_times": {"user": 2.171875, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215747.875559, "rss": 210190336, "vms": 558907392, "cpu_percent": 0.0, "cpu_times": {"user": 2.171875, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215757.875957, "rss": 210190336, "vms": 558907392, "cpu_percent": 0.0, "cpu_times": {"user": 2.171875, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215767.8763356, "rss": 210198528, "vms": 558907392, "cpu_percent": 0.2, "cpu_times": {"user": 2.1875, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215777.876825, "rss": 210198528, "vms": 558907392, "cpu_percent": 0.0, "cpu_times": {"user": 2.1875, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215787.8772933, "rss": 210198528, "vms": 558907392, "cpu_percent": 0.0, "cpu_times": {"user": 2.1875, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215797.8777518, "rss": 210202624, "vms": 558907392, "cpu_percent": 0.0, "cpu_times": {"user": 2.1875, "system": 0.90625, "children_user": 0.0, "children_system": 0.0}}
+{"timestamp": 1780215807.8784003, "rss": 210198528, "vms": 558874624, "cpu_percent": 0.2, "cpu_times": {"user": 2.1875, "system": 0.921875, "children_user": 0.0, "children_system": 0.0}}

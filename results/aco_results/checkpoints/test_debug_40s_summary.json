@@ -1,0 +1,15 @@
+{
+  "average_congested_edge_utilization": 1.925,
+  "average_queue_length": 0.025,
+  "average_travel_time": 0.0,
+  "average_waiting_time": 0.0,
+  "completed_vehicles": 0,
+  "duration": 40,
+  "enable_aco": true,
+  "enable_pinn": false,
+  "mode": "test_debug_40s",
+  "reroutes": 21,
+  "route_changes": 24,
+  "seed": 100,
+  "throughput": 0.0
+}

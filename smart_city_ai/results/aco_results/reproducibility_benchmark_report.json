@@ -1,0 +1,295 @@
+{
+  "per_seed": {
+    "fixed_time": {
+      "101": {
+        "step": 600,
+        "mode": "fixed_time_seed101",
+        "timestamp": 1780201466.6101155,
+        "emergency_vehicle_count": 122,
+        "active_corridor_tls": 4,
+        "emergency_phase_count": 11,
+        "pinn_prediction_count": 0,
+        "pinn_prediction_mean": 0.0,
+        "pinn_prediction_max": 0.0,
+        "wait": 2.9066666666666667,
+        "queue": 2.26,
+        "avg_speed": 11.4044845666623,
+        "throughput": 108.0,
+        "switches": 0,
+        "reward_ema": 0.0
+      },
+      "202": {
+        "step": 600,
+        "mode": "fixed_time_seed202",
+        "timestamp": 1780202241.5441458,
+        "emergency_vehicle_count": 94,
+        "active_corridor_tls": 3,
+        "emergency_phase_count": 11,
+        "pinn_prediction_count": 0,
+        "pinn_prediction_mean": 0.0,
+        "pinn_prediction_max": 0.0,
+        "wait": 4.58,
+        "queue": 4.6066666666666665,
+        "avg_speed": 11.07298084037696,
+        "throughput": 189.0,
+        "switches": 0,
+        "reward_ema": 0.0
+      },
+      "303": {
+        "step": 600,
+        "mode": "fixed_time_seed303",
+        "timestamp": 1780203057.388843,
+        "emergency_vehicle_count": 108,
+        "active_corridor_tls": 4,
+        "emergency_phase_count": 11,
+        "pinn_prediction_count": 0,
+        "pinn_prediction_mean": 0.0,
+        "pinn_prediction_max": 0.0,
+        "wait": 4.473333333333334,
+        "queue": 4.5,
+        "avg_speed": 11.090496394157976,
+        "throughput": 71.0,
+        "switches": 0,
+        "reward_ema": 0.0
+      },
+      "404": {
+        "step": 600,
+        "mode": "fixed_time_seed404",
+        "timestamp": 1780203866.6227367,
+        "emergency_vehicle_count": 115,
+        "active_corridor_tls": 4,
+        "emergency_phase_count": 11,
+        "pinn_prediction_count": 0,
+        "pinn_prediction_mean": 0.0,
+        "pinn_prediction_max": 0.0,
+        "wait": 4.37,
+        "queue": 4.3966666666666665,
+        "avg_speed": 10.51440070655774,
+        "throughput": 63.0,
+        "switches": 0,
+        "reward_ema": 0.0
+      },
+      "505": {
+        "step": 600,
+        "mode": "fixed_time_seed505",
+        "timestamp": 1780204614.6243947,
+        "emergency_vehicle_count": 85,
+        "active_corridor_tls": 4,
+        "emergency_phase_count": 11,
+        "pinn_prediction_count": 0,
+        "pinn_prediction_mean": 0.0,
+        "pinn_prediction_max": 0.0,
+        "wait": 5.211666666666667,
+        "queue": 5.153333333333333,
+        "avg_speed": 9.629189215488223,
+        "throughput": 158.0,
+        "switches": 0,
+        "reward_ema": 0.0
+      }
+    },
+    "hybrid_dqn": {
+      "101": null,
+      "202": null,
+      "303": null,
+      "404": null,
+      "505": null
+    },
+    "hybrid_ddqn": {
+      "101": null,
+      "202": null,
+      "303": null,
+      "404": null,
+      "505": null
+    },
+    "hybrid_ppo": {
+      "101": null,
+      "202": null,
+      "303": null,
+      "404": null,
+      "505": null
+    }
+  },
+  "aggregates": {
+    "fixed_time": {
+      "wait": {
+        "mean": 4.308333333333334,
+        "std": 0.8493396127449714,
+        "95ci": [
+          3.3317744065296306,
+          5.2848922601370365
+        ]
+      },
+      "queue": {
+        "mean": 4.183333333333334,
+        "std": 1.1141264639966946,
+        "95ci": [
+          2.9023261511910943,
+          5.464340515475573
+        ]
+      },
+      "throughput": {
+        "mean": 117.8,
+        "std": 54.71471465702805,
+        "95ci": [
+          54.88977866562541,
+          180.71022133437458
+        ]
+      },
+      "avg_speed": {
+        "mean": 10.74231034464864,
+        "std": 0.7000058309463594,
+        "95ci": [
+          9.937453332485976,
+          11.547167356811304
+        ]
+      }
+    },
+    "hybrid_dqn": {
+      "wait": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "queue": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "throughput": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "avg_speed": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "hybrid_ddqn": {
+      "wait": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "queue": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "throughput": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "avg_speed": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "hybrid_ppo": {
+      "wait": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "queue": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "throughput": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "avg_speed": {
+        "mean": 0.0,
+        "std": 0.0,
+        "95ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "reliability": {
+    "checkpoint_loads": {
+      "fixed_time": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "crashes": 15,
+    "exceptions": 0,
+    "monitoring_files": []
+  },
+  "methods": [
+    "fixed_time",
+    "hybrid_dqn",
+    "hybrid_ddqn",
+    "hybrid_ppo"
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "ranking_by_wait": [
+    [
+      "hybrid_dqn",
+      0.0
+    ],
+    [
+      "hybrid_ddqn",
+      0.0
+    ],
+    [
+      "hybrid_ppo",
+      0.0
+    ],
+    [
+      "fixed_time",
+      4.308333333333334
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<routes>
+    <route id="highway_eastbound" edges="hw1_to_hw2 hw2_to_hw3 hw3_to_hw4 hw4_to_hw5"/>
+    <route id="highway_westbound" edges="hw5_to_hw4 hw4_to_hw3 hw3_to_hw2 hw2_to_hw1"/>
+    <route id="ring_clockwise" edges="rr1_to_rr2 rr2_to_rr3 rr3_to_rr4 rr4_to_rr5 rr5_to_rr6 rr6_to_rr1"/>
+    <route id="ring_counterclock" edges="rr1_to_rr6 rr6_to_rr5 rr5_to_rr4 rr4_to_rr3 rr3_to_rr2 rr2_to_rr1"/>
+    <flow id="flow_hw_eb" type="all_vtypes" route="highway_eastbound" begin="0" end="3600" vehsPerHour="853"/>
+    <flow id="flow_hw_wb" type="all_vtypes" route="highway_westbound" begin="0" end="3600" vehsPerHour="853"/>
+    <flow id="flow_hw_eb_trk" type="all_vtypes" route="highway_eastbound" begin="0" end="3600" vehsPerHour="127"/>
+    <flow id="flow_rr_cw" type="all_vtypes" route="ring_clockwise" begin="0" end="3600" vehsPerHour="437"/>
+    <flow id="flow_rr_ccw" type="all_vtypes" route="ring_counterclock" begin="0" end="3600" vehsPerHour="437"/>
+    <trip id="amb1" type="ambulance" depart="100" from="cz1_to_cz3" to="hw5_to_rb2"/>
+    <trip id="pol1" type="police" depart="300" from="hw1_to_hw2" to="cz2_to_cz4"/>
+    <trip id="fire1" type="fire_truck" depart="500" from="rz1_to_rz3" to="rr3_to_rr4"/>
+</routes>

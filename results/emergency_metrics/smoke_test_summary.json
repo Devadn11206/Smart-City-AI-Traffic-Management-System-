@@ -1,0 +1,18 @@
+{
+  "mode": "full_emergency",
+  "duration": 50,
+  "emergency_vehicle_count": 17,
+  "active_corridors": 17,
+  "blocked_edges": 0,
+  "wait": 0.32,
+  "queue": 0.24,
+  "avg_speed": 13.276681365336199,
+  "throughput": 1.0,
+  "switches": 0,
+  "reward_ema": 0.0,
+  "eta_seconds": 262.1561904761905,
+  "delay_probability": 1.0,
+  "route_risk": 0.5,
+  "congestion_impact": 0.0,
+  "corridor_efficiency": 0.6
+}

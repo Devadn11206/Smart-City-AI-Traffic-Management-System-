@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<nodes>
+    <node id="hw1" x="-1000" y="0" type="priority"/>
+    <node id="hw2" x="-500" y="0" type="traffic_light"/>
+    <node id="hw3" x="0" y="0" type="traffic_light"/>
+    <node id="hw4" x="500" y="0" type="traffic_light"/>
+    <node id="hw5" x="1000" y="0" type="priority"/>
+    <node id="rr1" x="-800" y="800" type="priority"/>
+    <node id="rr2" x="0" y="1000" type="traffic_light"/>
+    <node id="rr3" x="800" y="800" type="priority"/>
+    <node id="rr4" x="800" y="-800" type="priority"/>
+    <node id="rr5" x="0" y="-1000" type="traffic_light"/>
+    <node id="rr6" x="-800" y="-800" type="priority"/>
+    <node id="cz1" x="-200" y="300" type="traffic_light"/>
+    <node id="cz2" x="200" y="300" type="traffic_light"/>
+    <node id="cz3" x="-200" y="600" type="traffic_light"/>
+    <node id="cz4" x="200" y="600" type="traffic_light"/>
+    <node id="rz1" x="-400" y="-300" type="priority"/>
+    <node id="rz2" x="-600" y="-500" type="priority"/>
+    <node id="rz3" x="-200" y="-500" type="priority"/>
+    <node id="rb1" x="400" y="-400" type="priority"/>
+    <node id="rb2" x="500" y="-300" type="priority"/>
+    <node id="rb3" x="600" y="-400" type="priority"/>
+    <node id="rb4" x="500" y="-500" type="priority"/>
+    <node id="tj1" x="-500" y="500" type="priority"/>
+    <node id="tj2" x="500" y="500" type="priority"/>
+</nodes>

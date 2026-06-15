@@ -1,0 +1,4222 @@
+{
+  "amb1": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz4_to_rr3_curve_0",
+    "road": "cz4_to_rr3_curve",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz4_to_rr3_curve_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz4_to_rr3_curve_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.1": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_1",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.10": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw4_0",
+    "road": "hw3_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.11": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_2",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.12": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw4_0",
+    "road": "hw3_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.13": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw4_1",
+    "road": "hw3_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.14": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_2",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.15": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw4_0",
+    "road": "hw3_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.16": {
+    "type": "fire_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw4_3",
+    "road": "hw3_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.17": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw3_0",
+    "road": "hw2_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.18": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw3_0",
+    "road": "hw2_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.19": {
+    "type": "delivery_van",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":hw2_27_1",
+    "road": ":hw2_27",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":hw2_27_0",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_27_1",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_27_2",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_27_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.2": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_0",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.20": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_1",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.21": {
+    "type": "fire_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_1",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.22": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_2",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.23": {
+    "type": "sedan",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_2",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.24": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_1",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.25": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_2",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.26": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_2",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.27": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_0",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.28": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_2",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.29": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_0",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.3": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_0",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.30": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_1",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.31": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_0",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.4": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_2",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.5": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_1",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.7": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_1",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.8": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_2",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.9": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_1",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb_trk.1": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":hw4_18_0",
+    "road": ":hw4_18",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":hw4_18_0",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw4_18_1",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw4_18_2",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw4_18_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb_trk.2": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw4_2",
+    "road": "hw3_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb_trk.3": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_0",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb_trk.4": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_1",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.14": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":hw2_14_0",
+    "road": ":hw2_14",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":hw2_14_0",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_14_1",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_14_2",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_14_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.16": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_0",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.17": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_3",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.18": {
+    "type": "sedan",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_2",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.19": {
+    "type": "sedan",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_3",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.20": {
+    "type": "fire_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_0",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.21": {
+    "type": "fire_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_2",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.22": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_1",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.23": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":hw2_14_3",
+    "road": ":hw2_14",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":hw2_14_0",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_14_1",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_14_2",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_14_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.24": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_3",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.25": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_0",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.26": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_2",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.27": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_0",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.28": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_2",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.29": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_0",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.30": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_3",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.31": {
+    "type": "hatchback",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_3",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.32": {
+    "type": "suv",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_2",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.33": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw3_0",
+    "road": "hw4_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.34": {
+    "type": "delivery_van",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw3_0",
+    "road": "hw4_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.35": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_1",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.36": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_hw2_1",
+    "road": "hw3_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.37": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_hw4_3",
+    "road": "hw5_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.38": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":hw4_6_1",
+    "road": ":hw4_6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":hw4_6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw4_6_1",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw4_6_2",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw4_6_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.39": {
+    "type": "fire_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_hw4_2",
+    "road": "hw5_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.40": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_hw4_1",
+    "road": "hw5_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.41": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_hw4_0",
+    "road": "hw5_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.42": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_hw4_0",
+    "road": "hw5_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.43": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_hw4_0",
+    "road": "hw5_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_wb.44": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_hw4_0",
+    "road": "hw5_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.0": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_1",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.1": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_1",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.10": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_0",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.11": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_1",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.12": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_0",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.13": {
+    "type": "suv",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_1",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.14": {
+    "type": "suv",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":rr6_2_0",
+    "road": ":rr6_2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":rr6_2_0",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.15": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.16": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.17": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.18": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.19": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.2": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_0",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.20": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.21": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.22": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.23": {
+    "type": "hatchback",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.24": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.25": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.26": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.27": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.28": {
+    "type": "suv",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.29": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.3": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_1",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.30": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.31": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.32": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.33": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.34": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.35": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.4": {
+    "type": "fire_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_0",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.5": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_1",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.6": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_0",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.7": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_1",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.8": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_1",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_ccw.9": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_0",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.0": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.1": {
+    "type": "suv",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.10": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_1",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.11": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_0",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.12": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_1",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.13": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_1",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.14": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.15": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_1",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.16": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.17": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.18": {
+    "type": "hatchback",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.19": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.2": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.20": {
+    "type": "hatchback",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.21": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.22": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.23": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.24": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.25": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.26": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.27": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.28": {
+    "type": "sedan",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.29": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.3": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.30": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.31": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.32": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_1",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.33": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_0",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.34": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_0",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.4": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_0",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.5": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":rr1_1_1",
+    "road": ":rr1_1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":rr1_1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": ":rr1_1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.6": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_0",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.7": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_0",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.8": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_1",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_rr_cw.9": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_0",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh0": {
+    "type": "delivery_van",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "tj2_to_cz2_0",
+    "road": "tj2_to_cz2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "tj2_to_cz2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "tj2_to_cz2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh1": {
+    "type": "hatchback",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz1_to_hw2_1",
+    "road": "cz1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_hw2_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh10": {
+    "type": "sedan",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_0",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh12": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_tj1_0",
+    "road": "hw2_to_tj1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_tj1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_tj1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh14": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz3_to_rr5_0",
+    "road": "rz3_to_rr5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz3_to_rr5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rz3_to_rr5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh15": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr1_0",
+    "road": "rr6_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh16": {
+    "type": "suv",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_0",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh17": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_rr6_1",
+    "road": "hw1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh18": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz1_to_cz3_1",
+    "road": "cz1_to_cz3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz1_to_cz3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_cz3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_cz3_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh19": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz3_to_rr5_0",
+    "road": "rz3_to_rr5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz3_to_rr5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rz3_to_rr5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh2": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr5_to_hw3_0",
+    "road": "rr5_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr5_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr5_to_hw3_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh20": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rb4_to_rr5_0",
+    "road": "rb4_to_rr5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rb4_to_rr5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rb4_to_rr5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh21": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr6_to_rr5_0",
+    "road": "rr6_to_rr5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr6_to_rr5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr6_to_rr5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh22": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz2_to_hw3_0",
+    "road": "cz2_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz2_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_hw3_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh23": {
+    "type": "delivery_van",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz3_to_rr2_0",
+    "road": "cz3_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz3_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz3_to_rr2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz3_to_rr2_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh24": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_rb1_1",
+    "road": "hw4_to_rb1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_rb1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_rb1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh25": {
+    "type": "sedan",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_tj2_0",
+    "road": "hw4_to_tj2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_tj2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_tj2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh28": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw3_1",
+    "road": "hw2_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_3",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh29": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_hw4_2",
+    "road": "hw5_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh3": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz3_to_rr5_0",
+    "road": "rz3_to_rr5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz3_to_rr5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rz3_to_rr5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh31": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_0",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh32": {
+    "type": "sedan",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz3_to_rr5_0",
+    "road": "rz3_to_rr5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz3_to_rr5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rz3_to_rr5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh33": {
+    "type": "fire_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw3_2",
+    "road": "hw2_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw3_3",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh34": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_rr2_0",
+    "road": "hw3_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh35": {
+    "type": "delivery_van",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":tj1_2_0",
+    "road": ":tj1_2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":tj1_2_0",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh36": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz1_to_hw2_0",
+    "road": "rz1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rz1_to_hw2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh37": {
+    "type": "fire_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr3_to_rr2_1",
+    "road": "rr3_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr3_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr3_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh38": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz1_to_rz2_0",
+    "road": "rz1_to_rz2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz1_to_rz2_0",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh39": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "tj1_to_hw2_0",
+    "road": "tj1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "tj1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "tj1_to_hw2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh4": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr3_to_tj2_0",
+    "road": "rr3_to_tj2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr3_to_tj2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr3_to_tj2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh40": {
+    "type": "logistics_vehicle",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":hw2_1_0",
+    "road": ":hw2_1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":hw2_1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": ":hw2_1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh41": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_cz3_0",
+    "road": "rr2_to_cz3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_cz3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_cz3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_cz3_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh42": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_rb2_0",
+    "road": "hw5_to_rb2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_rb2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_rb2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh43": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr3_to_rr4_0",
+    "road": "rr3_to_rr4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr3_to_rr4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr3_to_rr4_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh44": {
+    "type": "delivery_van",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr3_to_rr2_1",
+    "road": "rr3_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr3_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr3_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh45": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz2_to_cz4_1",
+    "road": "cz2_to_cz4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz2_to_cz4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_cz4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_cz4_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh46": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr5_to_rz3_1",
+    "road": "rr5_to_rz3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr5_to_rz3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr5_to_rz3_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh47": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz4_to_rr3_curve_0",
+    "road": "cz4_to_rr3_curve",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz4_to_rr3_curve_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz4_to_rr3_curve_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh48": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr3_to_hw5_1",
+    "road": "rr3_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr3_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr3_to_hw5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh49": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz2_to_cz1_2",
+    "road": "cz2_to_cz1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz2_to_cz1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_cz1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_cz1_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh5": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz1_to_hw2_1",
+    "road": "cz1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_hw2_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh50": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz2_to_hw3_0",
+    "road": "cz2_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz2_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_hw3_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh51": {
+    "type": "suv",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "tj2_to_cz2_0",
+    "road": "tj2_to_cz2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "tj2_to_cz2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "tj2_to_cz2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh52": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "tj1_to_cz1_1",
+    "road": "tj1_to_cz1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "tj1_to_cz1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "tj1_to_cz1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh53": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz4_to_cz2_2",
+    "road": "cz4_to_cz2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz4_to_cz2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz4_to_cz2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz4_to_cz2_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh54": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rb2_to_hw5_0",
+    "road": "rb2_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rb2_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rb2_to_hw5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh55": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz1_to_hw2_1",
+    "road": "rz1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rz1_to_hw2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh56": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rb1_to_hw4_1",
+    "road": "rb1_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rb1_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rb1_to_hw4_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh57": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz1_to_rz2_0",
+    "road": "rz1_to_rz2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz1_to_rz2_0",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh58": {
+    "type": "delivery_van",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw5_1",
+    "road": "hw4_to_hw5",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw5_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw5_3",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh59": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr2_to_rr1_0",
+    "road": "rr2_to_rr1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr2_to_rr1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr2_to_rr1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh6": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz1_to_hw2_0",
+    "road": "cz1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_hw2_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh60": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr5_to_rr4_1",
+    "road": "rr5_to_rr4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr5_to_rr4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr5_to_rr4_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh61": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr5_to_rr6_0",
+    "road": "rr5_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr5_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr5_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh62": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz1_to_cz2_0",
+    "road": "cz1_to_cz2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz1_to_cz2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_cz2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz1_to_cz2_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh63": {
+    "type": "hatchback",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": ":cz3_11_0",
+    "road": ":cz3_11",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": ":cz3_11_0",
+        "allowed": []
+      },
+      {
+        "lane_id": ":cz3_11_1",
+        "allowed": []
+      },
+      {
+        "lane_id": ":cz3_11_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh64": {
+    "type": "hatchback",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz2_to_rz3_0",
+    "road": "rz2_to_rz3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz2_to_rz3_0",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh65": {
+    "type": "mini_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw3_to_rr2_0",
+    "road": "hw3_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw3_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw3_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh66": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rz2_to_rz1_0",
+    "road": "rz2_to_rz1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rz2_to_rz1_0",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh67": {
+    "type": "container_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz2_to_tj2_0",
+    "road": "cz2_to_tj2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz2_to_tj2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_tj2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh68": {
+    "type": "bike",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz2_to_cz4_0",
+    "road": "cz2_to_cz4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz2_to_cz4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_cz4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_cz4_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh69": {
+    "type": "sedan",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr5_to_rr4_0",
+    "road": "rr5_to_rr4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr5_to_rr4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr5_to_rr4_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh7": {
+    "type": "car",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr6_1",
+    "road": "rr1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh70": {
+    "type": "ev",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rb3_to_rb4_0",
+    "road": "rb3_to_rb4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rb3_to_rb4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rb3_to_rb4_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh71": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_tj1_1",
+    "road": "hw2_to_tj1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_tj1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_tj1_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh72": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw5_to_rr4_0",
+    "road": "hw5_to_rr4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_rr4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_rr4_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh73": {
+    "type": "truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_0",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh74": {
+    "type": "cargo_truck",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw1_to_rr6_0",
+    "road": "hw1_to_rr6",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_rr6_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_rr6_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh75": {
+    "type": "taxi_cab",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "tj2_to_rr3_0",
+    "road": "tj2_to_rr3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "tj2_to_rr3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "tj2_to_rr3_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh76": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rb1_to_hw4_0",
+    "road": "rb1_to_hw4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rb1_to_hw4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rb1_to_hw4_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh77": {
+    "type": "ambulance",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz3_to_cz4_1",
+    "road": "cz3_to_cz4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz3_to_cz4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz3_to_cz4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz3_to_cz4_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh78": {
+    "type": "school_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw4_to_hw3_0",
+    "road": "hw4_to_hw3",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw4_to_hw3_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw4_to_hw3_3",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh79": {
+    "type": "hybrid",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_0",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh8": {
+    "type": "city_bus",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "hw2_to_hw1_0",
+    "road": "hw2_to_hw1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_hw1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_hw1_3",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh80": {
+    "type": "police",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "cz2_to_cz4_0",
+    "road": "cz2_to_cz4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "cz2_to_cz4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_cz4_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "cz2_to_cz4_2",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh9": {
+    "type": "suv",
+    "laneChangeMode": 1621,
+    "speedMode": 31,
+    "lane": "rr1_to_rr2_0",
+    "road": "rr1_to_rr2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "rr1_to_rr2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "rr1_to_rr2_1",
+        "allowed": []
+      }
+    ]
+  }
+}

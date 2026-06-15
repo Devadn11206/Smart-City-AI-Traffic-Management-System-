@@ -1,0 +1,16 @@
+{
+  "timestamp": 1780469005.440643,
+  "duration": 2000,
+  "seed": 42,
+  "modes": {
+    "OFF": {
+      "error": "name 'logger' is not defined"
+    },
+    "CURRENT": {
+      "error": "Connection closed by SUMO."
+    },
+    "IMPROVED": {
+      "error": "name 'logger' is not defined"
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "total_stop_count": 22,
+  "average_stop_duration_seconds": 11.772727272727273,
+  "counts_by_reason": {
+    "red_light": 13,
+    "queue_induced": 3,
+    "intersection": 0,
+    "unknown": 6
+  },
+  "stops": [
+    {
+      "vehicle_id": "amb1",
+      "edge": "cz1_to_cz3",
+      "start_step": 34,
+      "end_step": 35,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 4.211285714285728,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh11",
+      "edge": "hw4_to_hw3",
+      "start_step": 44,
+      "end_step": 55,
+      "duration_steps": 11,
+      "duration_seconds": 11,
+      "speed_before_stop": 19.33,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [
+        "rand_veh1"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_hw_eb.10",
+      "edge": "hw2_to_hw3",
+      "start_step": 89,
+      "end_step": 90,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 33.33,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "amb1",
+      "edge": "cz3_to_cz1",
+      "start_step": 61,
+      "end_step": 98,
+      "duration_steps": 37,
+      "duration_seconds": 37,
+      "speed_before_stop": 0.531285714285719,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_hw_wb.0",
+      "edge": "hw3_to_hw2",
+      "start_step": 51,
+      "end_step": 117,
+      "duration_steps": 66,
+      "duration_seconds": 66,
+      "speed_before_stop": 20.11081818181821,
+      "reason": "red_light",
+      "signal_state": "r",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh47",
+      "edge": "cz2_to_cz4",
+      "start_step": 118,
+      "end_step": 119,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 4.3398571428571575,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh47",
+      "edge": "cz4_to_cz2",
+      "start_step": 143,
+      "end_step": 144,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 4.852714285714301,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_hw_eb.15",
+      "edge": "hw2_to_hw3",
+      "start_step": 143,
+      "end_step": 145,
+      "duration_steps": 2,
+      "duration_seconds": 2,
+      "speed_before_stop": 19.825363636363644,
+      "reason": "red_light",
+      "signal_state": "r",
+      "vehicles_blocking": [
+        "rand_veh58"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_hw_wb.16",
+      "edge": "hw4_to_hw3",
+      "start_step": 140,
+      "end_step": 145,
+      "duration_steps": 5,
+      "duration_seconds": 5,
+      "speed_before_stop": 20.301839572192513,
+      "reason": "red_light",
+      "signal_state": "r",
+      "vehicles_blocking": [
+        "rand_veh11"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh33",
+      "edge": "hw2_to_hw1",
+      "start_step": 144,
+      "end_step": 155,
+      "duration_steps": 11,
+      "duration_seconds": 11,
+      "speed_before_stop": 1.7026079303092576,
+      "reason": "queue_induced",
+      "signal_state": null,
+      "vehicles_blocking": [
+        "rand_veh8"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh11",
+      "edge": "hw3_to_cz2",
+      "start_step": 84,
+      "end_step": 170,
+      "duration_steps": 86,
+      "duration_seconds": 86,
+      "speed_before_stop": 0.11257142857144409,
+      "reason": "queue_induced",
+      "signal_state": "G",
+      "vehicles_blocking": [
+        "rand_veh1"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh37",
+      "edge": "rr3_to_hw5",
+      "start_step": 169,
+      "end_step": 191,
+      "duration_steps": 22,
+      "duration_seconds": 22,
+      "speed_before_stop": 1.4897111553272815,
+      "reason": "queue_induced",
+      "signal_state": null,
+      "vehicles_blocking": [
+        "rand_veh0"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh48",
+      "edge": "rr2_to_rr1",
+      "start_step": 192,
+      "end_step": 193,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 6.917351924685407,
+      "reason": "unknown",
+      "signal_state": null,
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_rr_ccw.0",
+      "edge": "rr6_to_rr5",
+      "start_step": 202,
+      "end_step": 203,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 18.66,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh37",
+      "edge": "rr3_to_hw5",
+      "start_step": 199,
+      "end_step": 205,
+      "duration_steps": 6,
+      "duration_seconds": 6,
+      "speed_before_stop": 0.5004999999999766,
+      "reason": "unknown",
+      "signal_state": null,
+      "vehicles_blocking": [
+        "rand_veh20"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh45",
+      "edge": "hw4_to_hw5",
+      "start_step": 223,
+      "end_step": 224,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 11.15306985082279,
+      "reason": "unknown",
+      "signal_state": null,
+      "vehicles_blocking": [
+        "rand_veh54"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh102",
+      "edge": "rb4_to_rb1",
+      "start_step": 230,
+      "end_step": 231,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 10.02,
+      "reason": "unknown",
+      "signal_state": null,
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "rand_veh47",
+      "edge": "rr3_to_tj2",
+      "start_step": 231,
+      "end_step": 232,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 5.122714285714316,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_rr_cw.21",
+      "edge": "rr2_to_rr3",
+      "start_step": 242,
+      "end_step": 243,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 10.192857142857179,
+      "reason": "unknown",
+      "signal_state": null,
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_hw_wb.25",
+      "edge": "hw3_to_cz2",
+      "start_step": 254,
+      "end_step": 255,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 6.083166666666706,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_rr_cw.21",
+      "edge": "rr3_to_tj2",
+      "start_step": 277,
+      "end_step": 278,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 5.3770000000000495,
+      "reason": "red_light",
+      "signal_state": "G",
+      "vehicles_blocking": [
+        "flow_hw_wb.16"
+      ],
+      "active_corridor": true
+    },
+    {
+      "vehicle_id": "flow_rr_ccw.0",
+      "edge": "rb4_to_rb1",
+      "start_step": 283,
+      "end_step": 284,
+      "duration_steps": 1,
+      "duration_seconds": 1,
+      "speed_before_stop": 11.11,
+      "reason": "unknown",
+      "signal_state": null,
+      "vehicles_blocking": [
+        "rand_veh76"
+      ],
+      "active_corridor": true
+    }
+  ],
+  "dominant_cause": "red_light"
+}

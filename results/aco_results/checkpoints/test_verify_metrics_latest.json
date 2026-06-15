@@ -1,0 +1,17 @@
+{
+  "step": 5,
+  "mode": "test_verify",
+  "timestamp": 1780223322.9533734,
+  "emergency_vehicle_count": 1,
+  "active_corridor_tls": 3,
+  "emergency_phase_count": 3,
+  "pinn_prediction_count": 0,
+  "pinn_prediction_mean": 0.0,
+  "pinn_prediction_max": 0.0,
+  "wait": 0.0,
+  "queue": 0.0,
+  "avg_speed": 13.890000000000004,
+  "throughput": 0.0,
+  "switches": 0,
+  "reward_ema": 0.0
+}
