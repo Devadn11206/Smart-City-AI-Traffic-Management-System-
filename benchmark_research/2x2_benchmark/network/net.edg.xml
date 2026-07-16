@@ -1,0 +1,37 @@
+<edges>
+    <!-- From North to TL -->
+    <edge id="N1_TL1" from="N1" to="TL1" numLanes="3" speed="15.0"/>
+    <edge id="TL1_N1" from="TL1" to="N1" numLanes="3" speed="15.0"/>
+    <edge id="N2_TL2" from="N2" to="TL2" numLanes="3" speed="15.0"/>
+    <edge id="TL2_N2" from="TL2" to="N2" numLanes="3" speed="15.0"/>
+
+    <!-- From South to TL -->
+    <edge id="S1_TL3" from="S1" to="TL3" numLanes="3" speed="15.0"/>
+    <edge id="TL3_S1" from="TL3" to="S1" numLanes="3" speed="15.0"/>
+    <edge id="S2_TL4" from="S2" to="TL4" numLanes="3" speed="15.0"/>
+    <edge id="TL4_S2" from="TL4" to="S2" numLanes="3" speed="15.0"/>
+
+    <!-- From East to TL -->
+    <edge id="E1_TL2" from="E1" to="TL2" numLanes="3" speed="15.0"/>
+    <edge id="TL2_E1" from="TL2" to="E1" numLanes="3" speed="15.0"/>
+    <edge id="E2_TL4" from="E2" to="TL4" numLanes="3" speed="15.0"/>
+    <edge id="TL4_E2" from="TL4" to="E2" numLanes="3" speed="15.0"/>
+
+    <!-- From West to TL -->
+    <edge id="W1_TL1" from="W1" to="TL1" numLanes="3" speed="15.0"/>
+    <edge id="TL1_W1" from="TL1" to="W1" numLanes="3" speed="15.0"/>
+    <edge id="W2_TL3" from="W2" to="TL3" numLanes="3" speed="15.0"/>
+    <edge id="TL3_W2" from="TL3" to="W2" numLanes="3" speed="15.0"/>
+
+    <!-- Internal Horizontal (West to East and vice-versa) -->
+    <edge id="TL1_TL2" from="TL1" to="TL2" numLanes="3" speed="15.0"/>
+    <edge id="TL2_TL1" from="TL2" to="TL1" numLanes="3" speed="15.0"/>
+    <edge id="TL3_TL4" from="TL3" to="TL4" numLanes="3" speed="15.0"/>
+    <edge id="TL4_TL3" from="TL4" to="TL3" numLanes="3" speed="15.0"/>
+
+    <!-- Internal Vertical (North to South and vice-versa) -->
+    <edge id="TL1_TL3" from="TL1" to="TL3" numLanes="3" speed="15.0"/>
+    <edge id="TL3_TL1" from="TL3" to="TL1" numLanes="3" speed="15.0"/>
+    <edge id="TL2_TL4" from="TL2" to="TL4" numLanes="3" speed="15.0"/>
+    <edge id="TL4_TL2" from="TL4" to="TL2" numLanes="3" speed="15.0"/>
+</edges>

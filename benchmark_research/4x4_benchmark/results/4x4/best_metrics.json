@@ -1,0 +1,44 @@
+{
+    "idqn": {
+        "Best Episode Reward": -353.053,
+        "Best Average Queue Length": 108.14204545454544,
+        "Best Throughput": 22555.0,
+        "Best Average Speed": 3.907312864561468,
+        "Best Average Travel Time": 724.2526273241714
+    },
+    "dqn": {
+        "Best Episode Reward": -373.443,
+        "Best Average Queue Length": 110.01969696969698,
+        "Best Throughput": 21671.0,
+        "Best Average Speed": 4.263640293125548,
+        "Best Average Travel Time": 734.1422963689892
+    },
+    "ddqn": {
+        "Best Episode Reward": -349.2730000000001,
+        "Best Average Queue Length": 105.65151515151516,
+        "Best Throughput": 21949.0,
+        "Best Average Speed": 4.256268636749933,
+        "Best Average Travel Time": 713.7468316234158
+    },
+    "ppo": {
+        "Best Episode Reward": -404.69200000000006,
+        "Best Average Queue Length": 110.1346590909091,
+        "Best Throughput": 20694.0,
+        "Best Average Speed": 4.134711955479672,
+        "Best Average Travel Time": 811.6442727578099
+    },
+    "presslight": {
+        "Best Episode Reward": -313454.0,
+        "Best Average Queue Length": 101.16799242424244,
+        "Best Throughput": 23894.0,
+        "Best Average Speed": 4.152165842281383,
+        "Best Average Travel Time": 712.4006957621758
+    },
+    "colight": {
+        "Best Episode Reward": -18643.983000000004,
+        "Best Average Queue Length": 111.0556818181818,
+        "Best Throughput": 21420.0,
+        "Best Average Speed": 3.789017946567764,
+        "Best Average Travel Time": 761.9818031430934
+    }
+}

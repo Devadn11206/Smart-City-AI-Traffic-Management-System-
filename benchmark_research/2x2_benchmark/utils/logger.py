@@ -1,0 +1,92 @@
+import csv
+import os
+import json
+
+class MetricLogger:
+    def __init__(self, base_dir, algo_name):
+        self.algo_dir = os.path.join(base_dir, algo_name)
+        os.makedirs(self.algo_dir, exist_ok=True)
+        
+        # Files
+        self.ep_file = os.path.join(self.algo_dir, '2x2_episode_metrics.csv')
+        self.ts_file = os.path.join(self.algo_dir, '2x2_intersection_metrics.csv')
+        self.sar_file = os.path.join(self.algo_dir, '2x2_state_action_reward_log.csv')
+        self.meta_file = os.path.join(self.algo_dir, 'metadata.json')
+        
+        self._init_files()
+        
+    def log_metadata(self, metadata):
+        with open(self.meta_file, 'w') as f:
+            json.dump(metadata, f, indent=4)
+            
+    def _init_files(self):
+        # Episode metrics
+        if not os.path.exists(self.ep_file):
+            with open(self.ep_file, 'w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([
+                    'episode', 'reward', 'avg_waiting_time', 'avg_queue_length',
+                    'throughput', 'avg_travel_time', 'fuel_consumption', 'avg_speed',
+                    'loss', 'epsilon', 'learning_rate', 'vehicles_completed', 'vehicles_generated',
+                    'eval_mode', 'actor_loss', 'critic_loss', 'entropy', 'kl_div', 'clip_frac', 'explained_var'
+                ])
+                
+        # Intersection metrics
+        if not os.path.exists(self.ts_file):
+            with open(self.ts_file, 'w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([
+                    'episode', 'intersection_id', 'reward', 'avg_wait',
+                    'avg_queue', 'throughput', 'current_phase', 'selected_action'
+                ])
+                
+        # SAR metrics
+        if not os.path.exists(self.sar_file):
+            with open(self.sar_file, 'w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([
+                    'episode', 'intersection_id', 'step', 'state', 'action', 'reward', 'next_state'
+                ])
+                
+    def log_episode(self, metrics):
+        with open(self.ep_file, 'a', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                metrics.get('episode', 0),
+                metrics.get('reward', 0.0),
+                metrics.get('avg_waiting_time', 0.0),
+                metrics.get('avg_queue_length', 0.0),
+                metrics.get('throughput', 0),
+                metrics.get('avg_travel_time', 0.0),
+                metrics.get('fuel_consumption', 0.0),
+                metrics.get('avg_speed', 0.0),
+                metrics.get('loss', 0.0),
+                metrics.get('epsilon', 0.0),
+                metrics.get('learning_rate', 0.0),
+                metrics.get('vehicles_completed', 0),
+                metrics.get('vehicles_generated', 0),
+                metrics.get('eval_mode', False),
+                metrics.get('actor_loss', ''),
+                metrics.get('critic_loss', ''),
+                metrics.get('entropy', ''),
+                metrics.get('kl_div', ''),
+                metrics.get('clip_frac', ''),
+                metrics.get('explained_var', '')
+            ])
+            
+    def log_intersection(self, episode, ts_id, reward, avg_wait, avg_queue, throughput, current_phase, selected_action):
+        with open(self.ts_file, 'a', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                episode, ts_id, reward, avg_wait, avg_queue, throughput, current_phase, selected_action
+            ])
+            
+    def log_sar(self, episode, ts_id, step, state, action, reward, next_state):
+        with open(self.sar_file, 'a', newline='') as f:
+            writer = csv.writer(f)
+            # convert states to list strings for csv
+            s_str = json.dumps(state.tolist() if hasattr(state, 'tolist') else list(state))
+            ns_str = json.dumps(next_state.tolist() if hasattr(next_state, 'tolist') else list(next_state))
+            writer.writerow([
+                episode, ts_id, step, s_str, action, reward, ns_str
+            ])

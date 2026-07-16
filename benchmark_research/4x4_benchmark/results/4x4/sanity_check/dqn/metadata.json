@@ -1,0 +1,4 @@
+{
+    "reward_version": "Version_A",
+    "reward_formula": "(Throughput - 0.1 * QueueLength - 0.1 * SwitchPenalty) / 100"
+}

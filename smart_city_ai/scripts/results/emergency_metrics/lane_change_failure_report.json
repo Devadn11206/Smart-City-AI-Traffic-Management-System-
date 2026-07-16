@@ -1,0 +1,503 @@
+[
+  {
+    "vehicle_id": "flow_hw_wb.2",
+    "edge": "hw5_to_hw4",
+    "current_lane": "hw5_to_hw4_0",
+    "original_lane": "hw5_to_hw4_0",
+    "target_index": 1,
+    "time": 1783102526.3391516,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": null,
+    "follower": {
+      "vehicle_id": "rand_veh0",
+      "distance": 647.0010172140145
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": [],
+        "vehicle_count": 1,
+        "vehicles": [
+          "flow_hw_wb.2"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": [],
+        "vehicle_count": 1,
+        "vehicles": [
+          "flow_hw_wb.1"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": [],
+        "vehicle_count": 0,
+        "vehicles": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": [],
+        "vehicle_count": 1,
+        "vehicles": [
+          "flow_hw_wb.0"
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_rr_ccw.2",
+    "edge": "rr1_to_rr6",
+    "current_lane": "rr1_to_rr6_0",
+    "original_lane": "rr1_to_rr6_0",
+    "target_index": 1,
+    "time": 1783102540.4980052,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": null,
+    "follower": {
+      "vehicle_id": "",
+      "distance": -1.0
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": [],
+        "vehicle_count": 1,
+        "vehicles": [
+          "flow_rr_ccw.2"
+        ]
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": [],
+        "vehicle_count": 2,
+        "vehicles": [
+          "flow_rr_ccw.1",
+          "flow_rr_ccw.0"
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_hw_wb.4",
+    "edge": "hw5_to_hw4",
+    "current_lane": "hw5_to_hw4_0",
+    "original_lane": "hw5_to_hw4_0",
+    "target_index": 1,
+    "time": 1783102570.213098,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": {
+      "vehicle_id": "flow_hw_wb.2",
+      "distance": 1.0010000000000012
+    },
+    "follower": {
+      "vehicle_id": "flow_hw_wb.5",
+      "distance": 1.0009999999999994
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_hw_wb.5",
+          "flow_hw_wb.4",
+          "flow_hw_wb.2"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": [],
+        "vehicle_count": 2,
+        "vehicles": [
+          "flow_hw_wb.3",
+          "flow_hw_wb.1"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": [],
+        "vehicle_count": 0,
+        "vehicles": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": [],
+        "vehicle_count": 0,
+        "vehicles": []
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_hw_wb.1",
+    "edge": "hw5_to_hw4",
+    "current_lane": "hw5_to_hw4_1",
+    "original_lane": "hw5_to_hw4_1",
+    "target_index": 0,
+    "time": 1783102570.213098,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": null,
+    "follower": {
+      "vehicle_id": "flow_hw_wb.3",
+      "distance": 5.001000000000001
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_hw_wb.5",
+          "flow_hw_wb.4",
+          "flow_hw_wb.2"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": [],
+        "vehicle_count": 2,
+        "vehicles": [
+          "flow_hw_wb.3",
+          "flow_hw_wb.1"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": [],
+        "vehicle_count": 0,
+        "vehicles": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": [],
+        "vehicle_count": 0,
+        "vehicles": []
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_rr_ccw.1",
+    "edge": "rr1_to_rr6",
+    "current_lane": "rr1_to_rr6_1",
+    "original_lane": "rr1_to_rr6_1",
+    "target_index": 0,
+    "time": 1783102572.6197593,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": {
+      "vehicle_id": "flow_rr_ccw.0",
+      "distance": 594.2800000000003
+    },
+    "follower": {
+      "vehicle_id": "flow_rr_ccw.3",
+      "distance": 9.001
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": [],
+        "vehicle_count": 1,
+        "vehicles": [
+          "flow_rr_ccw.2"
+        ]
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_rr_ccw.3",
+          "flow_rr_ccw.1",
+          "flow_rr_ccw.0"
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_hw_wb.2",
+    "edge": "hw5_to_hw4",
+    "current_lane": "hw5_to_hw4_0",
+    "original_lane": "hw5_to_hw4_0",
+    "target_index": 1,
+    "time": 1783102572.623826,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": null,
+    "follower": {
+      "vehicle_id": "flow_hw_wb.4",
+      "distance": 1.0010000000000012
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_hw_wb.6",
+          "flow_hw_wb.4",
+          "flow_hw_wb.2"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_hw_wb.5",
+          "flow_hw_wb.3",
+          "flow_hw_wb.1"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": [],
+        "vehicle_count": 0,
+        "vehicles": []
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": [],
+        "vehicle_count": 0,
+        "vehicles": []
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_rr_ccw.4",
+    "edge": "rr1_to_rr6",
+    "current_lane": "rr1_to_rr6_0",
+    "original_lane": "rr1_to_rr6_0",
+    "target_index": 1,
+    "time": 1783102586.3659804,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": {
+      "vehicle_id": "flow_rr_ccw.2",
+      "distance": 1.5000000000000018
+    },
+    "follower": {
+      "vehicle_id": "",
+      "distance": -1.0
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": [],
+        "vehicle_count": 2,
+        "vehicles": [
+          "flow_rr_ccw.4",
+          "flow_rr_ccw.2"
+        ]
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_rr_ccw.3",
+          "flow_rr_ccw.1",
+          "flow_rr_ccw.0"
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_hw_wb.5",
+    "edge": "hw5_to_hw4",
+    "current_lane": "hw5_to_hw4_3",
+    "original_lane": "hw5_to_hw4_3",
+    "target_index": 0,
+    "time": 1783102586.3679812,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": null,
+    "follower": {
+      "vehicle_id": "",
+      "distance": -1.0
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_hw_wb.8",
+          "flow_hw_wb.4",
+          "flow_hw_wb.2"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "rand_veh17",
+          "flow_hw_wb.3",
+          "flow_hw_wb.1"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": [],
+        "vehicle_count": 2,
+        "vehicles": [
+          "flow_hw_wb.7",
+          "flow_hw_wb.6"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": [],
+        "vehicle_count": 1,
+        "vehicles": [
+          "flow_hw_wb.5"
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_hw_wb.8",
+    "edge": "hw5_to_hw4",
+    "current_lane": "hw5_to_hw4_0",
+    "original_lane": "hw5_to_hw4_0",
+    "target_index": 1,
+    "time": 1783102586.3709853,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": {
+      "vehicle_id": "flow_hw_wb.4",
+      "distance": 7.899000000000003
+    },
+    "follower": {
+      "vehicle_id": "rand_veh0",
+      "distance": 110.96775017247998
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_hw_wb.8",
+          "flow_hw_wb.4",
+          "flow_hw_wb.2"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "rand_veh17",
+          "flow_hw_wb.3",
+          "flow_hw_wb.1"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": [],
+        "vehicle_count": 2,
+        "vehicles": [
+          "flow_hw_wb.7",
+          "flow_hw_wb.6"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": [],
+        "vehicle_count": 1,
+        "vehicles": [
+          "flow_hw_wb.5"
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_rr_ccw.2",
+    "edge": "rr1_to_rr6",
+    "current_lane": "rr1_to_rr6_0",
+    "original_lane": "rr1_to_rr6_0",
+    "target_index": 1,
+    "time": 1783102596.8828804,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": {
+      "vehicle_id": "flow_rr_ccw.0",
+      "distance": 750.8200000000005
+    },
+    "follower": {
+      "vehicle_id": "flow_rr_ccw.4",
+      "distance": 1.4999999999999982
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "rr1_to_rr6_0",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_rr_ccw.4",
+          "flow_rr_ccw.2",
+          "flow_rr_ccw.0"
+        ]
+      },
+      {
+        "lane_id": "rr1_to_rr6_1",
+        "allowed": [],
+        "vehicle_count": 2,
+        "vehicles": [
+          "flow_rr_ccw.3",
+          "flow_rr_ccw.1"
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "flow_hw_wb.3",
+    "edge": "hw5_to_hw4",
+    "current_lane": "hw5_to_hw4_1",
+    "original_lane": "hw5_to_hw4_1",
+    "target_index": 0,
+    "time": 1783102600.7233264,
+    "reason": "timeout_waiting_for_lane_change",
+    "leader": {
+      "vehicle_id": "flow_hw_wb.1",
+      "distance": 5.001000000000001
+    },
+    "follower": {
+      "vehicle_id": "rand_veh17",
+      "distance": 12.451
+    },
+    "lane_permissions": [
+      {
+        "lane_id": "hw5_to_hw4_0",
+        "allowed": [],
+        "vehicle_count": 3,
+        "vehicles": [
+          "flow_hw_wb.8",
+          "flow_hw_wb.4",
+          "flow_hw_wb.2"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_1",
+        "allowed": [],
+        "vehicle_count": 4,
+        "vehicles": [
+          "rand_veh17",
+          "flow_hw_wb.3",
+          "flow_hw_wb.1",
+          "flow_hw_wb.5"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_2",
+        "allowed": [],
+        "vehicle_count": 2,
+        "vehicles": [
+          "flow_hw_wb.7",
+          "flow_hw_wb.6"
+        ]
+      },
+      {
+        "lane_id": "hw5_to_hw4_3",
+        "allowed": [],
+        "vehicle_count": 0,
+        "vehicles": []
+      }
+    ]
+  }
+]

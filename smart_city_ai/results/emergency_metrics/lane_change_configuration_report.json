@@ -26,6 +26,31 @@
   },
   "flow_hw_eb.1": {
     "type": "school_bus",
+    "laneChangeMode": 256,
+    "speedMode": 31,
+    "lane": "hw1_to_hw2_0",
+    "road": "hw1_to_hw2",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw1_to_hw2_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_2",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw1_to_hw2_3",
+        "allowed": []
+      }
+    ]
+  },
+  "flow_hw_eb.2": {
+    "type": "suv",
     "laneChangeMode": 1621,
     "speedMode": 31,
     "lane": "hw1_to_hw2_0",
@@ -167,10 +192,10 @@
     ]
   },
   "flow_rr_ccw.1": {
-    "type": "hybrid",
-    "laneChangeMode": 1621,
+    "type": "cargo_truck",
+    "laneChangeMode": 256,
     "speedMode": 31,
-    "lane": "rr1_to_rr6_0",
+    "lane": "rr1_to_rr6_1",
     "road": "rr1_to_rr6",
     "lane_permissions_on_edge": [
       {
@@ -202,7 +227,7 @@
   },
   "flow_rr_cw.1": {
     "type": "logistics_vehicle",
-    "laneChangeMode": 1621,
+    "laneChangeMode": 256,
     "speedMode": 31,
     "lane": "rr1_to_rr2_0",
     "road": "rr1_to_rr2",
@@ -285,6 +310,44 @@
       },
       {
         "lane_id": "rz3_to_rr5_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh4": {
+    "type": "city_bus",
+    "laneChangeMode": 256,
+    "speedMode": 31,
+    "lane": "hw5_to_rr4_0",
+    "road": "hw5_to_rr4",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw5_to_rr4_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw5_to_rr4_1",
+        "allowed": []
+      }
+    ]
+  },
+  "rand_veh5": {
+    "type": "car",
+    "laneChangeMode": 256,
+    "speedMode": 31,
+    "lane": "hw2_to_cz1_0",
+    "road": "hw2_to_cz1",
+    "lane_permissions_on_edge": [
+      {
+        "lane_id": "hw2_to_cz1_0",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_cz1_1",
+        "allowed": []
+      },
+      {
+        "lane_id": "hw2_to_cz1_2",
         "allowed": []
       }
     ]

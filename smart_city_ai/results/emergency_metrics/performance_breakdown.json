@@ -1,60 +1,60 @@
 {
   "rl_decision": {
-    "average_seconds": 0.02661192533133241,
-    "max_seconds": 2.11978279997129,
-    "total_seconds": 7.983577599399723,
-    "percent_of_total_runtime": 0.8520687535327384,
-    "samples": 300
+    "average_seconds": 0.06427031782152313,
+    "max_seconds": 3.010190099994361,
+    "total_seconds": 6.4913020999738364,
+    "percent_of_total_runtime": 1.032141437798448,
+    "samples": 101
   },
   "pinn_inference": {
-    "average_seconds": 5.597668544699748e-06,
-    "max_seconds": 0.0001406000228598714,
-    "total_seconds": 0.0016793005634099245,
-    "percent_of_total_runtime": 0.0001792278612008614,
-    "samples": 300
+    "average_seconds": 0.005506796039938281,
+    "max_seconds": 0.24145290000160458,
+    "total_seconds": 0.5561864000337664,
+    "percent_of_total_runtime": 0.08843572857548998,
+    "samples": 101
   },
   "aco_routing": {
-    "average_seconds": 0.021074680075808892,
-    "max_seconds": 0.07858559989836067,
-    "total_seconds": 5.71123830054421,
-    "percent_of_total_runtime": 0.609547241106423,
-    "samples": 271
+    "average_seconds": 0.027853187234289548,
+    "max_seconds": 0.07984730000316631,
+    "total_seconds": 1.3090998000116087,
+    "percent_of_total_runtime": 0.20815178973277002,
+    "samples": 47
   },
   "emergency_corridor": {
-    "average_seconds": 0.02177465007551978,
-    "max_seconds": 0.11856729991268367,
-    "total_seconds": 159.58641040348448,
-    "percent_of_total_runtime": 17.032288106460587,
-    "samples": 7329
+    "average_seconds": 0.03721258392858674,
+    "max_seconds": 0.08607320000010077,
+    "total_seconds": 37.51028460001544,
+    "percent_of_total_runtime": 5.964276270464281,
+    "samples": 1008
   },
   "traffic_clearing": {
-    "average_seconds": 0.025542323412536316,
-    "max_seconds": 0.1338374000042677,
-    "total_seconds": 187.19968829047866,
-    "percent_of_total_runtime": 19.97938932482832,
-    "samples": 7329
+    "average_seconds": 0.0326153128968895,
+    "max_seconds": 0.20807690000219736,
+    "total_seconds": 32.876235400064616,
+    "percent_of_total_runtime": 5.227445026069529,
+    "samples": 1008
   },
   "telemetry_logging": {
-    "average_seconds": 0.0016524999984540046,
-    "max_seconds": 0.002207899931818247,
-    "total_seconds": 0.016524999984540045,
-    "percent_of_total_runtime": 0.001763674989520269,
-    "samples": 10
+    "average_seconds": 0.0030403333342595338,
+    "max_seconds": 0.004334299999754876,
+    "total_seconds": 0.009121000002778601,
+    "percent_of_total_runtime": 0.0014502732906338616,
+    "samples": 3
   },
   "sumo_traci": {
-    "average_seconds": 0.001687051331003507,
-    "max_seconds": 0.008626399911008775,
-    "total_seconds": 0.5061153993010521,
-    "percent_of_total_runtime": 0.054016524804443126,
-    "samples": 300
+    "average_seconds": 0.8581693821786505,
+    "max_seconds": 2.714362999999139,
+    "total_seconds": 86.6751076000437,
+    "percent_of_total_runtime": 13.781667961502647,
+    "samples": 101
   },
   "run_loop": {
-    "average_seconds": 3.1167476969980634,
-    "max_seconds": 7.822077599936165,
-    "total_seconds": 935.024309099419,
-    "percent_of_total_runtime": 99.7929797334287,
-    "samples": 300
+    "average_seconds": 3.694363838613943,
+    "max_seconds": 10.02450890000182,
+    "total_seconds": 373.1307477000082,
+    "percent_of_total_runtime": 59.32919166086087,
+    "samples": 101
   },
-  "total_runtime_seconds": 936.9640144999139,
-  "total_measured_seconds": 1296.0295433931751
+  "total_runtime_seconds": 628.9159472000028,
+  "total_measured_seconds": 538.558084600154
 }

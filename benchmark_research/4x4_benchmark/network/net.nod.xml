@@ -1,0 +1,34 @@
+<nodes>
+    <node id="TL1" x="0" y="900" type="traffic_light"/>
+    <node id="TL2" x="300" y="900" type="traffic_light"/>
+    <node id="TL3" x="600" y="900" type="traffic_light"/>
+    <node id="TL4" x="900" y="900" type="traffic_light"/>
+    <node id="TL5" x="0" y="600" type="traffic_light"/>
+    <node id="TL6" x="300" y="600" type="traffic_light"/>
+    <node id="TL7" x="600" y="600" type="traffic_light"/>
+    <node id="TL8" x="900" y="600" type="traffic_light"/>
+    <node id="TL9" x="0" y="300" type="traffic_light"/>
+    <node id="TL10" x="300" y="300" type="traffic_light"/>
+    <node id="TL11" x="600" y="300" type="traffic_light"/>
+    <node id="TL12" x="900" y="300" type="traffic_light"/>
+    <node id="TL13" x="0" y="0" type="traffic_light"/>
+    <node id="TL14" x="300" y="0" type="traffic_light"/>
+    <node id="TL15" x="600" y="0" type="traffic_light"/>
+    <node id="TL16" x="900" y="0" type="traffic_light"/>
+    <node id="top1" x="0" y="1200" type="priority"/>
+    <node id="bot1" x="0" y="-300" type="priority"/>
+    <node id="top2" x="300" y="1200" type="priority"/>
+    <node id="bot2" x="300" y="-300" type="priority"/>
+    <node id="top3" x="600" y="1200" type="priority"/>
+    <node id="bot3" x="600" y="-300" type="priority"/>
+    <node id="top4" x="900" y="1200" type="priority"/>
+    <node id="bot4" x="900" y="-300" type="priority"/>
+    <node id="left1" x="-300" y="900" type="priority"/>
+    <node id="right1" x="1200" y="900" type="priority"/>
+    <node id="left2" x="-300" y="600" type="priority"/>
+    <node id="right2" x="1200" y="600" type="priority"/>
+    <node id="left3" x="-300" y="300" type="priority"/>
+    <node id="right3" x="1200" y="300" type="priority"/>
+    <node id="left4" x="-300" y="0" type="priority"/>
+    <node id="right4" x="1200" y="0" type="priority"/>
+</nodes>

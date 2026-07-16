@@ -1,0 +1,365 @@
+{
+    "idqn": {
+        "1": {
+            "reward": -406.928,
+            "avg_waiting_time": 8335.00321969697,
+            "avg_queue_length": 110.33049242424244,
+            "throughput": 17951.0,
+            "avg_travel_time": 990.943137254902,
+            "avg_speed": 2.5349847056982835,
+            "fuel_consumption": 3875398458.5108514
+        },
+        "10": {
+            "reward": -469.98,
+            "avg_waiting_time": 10228.076704545454,
+            "avg_queue_length": 122.00681818181818,
+            "throughput": 17814.0,
+            "avg_travel_time": 940.3435114503816,
+            "avg_speed": 2.024889840947048,
+            "fuel_consumption": 4209484719.137953
+        },
+        "25": {
+            "reward": -433.9670000000001,
+            "avg_waiting_time": 11083.982386363636,
+            "avg_queue_length": 117.73238636363637,
+            "throughput": 19169.0,
+            "avg_travel_time": 929.7878554957724,
+            "avg_speed": 3.2453916884092435,
+            "fuel_consumption": 4129265772.2362094
+        },
+        "50": {
+            "reward": -522.3070000000001,
+            "avg_waiting_time": 13596.188257575755,
+            "avg_queue_length": 129.01666666666668,
+            "throughput": 16287.0,
+            "avg_travel_time": 931.8553668890236,
+            "avg_speed": 2.7723002183439363,
+            "fuel_consumption": 4285493559.960759
+        },
+        "100": {
+            "reward": -554.8130000000001,
+            "avg_waiting_time": 18420.373674242423,
+            "avg_queue_length": 132.73068181818184,
+            "throughput": 14999.0,
+            "avg_travel_time": 874.8962641761174,
+            "avg_speed": 3.1847573687323787,
+            "fuel_consumption": 4290959482.2874894
+        },
+        "150": {
+            "reward": -596.4490000000001,
+            "avg_waiting_time": 20852.38011363636,
+            "avg_queue_length": 137.33977272727273,
+            "throughput": 13261.0,
+            "avg_travel_time": 866.7933673469388,
+            "avg_speed": 2.882007828040639,
+            "fuel_consumption": 4355502593.098419
+        },
+        "200": {
+            "reward": -549.996,
+            "avg_waiting_time": 17323.849621212124,
+            "avg_queue_length": 131.27291666666667,
+            "throughput": 14705.0,
+            "avg_travel_time": 858.0369753497669,
+            "avg_speed": 2.565171277489777,
+            "fuel_consumption": 4280801610.7609
+        }
+    },
+    "dqn": {
+        "1": {
+            "reward": -506.7190000000001,
+            "avg_waiting_time": 12393.891098484848,
+            "avg_queue_length": 125.86117424242424,
+            "throughput": 16182.0,
+            "avg_travel_time": 1007.7912829957028,
+            "avg_speed": 2.3095835432097758,
+            "fuel_consumption": 4217502209.1833606
+        },
+        "10": {
+            "reward": -434.8590000000001,
+            "avg_waiting_time": 9016.161363636364,
+            "avg_queue_length": 115.32026515151514,
+            "throughput": 17804.0,
+            "avg_travel_time": 957.5103260869564,
+            "avg_speed": 3.654687930298308,
+            "fuel_consumption": 4017769914.058383
+        },
+        "25": {
+            "reward": -520.19,
+            "avg_waiting_time": 14618.672727272726,
+            "avg_queue_length": 128.19905303030305,
+            "throughput": 16079.0,
+            "avg_travel_time": 924.290557667934,
+            "avg_speed": 2.724092596857671,
+            "fuel_consumption": 4269868046.655975
+        },
+        "50": {
+            "reward": -458.5750000000001,
+            "avg_waiting_time": 11194.761553030305,
+            "avg_queue_length": 118.65795454545454,
+            "throughput": 17196.0,
+            "avg_travel_time": 922.242347655153,
+            "avg_speed": 3.3749817920848515,
+            "fuel_consumption": 4043258247.108141
+        },
+        "100": {
+            "reward": -530.226,
+            "avg_waiting_time": 17079.904166666667,
+            "avg_queue_length": 127.46609848484847,
+            "throughput": 14691.0,
+            "avg_travel_time": 808.9673913043479,
+            "avg_speed": 3.159454957319296,
+            "fuel_consumption": 4145747879.115225
+        },
+        "150": {
+            "reward": -587.739,
+            "avg_waiting_time": 17667.666666666664,
+            "avg_queue_length": 139.6323863636364,
+            "throughput": 15350.0,
+            "avg_travel_time": 812.1297683923706,
+            "avg_speed": 1.967290719526302,
+            "fuel_consumption": 4533741030.712098
+        },
+        "200": {
+            "reward": -564.509,
+            "avg_waiting_time": 16536.112310606062,
+            "avg_queue_length": 135.56723484848484,
+            "throughput": 15546.0,
+            "avg_travel_time": 927.414563106796,
+            "avg_speed": 2.4271423304302777,
+            "fuel_consumption": 4433888691.16006
+        }
+    },
+    "ddqn": {
+        "1": {
+            "reward": -506.7190000000001,
+            "avg_waiting_time": 12393.891098484848,
+            "avg_queue_length": 125.86117424242424,
+            "throughput": 16182.0,
+            "avg_travel_time": 1007.7912829957028,
+            "avg_speed": 2.3095835432097758,
+            "fuel_consumption": 4217502209.1833606
+        },
+        "10": {
+            "reward": -443.5710000000001,
+            "avg_waiting_time": 10408.191856060606,
+            "avg_queue_length": 116.76079545454544,
+            "throughput": 17698.0,
+            "avg_travel_time": 876.3020663404023,
+            "avg_speed": 2.936698957562684,
+            "fuel_consumption": 4039174229.018096
+        },
+        "25": {
+            "reward": -470.5480000000001,
+            "avg_waiting_time": 12039.979924242423,
+            "avg_queue_length": 122.01666666666668,
+            "throughput": 17779.0,
+            "avg_travel_time": 916.4893617021276,
+            "avg_speed": 2.2965559984435218,
+            "fuel_consumption": 4190335421.1891246
+        },
+        "50": {
+            "reward": -498.084,
+            "avg_waiting_time": 11859.909659090908,
+            "avg_queue_length": 125.13844696969696,
+            "throughput": 16680.0,
+            "avg_travel_time": 851.2711656441718,
+            "avg_speed": 2.954191375892951,
+            "fuel_consumption": 4219240047.737208
+        },
+        "100": {
+            "reward": -562.2410000000001,
+            "avg_waiting_time": 18494.503787878788,
+            "avg_queue_length": 132.97348484848484,
+            "throughput": 14377.0,
+            "avg_travel_time": 872.5652763648694,
+            "avg_speed": 3.3571246981351366,
+            "fuel_consumption": 4262813855.445424
+        },
+        "150": {
+            "reward": -442.928,
+            "avg_waiting_time": 12054.184469696973,
+            "avg_queue_length": 119.29507575757576,
+            "throughput": 19126.0,
+            "avg_travel_time": 880.5595427963849,
+            "avg_speed": 2.5771065632112675,
+            "fuel_consumption": 4206451538.151949
+        },
+        "200": {
+            "reward": -595.4920000000001,
+            "avg_waiting_time": 17290.64640151515,
+            "avg_queue_length": 139.70530303030304,
+            "throughput": 14665.0,
+            "avg_travel_time": 830.8735556289205,
+            "avg_speed": 3.186105235750982,
+            "fuel_consumption": 4504406763.271696
+        }
+    },
+    "ppo": {
+        "1": {
+            "reward": -404.69200000000006,
+            "avg_waiting_time": 7758.264204545454,
+            "avg_queue_length": 110.1346590909091,
+            "throughput": 18082.0,
+            "avg_travel_time": 1010.4887842702852,
+            "avg_speed": 2.227962589105396,
+            "fuel_consumption": 3885399555.4975615
+        },
+        "10": {
+            "reward": -492.6370000000001,
+            "avg_waiting_time": 10599.186553030304,
+            "avg_queue_length": 123.69810606060604,
+            "throughput": 16416.0,
+            "avg_travel_time": 999.6815286624204,
+            "avg_speed": 2.832543005750149,
+            "fuel_consumption": 4116041857.102892
+        },
+        "25": {
+            "reward": -571.302,
+            "avg_waiting_time": 16581.58541666667,
+            "avg_queue_length": 133.8473484848485,
+            "throughput": 13876.0,
+            "avg_travel_time": 896.2223029422448,
+            "avg_speed": 3.3076934750731644,
+            "fuel_consumption": 4238392799.483009
+        },
+        "50": {
+            "reward": -539.405,
+            "avg_waiting_time": 14980.55037878788,
+            "avg_queue_length": 132.52026515151516,
+            "throughput": 16337.0,
+            "avg_travel_time": 906.9267308289352,
+            "avg_speed": 2.180915823294344,
+            "fuel_consumption": 4301833684.412025
+        },
+        "100": {
+            "reward": -491.1580000000001,
+            "avg_waiting_time": 11885.705871212122,
+            "avg_queue_length": 124.85738636363637,
+            "throughput": 17100.0,
+            "avg_travel_time": 875.1981433130259,
+            "avg_speed": 2.6441897094205737,
+            "fuel_consumption": 4092919767.555378
+        },
+        "150": {
+            "reward": -628.657,
+            "avg_waiting_time": 17245.934848484845,
+            "avg_queue_length": 140.4875,
+            "throughput": 11603.0,
+            "avg_travel_time": 926.4277632724107,
+            "avg_speed": 3.088011238868532,
+            "fuel_consumption": 4322286014.810909
+        },
+        "200": {
+            "reward": -535.125,
+            "avg_waiting_time": 11211.998295454545,
+            "avg_queue_length": 131.45075757575756,
+            "throughput": 16235.0,
+            "avg_travel_time": 1024.8315457413248,
+            "avg_speed": 2.580014559715961,
+            "fuel_consumption": 4330226519.82737
+        }
+    },
+    "presslight": {
+        "1": {
+            "reward": -359380.0,
+            "avg_waiting_time": 12393.891098484848,
+            "avg_queue_length": 125.86117424242424,
+            "throughput": 16182.0,
+            "avg_travel_time": 1007.7912829957028,
+            "avg_speed": 2.3095835432097758,
+            "fuel_consumption": 4217502209.1833606
+        },
+        "10": {
+            "reward": -324220.0,
+            "avg_waiting_time": 8701.45928030303,
+            "avg_queue_length": 113.98674242424242,
+            "throughput": 18813.0,
+            "avg_travel_time": 949.308962264151,
+            "avg_speed": 2.515571588922958,
+            "fuel_consumption": 4018382133.285166
+        },
+        "25": {
+            "reward": -335307.0,
+            "avg_waiting_time": 12160.536553030302,
+            "avg_queue_length": 123.1439393939394,
+            "throughput": 16836.0,
+            "avg_travel_time": 910.0110844817256,
+            "avg_speed": 2.728756116478285,
+            "fuel_consumption": 4148205306.9680448
+        },
+        "50": {
+            "reward": -341963.0,
+            "avg_waiting_time": 10034.137878787878,
+            "avg_queue_length": 116.26590909090908,
+            "throughput": 19149.0,
+            "avg_travel_time": 925.9370955216152,
+            "avg_speed": 2.899058748360998,
+            "fuel_consumption": 4069093088.7465177
+        },
+        "100": {
+            "reward": -326821.0,
+            "avg_waiting_time": 16280.779545454545,
+            "avg_queue_length": 130.92291666666665,
+            "throughput": 16365.0,
+            "avg_travel_time": 785.2882800608828,
+            "avg_speed": 2.262101074447772,
+            "fuel_consumption": 4284578895.819204
+        },
+        "150": {
+            "reward": -329665.0,
+            "avg_waiting_time": 9457.90625,
+            "avg_queue_length": 110.70473484848485,
+            "throughput": 20795.0,
+            "avg_travel_time": 889.8977068345324,
+            "avg_speed": 3.2351368336295137,
+            "fuel_consumption": 3974405535.5543113
+        }
+    },
+    "colight": {
+        "1": {
+            "reward": -25459.966,
+            "avg_waiting_time": 9223.251515151514,
+            "avg_queue_length": 121.9376893939394,
+            "throughput": 18104.0,
+            "avg_travel_time": 1036.3759590792838,
+            "avg_speed": 1.9003449195850028,
+            "fuel_consumption": 4240945913.452765
+        },
+        "10": {
+            "reward": -35424.0555,
+            "avg_waiting_time": 12963.686553030304,
+            "avg_queue_length": 127.55946969696969,
+            "throughput": 15102.0,
+            "avg_travel_time": 920.1024374176548,
+            "avg_speed": 3.0332657442601896,
+            "fuel_consumption": 4203128825.1423593
+        },
+        "25": {
+            "reward": -37723.31,
+            "avg_waiting_time": 13814.109090909093,
+            "avg_queue_length": 131.9407196969697,
+            "throughput": 14300.0,
+            "avg_travel_time": 889.2985714285714,
+            "avg_speed": 3.218748535765761,
+            "fuel_consumption": 4262464525.545487
+        },
+        "50": {
+            "reward": -33602.4705,
+            "avg_waiting_time": 12280.94375,
+            "avg_queue_length": 127.1554924242424,
+            "throughput": 16575.0,
+            "avg_travel_time": 1022.8852056476366,
+            "avg_speed": 2.9428462368281485,
+            "fuel_consumption": 4251203343.348148
+        },
+        "100": {
+            "reward": -39890.073,
+            "avg_waiting_time": 14658.360606060603,
+            "avg_queue_length": 127.02594696969696,
+            "throughput": 15331.0,
+            "avg_travel_time": 884.7281803542674,
+            "avg_speed": 2.911267841166376,
+            "fuel_consumption": 4177119624.5128617
+        }
+    }
+}
