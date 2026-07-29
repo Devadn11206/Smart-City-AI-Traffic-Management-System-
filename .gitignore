@@ -40,3 +40,41 @@ temp_*
 
 # Ignore bytecoder folder
 .bytecoder/
+
+benchmark_research\6x6_benchmark\results\dqn\6x6_state_action_reward.csv
+benchmark_research\results\2x2\presslight\2x2_state_action_reward_log.csv
+benchmark_research\results\2x2\idqn\2x2_state_action_reward_log.csv
+benchmark_research\2x2_benchmark\results\idqn\2x2_state_action_reward_log.csv
+benchmark_research\2x2_benchmark\results\ddqn\2x2_state_action_reward_log.csv
+benchmark_research\results\2x2\ddqn\2x2_state_action_reward_log.csv
+smart_city_ai\training\pinn_dataset_6x6.pt
+results\emergency_audit_run\audit_trace.log
+benchmark_research\4x4_benchmark\results\4x4\ddqn\4x4_state_action_reward_log.csv
+benchmark_research\4x4_benchmark\results\4x4\sanity_check\ppo\4x4_state_action_reward_log.csv
+results\emergency_audit_run\audit_trace_debug.log
+benchmark_research\6x6_benchmark\results\colight\6x6_state_action_reward.csv
+benchmark_research\4x4_benchmark\results\4x4\idqn\4x4_state_action_reward_log.csv
+benchmark_research\results\2x2\ppo\2x2_state_action_reward_log.csv
+smart_city_ai\results\hybrid_logs\reward_components.csv
+benchmark_research\6x6_benchmark\results\ppo\6x6_state_action_reward.csv
+benchmark_research\results\2x2\dqn\2x2_state_action_reward_log.csv
+benchmark_research\6x6_benchmark\results\ddqn\6x6_state_action_reward.csv
+benchmark_research\6x6 bench mark\results\dqn\6x6_state_action_reward.csv
+benchmark_research\2x2_benchmark\results\presslight\2x2_state_action_reward_log.csv
+benchmark_research\4x4_benchmark\results\4x4\colight\4x4_state_action_reward_log.csv
+benchmark_research\results\2x2\colight\2x2_state_action_reward_log.csv
+.venv\Lib\site-packages\torch\lib\torch_cpu.dll
+benchmark_research\6x6 bench mark\results\idqn\6x6_state_action_reward.csv
+pinn_dataset_6x6.pt
+benchmark_research\4x4_benchmark\results\4x4\presslight\4x4_state_action_reward_log.csv
+benchmark_research\2x2_benchmark\results\ppo\2x2_state_action_reward_log.csv
+benchmark_research\6x6 bench mark\results\ddqn\6x6_state_action_reward.csv
+benchmark_research\2x2_benchmark\results\colight\2x2_state_action_reward_log.csv
+benchmark_research\4x4_benchmark\results\4x4\ppo\4x4_state_action_reward_log.csv
+benchmark_research\6x6_benchmark\results\presslight\6x6_state_action_reward.csv
+benchmark_research\6x6 bench mark\results\ppo\6x6_state_action_reward.csv
+benchmark_research\2x2_benchmark\results\dqn\2x2_state_action_reward_log.csv
+benchmark_research\4x4_benchmark\results\4x4\dqn\4x4_state_action_reward_log.csv
+benchmark_research\6x6 bench mark\results\presslight\6x6_state_action_reward.csv
+benchmark_research\6x6_benchmark\results\idqn\6x6_state_action_reward.csv
+benchmark_research\6x6 bench mark\results\colight\6x6_state_action_reward.csv

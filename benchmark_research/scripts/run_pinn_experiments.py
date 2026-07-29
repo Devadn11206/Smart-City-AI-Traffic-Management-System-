@@ -65,8 +65,13 @@ def run_experiment(mode, algo_name, episodes=200, seed=42):
     }
     logger.log_metadata(metadata)
     
-    pinn_wrapper = PINNStateWrapper(mode=mode, device="cuda" if torch.cuda.is_available() else "cpu")
-    state_dim = pinn_wrapper.get_augmented_state_dim()
+    if mode == 'action_aware':
+        from algorithms.ppo_pinn import ActionAwarePINNWrapper
+        pinn_wrapper = ActionAwarePINNWrapper(device="cuda" if torch.cuda.is_available() else "cpu")
+        state_dim = 10
+    else:
+        pinn_wrapper = PINNStateWrapper(mode=mode, device="cuda" if torch.cuda.is_available() else "cpu")
+        state_dim = pinn_wrapper.get_augmented_state_dim()
     
     # IMPORTANT: instantiate PPO with the newly augmented state dimension!
     agent = PPOAgent(state_dim=state_dim, action_dim=4)
@@ -97,13 +102,35 @@ def run_experiment(mode, algo_name, episodes=200, seed=42):
             augmented_states = {}
             
             for ts in env.ts_ids:
-                aug_state = pinn_wrapper.extract_and_predict(ts, env, last_infos, original_states[ts])
-                augmented_states[ts] = aug_state
-                
-                action, prob, val = agent.act(aug_state)
-                actions[ts] = action
-                probs[ts] = prob
-                vals[ts] = val
+                if mode == 'action_aware':
+                    # Query PPO actor-critic for state value and action probabilities
+                    state_tensor = torch.FloatTensor(original_states[ts]).unsqueeze(0).to(agent.device)
+                    with torch.no_grad():
+                        action_probs, state_value_tensor = agent.ac(state_tensor)
+                    ppo_probs = action_probs.squeeze(0).cpu().numpy()
+                    val = state_value_tensor.item()
+                    
+                    # Run action advisor lookahead
+                    action, comb_prob = pinn_wrapper.get_predictive_advice(
+                        ts=ts, env=env, last_infos=last_infos,
+                        original_state=original_states[ts], ppo_probs=ppo_probs,
+                        alpha=0.5, tau=0.1
+                    )
+                    # PPO log prob for the selected action
+                    prob = torch.log(action_probs[0, action]).item()
+                    
+                    actions[ts] = action
+                    probs[ts] = prob
+                    vals[ts] = val
+                    augmented_states[ts] = original_states[ts]
+                else:
+                    aug_state = pinn_wrapper.extract_and_predict(ts, env, last_infos, original_states[ts])
+                    augmented_states[ts] = aug_state
+                    
+                    action, prob, val = agent.act(aug_state)
+                    actions[ts] = action
+                    probs[ts] = prob
+                    vals[ts] = val
                 
             next_original_states, rewards, dones, _, infos = env.step(actions)
             last_infos = infos
@@ -168,7 +195,8 @@ if __name__ == '__main__':
             ('baseline', 'ppo'),
             ('queue', 'ppo_pinn_queue'),
             ('queue_density', 'ppo_pinn_queue_density'),
-            ('all', 'ppo_pinn')
+            ('all', 'ppo_pinn'),
+            ('action_aware', 'ppo_action_aware_pinn')
         ]
         
         if args.parallel:

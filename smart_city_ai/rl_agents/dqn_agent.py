@@ -82,6 +82,7 @@ class DQNAgent:
         target_q = torch.nan_to_num(target_q, nan=0.0, posinf=0.0, neginf=0.0)
         
         loss = self.criterion(current_q, target_q.detach())
+        self.last_loss = loss.item()
         self.optimizer.zero_grad()
         loss.backward()
         torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)

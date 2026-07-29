@@ -1,0 +1,29 @@
+# Configuration for AC-PG-DQN
+
+training:
+  episodes: 150
+  max_steps: 360 # 1 hour of simulation (3600 seconds with 10s steps)
+  batch_size: 128
+  buffer_size: 100000
+  gamma: 0.99
+  lr: 0.0001 # 1e-4
+  target_update_freq: 1000 # steps
+  ablation_mode: 2 # 1: Std DQN, 2: AC-PG-DQN (Concat), 3: AC-PG-DQN (Lightweight Proj), 4: AC-PG-DQN (Gated)
+  use_ddqn: true
+  
+exploration:
+  epsilon_start: 1.0
+  epsilon_end: 0.01
+  epsilon_decay: 0.995 # Slower decay for better exploration
+
+reward_weights:
+  throughput: 1.0
+  queue: 1.0
+  wait_time: 0.5
+  switch_penalty: 0.1
+
+environment:
+  num_intersections: 36
+  state_dim: 10
+  action_dim: 4
+  physics_dim: 5

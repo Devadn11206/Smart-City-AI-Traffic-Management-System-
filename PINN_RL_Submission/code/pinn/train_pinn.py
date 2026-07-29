@@ -17,10 +17,15 @@ def train():
     model = PINNModel(INPUT_DIM, HIDDEN_DIM, NUM_LAYERS, OUTPUT_DIM).to(device)
     optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=5)
-    criterion = nn.MSELoss()
+    
+    def weighted_mse_loss(preds, targets):
+        weights = torch.ones(targets.shape[1], device=targets.device)
+        weights[2] = 3.0 # Give throughput 3x importance
+        loss = (preds - targets) ** 2
+        return (loss * weights).mean()
     
     os.makedirs(MODEL_DIR, exist_ok=True)
-    model_path = os.path.join(MODEL_DIR, 'pinn_model.pth')
+    model_path = os.path.join(MODEL_DIR, 'action_aware_pinn_model.pth')
     
     best_val_loss = float('inf')
     patience_counter = 0
@@ -43,7 +48,7 @@ def train():
             
             preds = model(batch_x)
             
-            data_loss = criterion(preds, batch_y)
+            data_loss = weighted_mse_loss(preds, batch_y)
             phys_loss = compute_physics_loss(preds, batch_x)
             
             loss = data_loss + PHYSICS_LAMBDA * phys_loss
@@ -64,7 +69,7 @@ def train():
             for batch_x, batch_y in val_loader:
                 batch_x, batch_y = batch_x.to(device), batch_y.to(device)
                 preds = model(batch_x)
-                data_loss = criterion(preds, batch_y)
+                data_loss = weighted_mse_loss(preds, batch_y)
                 phys_loss = compute_physics_loss(preds, batch_x)
                 epoch_val_loss += (data_loss.item() + PHYSICS_LAMBDA * phys_loss.item())
                 

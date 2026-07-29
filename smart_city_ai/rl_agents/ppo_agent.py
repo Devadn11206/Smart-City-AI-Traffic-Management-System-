@@ -146,6 +146,7 @@ class PPOAgent:
                 entropy_loss = -self.entropy_coef * dist_entropy
 
                 loss = actor_loss + critic_loss + entropy_loss
+                self.last_loss = loss.item()
 
                 self.optimizer.zero_grad()
                 loss.backward()

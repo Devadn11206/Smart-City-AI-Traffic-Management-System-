@@ -1,0 +1,10 @@
+{
+    "reward_version": "Version_A",
+    "reward_formula": "(Throughput - 0.1 * QueueLength - 0.1 * SwitchPenalty) / 100",
+    "network_size": "6x6",
+    "episodes": 200,
+    "seed": 42,
+    "decision_interval": 10,
+    "algorithm": "ppo_action_aware_pinn",
+    "pinn_mode": "action_aware"
+}

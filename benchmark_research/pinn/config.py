@@ -2,12 +2,12 @@ import os
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_PATH = os.path.join(BASE_DIR, 'historical_data', 'traffic_history_6x6.csv')
+DATA_PATH = os.path.join(BASE_DIR, 'historical_data', 'traffic_history_action.csv')
 MODEL_DIR = os.path.join(BASE_DIR, 'models')
 RESULTS_DIR = os.path.join(BASE_DIR, 'results', 'pinn')
 
 # Model Parameters
-INPUT_DIM = 7
+INPUT_DIM = 10
 # Wait, episode and intersection_id shouldn't be used as continuous features directly. 
 # We should use: traffic_density, queue_length, throughput, avg_speed, fuel_consumption, current_phase, phase_duration
 # Actually, the user said inputs: episode, simulation time, step number, intersection ID, traffic density, queue length, throughput, average speed, fuel consumption, current phase, and phase duration.

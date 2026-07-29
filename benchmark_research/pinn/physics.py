@@ -24,6 +24,7 @@ def compute_physics_loss(y_pred, x_input, delta_t=10.0, delta_x=100.0):
     v_t = x_input[:, 3]
     
     rho_t1 = y_pred[:, 0]
+    q_t1 = y_pred[:, 2]
     v_t1 = y_pred[:, 3]
     
     # Time derivative approximation
@@ -34,9 +35,12 @@ def compute_physics_loss(y_pred, x_input, delta_t=10.0, delta_x=100.0):
     d_flux_dx = (rho_t1 * v_t1 - rho_t * v_t) / delta_x
     
     # Residual of continuity equation
-    residual = d_rho_dt + d_flux_dx
+    continuity_residual = d_rho_dt + d_flux_dx
     
-    # Physics Loss is the MSE of the residual
-    physics_loss = torch.mean(residual ** 2)
+    # Fundamental Diagram Constraint: q = rho * v
+    fund_residual = q_t1 - (rho_t1 * v_t1)
+    
+    # Physics Loss is the combined MSE of the residuals with soft regularization
+    physics_loss = torch.mean(continuity_residual ** 2) + 0.1 * torch.mean(fund_residual ** 2)
     
     return physics_loss

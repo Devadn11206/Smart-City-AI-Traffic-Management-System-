@@ -1,0 +1,37 @@
+{
+    "weight_1.0": {
+        "Density": 0.9886105060577393,
+        "Queue Length": 0.9884694814682007,
+        "Throughput": 0.6138248443603516,
+        "Average Speed": 0.9046340584754944,
+        "Fuel Consumption": 0.9821183085441589
+    },
+    "weight_2.0": {
+        "Density": 0.9837908744812012,
+        "Queue Length": 0.9886793494224548,
+        "Throughput": 0.6637121438980103,
+        "Average Speed": 0.8962734341621399,
+        "Fuel Consumption": 0.9817186594009399
+    },
+    "weight_3.0": {
+        "Density": 0.9824671149253845,
+        "Queue Length": 0.9876205325126648,
+        "Throughput": 0.6717236638069153,
+        "Average Speed": 0.8928530216217041,
+        "Fuel Consumption": 0.9805017113685608
+    },
+    "weight_4.0": {
+        "Density": 0.9768149852752686,
+        "Queue Length": 0.9886783957481384,
+        "Throughput": 0.9559705853462219,
+        "Average Speed": 0.9290814399719238,
+        "Fuel Consumption": 0.9820144176483154
+    },
+    "weight_5.0": {
+        "Density": 0.9797446131706238,
+        "Queue Length": 0.9875862002372742,
+        "Throughput": 0.9350858330726624,
+        "Average Speed": 0.9078375697135925,
+        "Fuel Consumption": 0.9790052175521851
+    }
+}

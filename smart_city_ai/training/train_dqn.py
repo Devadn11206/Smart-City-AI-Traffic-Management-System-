@@ -64,7 +64,7 @@ def main():
                 agent.save("models/dqn/dqn_model_best.pth")
                 print(f"  New best reward: {best_reward:.2f}! Saved best model.")
             
-            if (e + 1) % 25 == 0:
+            if (e + 1) % 5 == 0:
                 agent.save(f"models/dqn/dqn_model_ep_{e+1}.pth")
                 print(f"  Saved periodic checkpoint at episode {e+1}")
             

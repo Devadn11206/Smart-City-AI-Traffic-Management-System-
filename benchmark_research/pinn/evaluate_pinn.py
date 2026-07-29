@@ -21,7 +21,7 @@ def evaluate():
     _, _, test_loader, _, y_scaler, _ = get_dataloaders()
     
     model = PINNModel(INPUT_DIM, HIDDEN_DIM, NUM_LAYERS, OUTPUT_DIM).to(device)
-    model_path = os.path.join(MODEL_DIR, 'pinn_model.pth')
+    model_path = os.path.join(MODEL_DIR, 'action_aware_pinn_model.pth')
     model.load_state_dict(torch.load(model_path))
     model.eval()
     
@@ -43,6 +43,10 @@ def evaluate():
     # Inverse transform to get actual physical values
     all_preds_real = y_scaler.inverse_transform(all_preds)
     all_trues_real = y_scaler.inverse_transform(all_trues)
+    
+    # Reverse the square root variance-stabilizing transform for throughput (index 2)
+    all_preds_real[:, 2] = all_preds_real[:, 2] ** 2
+    all_trues_real[:, 2] = all_trues_real[:, 2] ** 2
     
     targets = ['Density', 'Queue Length', 'Throughput', 'Average Speed', 'Fuel Consumption']
     metrics_res = {}

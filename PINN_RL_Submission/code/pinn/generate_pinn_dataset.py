@@ -33,19 +33,24 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--episodes_per_algo', type=int, default=3)
     parser.add_argument('--gui', action='store_true')
+    parser.add_argument('--episode', type=int, default=None, help='Isolated episode number for parallel execution')
     args = parser.parse_args()
 
-    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    base_dir = os.path.join(root_dir, '6x6_benchmark')
+    workspace_dir = "c:\\Users\\ddnan\\intenrship_IIIT"
+    base_dir = os.path.join(workspace_dir, 'benchmark_research', '6x6_benchmark')
     net_file = os.path.join(base_dir, 'network', 'net.net.xml')
     route_file = os.path.join(base_dir, 'network', 'routes.rou.xml')
     results_dir = os.path.join(base_dir, 'results')
     
-    historical_dir = os.path.join(root_dir, 'historical_data')
+    # We save to the workspace-wide historical_data folder
+    historical_dir = os.path.join(workspace_dir, 'benchmark_research', 'historical_data')
     os.makedirs(historical_dir, exist_ok=True)
-    out_file = os.path.join(historical_dir, 'traffic_history_6x6.csv')
+    if args.episode is not None:
+        out_file = os.path.join(historical_dir, f'traffic_history_action_ep{args.episode}.csv')
+    else:
+        out_file = os.path.join(historical_dir, 'traffic_history_action.csv')
 
-    algos = ['idqn', 'dqn', 'ddqn', 'ppo']
+    algos = ['ppo']
     
     env = SumoMultiAgentEnv6x6(net_file, route_file, use_gui=args.gui, num_seconds=3600, delta_time=10)
     
@@ -54,7 +59,7 @@ def main():
         writer.writerow([
             'algorithm', 'episode', 'simulation_time', 'step_number', 'intersection_id',
             'traffic_density', 'queue_length', 'throughput', 'avg_speed', 'fuel_consumption',
-            'current_phase', 'phase_duration'
+            'current_phase', 'phase_duration', 'selected_action', 'action_queue_length', 'action_vehicle_count'
         ])
         
         for algo in algos:
@@ -89,7 +94,8 @@ def main():
                 agent = PPOAgent()
                 agent.load(checkpoint)
             
-            for ep in range(1, args.episodes_per_algo + 1):
+            episodes_list = [args.episode] if args.episode is not None else list(range(1, args.episodes_per_algo + 1))
+            for ep in episodes_list:
                 print(f"  Starting episode {ep}...")
                 states, _ = env.reset(seed=42+ep)
                 print(f"  Reset done. Warming up...")
@@ -167,6 +173,24 @@ def main():
                                 'phase': phase,
                                 'duration': duration
                             }
+                            
+                            # Phase-aligned features
+                            action_val = actions[ts]
+                            lanes_N = env.tl_in_lanes[ts]['N']
+                            lanes_S = env.tl_in_lanes[ts]['S']
+                            lanes_E = env.tl_in_lanes[ts]['E']
+                            lanes_W = env.tl_in_lanes[ts]['W']
+                            green_lanes = lanes_N + lanes_S if action_val in [0, 1] else lanes_E + lanes_W
+                            
+                            if len(green_lanes) > 0:
+                                action_queue_length = sum([traci.lane.getLastStepHaltingNumber(l) for l in green_lanes])
+                                action_vehicle_count = sum([traci.lane.getLastStepVehicleNumber(l) for l in green_lanes])
+                            else:
+                                action_queue_length = 0
+                                action_vehicle_count = 0
+                                
+                            raw_data[ts]['action_queue'] = action_queue_length
+                            raw_data[ts]['action_vehicles'] = action_vehicle_count
 
                     # Log data
                     for ts in env.ts_ids:
@@ -175,7 +199,7 @@ def main():
                             writer.writerow([
                                 algo.upper(), ep, sim_time, step_idx, ts,
                                 d['density'], d['queue'], d['throughput'], d['speed'], d['fuel'],
-                                d['phase'], d['duration']
+                                d['phase'], d['duration'], actions[ts], d['action_queue'], d['action_vehicles']
                             ])
                     
                     next_states, rewards, dones, _, infos = env.step(actions)
