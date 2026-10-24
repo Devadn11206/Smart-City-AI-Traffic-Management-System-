@@ -1,0 +1,5 @@
+outs:
+- md5: 302302a987474019333dc3d30a1df061
+  size: 74173475
+  hash: md5
+  path: pinn_dataset_6x6.pt

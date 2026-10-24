@@ -78,3 +78,5 @@ benchmark_research\4x4_benchmark\results\4x4\dqn\4x4_state_action_reward_log.csv
 benchmark_research\6x6 bench mark\results\presslight\6x6_state_action_reward.csv
 benchmark_research\6x6_benchmark\results\idqn\6x6_state_action_reward.csv
 benchmark_research\6x6 bench mark\results\colight\6x6_state_action_reward.csv
+/pinn_dataset_10x10.pt
+/pinn_ensemble_pretrained_10x10.pth

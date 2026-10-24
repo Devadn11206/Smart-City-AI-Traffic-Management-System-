@@ -1,0 +1,5 @@
+outs:
+- md5: ca4720117527ec4732c89d42f61b0df7
+  size: 279697
+  hash: md5
+  path: pinn_ensemble_pretrained_10x10.pth

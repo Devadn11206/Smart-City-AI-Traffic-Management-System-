@@ -6,6 +6,7 @@ import random
 import torch
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'smart_city_ai')))
 
 from environment.sumo_environment_6x6 import SumoEnvironment6x6
 from pinn_models.pinn_ensemble import PINNEnsemble

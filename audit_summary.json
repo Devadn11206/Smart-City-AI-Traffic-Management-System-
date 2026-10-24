@@ -1,0 +1,148 @@
+{
+  "stages": {
+    "benchmark": [
+      {
+        "dir": "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark",
+        "csv_count": 40,
+        "json_count": 1,
+        "csvs": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_avg_queue_length_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_avg_speed_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_avg_travel_time_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_avg_waiting_time_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_benchmark_results.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_convergence_report.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_fuel_consumption_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_loss_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_reward_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\benchmark_comparison\\2x2_throughput_history.csv"
+        ],
+        "jsons": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\2x2_benchmark\\results\\ppo\\metadata.json"
+        ]
+      },
+      {
+        "dir": "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark",
+        "csv_count": 37,
+        "json_count": 10,
+        "csvs": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_algorithm_ranking.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_avg_queue_length_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_avg_speed_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_avg_travel_time_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_avg_waiting_time_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_benchmark_results.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_convergence_report.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_fuel_consumption_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_loss_history.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\benchmark_comparison\\4x4_reward_history.csv"
+        ],
+        "jsons": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\best_metrics.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\checkpoint_snapshots.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\colight\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\ddqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\dqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\idqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\ppo\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\presslight\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\sanity_check\\dqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\4x4_benchmark\\results\\4x4\\sanity_check\\ppo\\metadata.json"
+        ]
+      },
+      {
+        "dir": "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark",
+        "csv_count": 20,
+        "json_count": 6,
+        "csvs": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\benchmark_comparison\\6x6_benchmark_results.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\benchmark_comparison\\6x6_convergence_report.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\colight\\6x6_episode_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\colight\\6x6_intersection_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\colight\\6x6_state_action_reward.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\ddqn\\6x6_episode_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\ddqn\\6x6_intersection_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\ddqn\\6x6_state_action_reward.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\dqn\\6x6_episode_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\dqn\\6x6_intersection_metrics.csv"
+        ],
+        "jsons": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\colight\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\ddqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\dqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\idqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\ppo\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6_benchmark\\results\\presslight\\metadata.json"
+        ]
+      },
+      {
+        "dir": "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark",
+        "csv_count": 20,
+        "json_count": 6,
+        "csvs": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\benchmark_comparison\\6x6_benchmark_results.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\benchmark_comparison\\6x6_convergence_report.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\colight\\6x6_episode_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\colight\\6x6_intersection_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\colight\\6x6_state_action_reward.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\ddqn\\6x6_episode_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\ddqn\\6x6_intersection_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\ddqn\\6x6_state_action_reward.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\dqn\\6x6_episode_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\dqn\\6x6_intersection_metrics.csv"
+        ],
+        "jsons": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\colight\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\ddqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\dqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\idqn\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\ppo\\metadata.json",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\benchmark_research\\6x6 bench mark\\results\\presslight\\metadata.json"
+        ]
+      }
+    ],
+    "pinn": [
+      {
+        "dir": "c:\\Users\\ddnan\\intenrship_IIIT\\dqn_pinn_package",
+        "csv_count": 2,
+        "json_count": 0,
+        "csvs": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\dqn_pinn_package\\training\\dqn_6x6_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\dqn_pinn_package\\training\\pi_mbpo_6x6_metrics.csv"
+        ],
+        "jsons": []
+      },
+      {
+        "dir": "c:\\Users\\ddnan\\intenrship_IIIT\\ddqn_pinn_package",
+        "csv_count": 2,
+        "json_count": 0,
+        "csvs": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\ddqn_pinn_package\\ddqn_baseline_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\ddqn_pinn_package\\pi_ddqn_metrics.csv"
+        ],
+        "jsons": []
+      },
+      {
+        "dir": "c:\\Users\\ddnan\\intenrship_IIIT\\ppo_pinn_package",
+        "csv_count": 2,
+        "json_count": 0,
+        "csvs": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\ppo_pinn_package\\training\\ppo_6x6_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\ppo_pinn_package\\training\\ppo_pinn_6x6_metrics.csv"
+        ],
+        "jsons": []
+      },
+      {
+        "dir": "c:\\Users\\ddnan\\intenrship_IIIT\\ddqn_with_pinn_for_10x10",
+        "csv_count": 2,
+        "json_count": 0,
+        "csvs": [
+          "c:\\Users\\ddnan\\intenrship_IIIT\\ddqn_with_pinn_for_10x10\\ddqn_baseline_10x10_metrics.csv",
+          "c:\\Users\\ddnan\\intenrship_IIIT\\ddqn_with_pinn_for_10x10\\pi_ddqn_10x10_metrics.csv"
+        ],
+        "jsons": []
+      }
+    ]
+  },
+  "issues": []
+}

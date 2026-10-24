@@ -1,0 +1,5 @@
+outs:
+- md5: 0a8786e88f10a23dbf21c3b456e1dcb4
+  size: 109778287
+  hash: md5
+  path: pinn_dataset_10x10.pt
